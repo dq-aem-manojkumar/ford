@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ford/clientlibs"/>
+    <filter root="/apps/ford/components"/>
+    <filter root="/apps/ford/i18n"/>
+    <filter root="/apps/msm/ford_blueprint" mode="merge"/>
+</workspaceFilter>

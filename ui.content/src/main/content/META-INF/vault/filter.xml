@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ford" mode="merge"/>
+    <filter root="/content/ford" mode="merge"/>
+    <filter root="/content/dam/ford" mode="merge">
+        <exclude pattern="/content/dam/ford(/.*)?"/>
+        <include pattern="/content/dam/ford/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ford/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ford" mode="merge"/>
+</workspaceFilter>
