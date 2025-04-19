@@ -1,0 +1,80 @@
+
+.quick-link-container {
+    /* background-color: #001527; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 40px 0;
+    text-align: center;
+    width: auto;
+}
+
+.quick-link-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: auto;
+}
+
+.quick-link-box:hover {
+    cursor: pointer;
+}
+
+.quick-link-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quick-link-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.vehicle-tool-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quick-link-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 0;
+}
+
+.quick-link-arrow {
+    margin-left: 6px;
+    font-size: 22px; 
+}
+
+h3 {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+.quick-link-desc {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: -20px; 
+    /* text-align: center;  */
+    /* padding-left: 20px; */
+    text-align: left;
+    font-weight: 200;
+    font-size: small;
+}

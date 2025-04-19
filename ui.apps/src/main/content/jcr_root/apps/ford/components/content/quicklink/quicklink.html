@@ -1,0 +1,21 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.css @ categories='ford.components.quicklinkcomponent'}" />
+
+<sly data-sly-use.model="com.aem.ford.core.models.QuickLink">
+    <div class="quick-link-container">
+        <a href="${model.titleLink @ context='uri'}.html" class="quick-link-box">
+            <div class="quick-link-icon">
+                <img src="${model.iconPath @ context='uri'}" alt="icon" />
+            </div>
+            <div class="quick-link-text">
+                <div class="quick-link-title">
+                    <h3>${model.title @ context='text'}
+                        <span class="quick-link-arrow">&#9002;</span>
+                    </h3>
+                    <div class="quick-link-desc">${model.description @ context='text'}</div>
+                </div>
+            </div>
+        </a>
+       
+    </div>
+</sly>

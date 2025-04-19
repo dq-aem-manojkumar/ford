@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-16T13:54:40.269+05:30"
+        cq:lastModified="{Date}2025-04-19T16:12:58.544+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/ford/settings/wcm/templates/xf-web-variation"
@@ -15,13 +15,35 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ford/components/container"
             layout="responsiveGrid">
-            <search
-                jcr:created="{Date}2025-04-16T13:54:40.267+05:30"
+            <title
+                jcr:created="{Date}2025-04-19T16:11:51.540+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2025-04-16T13:54:40.267+05:30"
+                jcr:lastModified="{Date}2025-04-19T16:11:56.950+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="foundation/components/search"/>
+                jcr:title="Global Header Here"
+                sling:resourceType="ford/components/title">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="10"/>
+                </cq:responsive>
+            </title>
+            <separator
+                jcr:created="{Date}2025-04-19T16:12:48.228+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-19T16:12:48.228+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/separator">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="10"/>
+                </cq:responsive>
+            </separator>
         </root>
     </jcr:content>
 </jcr:root>
