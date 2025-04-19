@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-16T14:02:56.176+05:30"
+        cq:lastModified="{Date}2025-04-19T16:13:51.304+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/ford/settings/wcm/templates/xf-web-variation"
@@ -15,30 +15,6 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ford/components/container"
             layout="responsiveGrid">
-            <accordion
-                jcr:created="{Date}2025-04-16T13:56:32.581+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2025-04-16T13:56:32.581+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="ford/components/accordion">
-                <item_1
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Item 1"
-                    sling:resourceType="ford/components/container"
-                    layout="responsiveGrid"/>
-                <item_2
-                    jcr:primaryType="nt:unstructured"
-                    jcr:title="Item 2"
-                    sling:resourceType="ford/components/container"
-                    layout="responsiveGrid"/>
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="10"/>
-                </cq:responsive>
-            </accordion>
             <button_copy jcr:primaryType="nt:unstructured"/>
             <container
                 jcr:created="{Date}2025-04-16T14:00:54.615+05:30"
@@ -48,42 +24,27 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ford/components/container"
                 layout="responsiveGrid">
-                <helloworld
-                    jcr:created="{Date}2025-04-16T14:01:00.031+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-16T14:01:00.031+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="ford/components/helloworld">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="9"/>
-                    </cq:responsive>
-                </helloworld>
-                <image
-                    jcr:created="{Date}2025-04-16T14:01:06.450+05:30"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-16T14:01:17.033+05:30"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="ford/components/image"
-                    fileReference="/content/dam/core-components-examples/library/components/social-sharing.svg"
-                    imageFromPageImage="false">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="1"/>
-                    </cq:responsive>
-                </image>
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="1"
                         width="10"/>
                 </cq:responsive>
+                <separator
+                    jcr:created="{Date}2025-04-19T16:13:11.236+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-19T16:13:11.236+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/separator"/>
+                <title
+                    jcr:created="{Date}2025-04-19T16:13:46.364+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-19T16:13:51.302+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Global Footer Here"
+                    sling:resourceType="ford/components/title"/>
             </container>
         </root>
     </jcr:content>

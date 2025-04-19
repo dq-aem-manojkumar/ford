@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2025-04-16T14:17:08.682+05:30"
+        cq:lastModified="{Date}2025-04-19T16:15:02.487+05:30"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/ford/settings/wcm/template-types/page"
         jcr:description="layout-page"

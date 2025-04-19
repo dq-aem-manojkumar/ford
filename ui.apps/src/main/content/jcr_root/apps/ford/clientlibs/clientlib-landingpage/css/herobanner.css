@@ -1,0 +1,45 @@
+.cmp-byline {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .cmp-byline__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cmp-byline__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+  }
+  
+  .cmp-byline__name,
+  .cmp-byline__occupations {
+    position: relative;
+    z-index: 2;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+  }
+  
+  .cmp-byline__name {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .cmp-byline__occupations {
+    font-size: 1.25rem;
+  }
+  
