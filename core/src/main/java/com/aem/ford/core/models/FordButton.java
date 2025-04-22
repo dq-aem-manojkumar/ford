@@ -59,13 +59,6 @@ public interface FordButton {
     String getHeight();
 
     /**
-     * Checks if the border is enabled.
-     *
-     * @return true if the border is enabled, false otherwise
-     */
-    boolean isBorderEnabled();
-
-    /**
      * Gets the border color.
      *
      * @return the border color
