@@ -1,0 +1,24 @@
+<sly data-sly-use.title="com.aem.ford.core.models.FordTitle">
+
+    <!-- Outer Wrapper -->
+    <div class="ford-title" style="background-color: ${title.backgroundColor @ context='styleToken'};">
+
+        <sly data-sly-test="${title.title}">
+            <div data-sly-element="${title.titleSize}"
+                 class="ford-title-heading"
+                 style="color: ${title.titleColor @ context='styleToken'}; font-size:4rem; font-weight: 400; letter-spacing:0.1rem; margin:0 0 10px 0; " >
+                ${title.title @ context='text'}
+            </div>
+        </sly>
+
+        <sly data-sly-test="${title.content}">
+            <div 
+                 class="ford-title-content"
+                 style="color: ${title.contentColor @ context='styleToken'}; font-size: 1.1rem; word-spacing: 0.1rem;">
+                ${title.content @ context='text'}
+            </div>
+        </sly>
+
+    </div>
+
+</sly>

@@ -1,0 +1,35 @@
+
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+    <sly data-sly-call="${clientlib.css @ categories='ford.components.navbar'}"/>
+    <sly data-sly-call="${clientLib.js @ categories='ford.components.navbar'}"/>
+
+    <sly data-sly-use.nav="com.aem.ford.core.models.Navbar" class="cmp-title">
+
+            
+    <nav class="custom-navbar">
+        <div class="navbar-left">
+            <ul>
+                <sly data-sly-list.item="${nav.navItems}">
+                    <li><a href="${item.path}">${item.label}</a></li>
+                </sly>
+            </ul>
+        </div>
+
+        <div class="navbar-middle">
+            <a href="#"> <img class="logo" src="${nav.imagePath @ context='uri'}"  alt="Ford Logo" /></a>
+        </div>
+
+        <div class="navbar-right">
+            <input type="text" id="searchInput" placeholder="Search..." class="search-input" />
+            <a href="#" id="searchIcon"><img class="icon"  src="${nav.searchPath @ context='uri'}" alt="Search" /></a>
+            
+            <a href="#" class="user-icon">
+            <img class="icon" src="${nav.userPath @ context='uri'}" alt="User" />
+          </a>
+        <a href="#"><img class="icon" src="${nav.globePath @ context='uri'}" alt="Language" /></a>
+        </div>
+    </nav>
+
+
+
+</sly>

@@ -1,0 +1,36 @@
+
+
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+    <sly data-sly-call="${clientlib.css @ categories='ford.components.featurecardlist'}"/>
+
+<sly data-sly-use.featureCardList="com.aem.ford.core.models.FeatureCardList">
+
+
+    <div class="card-container">
+
+          <div class="card-list">
+              <sly data-sly-list.item="${featureCardList.featureCard}">
+                
+                <div class="card">
+                    <img src="${item.imagePath @ context='uri'}" alt="image">
+                    <div class="card-content">
+                    <h1 class="break-lines">${item.title @ context='text'}</h1>
+                    <p class="para">${item.description @ context='text'}</p>
+                  <button class="btn"> <a  href="${item.buttonLink @ context='uri'}">${item.buttonText @ context='text'}</a></button> 
+                  </div>
+
+                </div>
+                
+            
+               </sly>
+        
+          </div>
+
+    </div>
+  </sly>
+
+</sly>
+
+
+
+
