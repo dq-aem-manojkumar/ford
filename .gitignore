@@ -106,3 +106,6 @@ reports/
 dispatcher/src/conf.d/variables/default.vars
 ui.tests/test-module/assets/form/themes/**/*diff.png
 ui.tests/test-module/assets/form/themes/**/*current.png
+
+# Ignore macOS .DS_Store files
+.DS_Store
