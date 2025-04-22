@@ -1,0 +1,21 @@
+.ford-custom-button-wrapper {
+    display: inline-flex;          /* key! */
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 24px;
+    border-radius: 9999px;
+    /* font-weight: 200; */
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: auto;                   /* keep it content-sized */
+    height: auto;                  /* optional, or set a fixed height */
+}
+
+
+.ford-custom-button-wrapper:hover {
+    opacity: 0.9;
+}
