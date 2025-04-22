@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2025-04-16T14:17:08.682+05:30"
+        cq:lastModified="{Date}2025-04-19T16:10:52.866+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -20,6 +20,14 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ford/components/experiencefragment"
                 fragmentVariationPath="/content/experience-fragments/ford/us/en/ford/GlobalHeader/master"/>
+            <container_1390198985
+                jcr:created="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                editable="{Boolean}true"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="ford/components/container"
@@ -28,8 +36,8 @@
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="10"/>
+                        offset="0"
+                        width="12"/>
                 </cq:responsive>
             </container>
             <experiencefragment_787164021

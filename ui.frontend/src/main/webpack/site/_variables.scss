@@ -16,3 +16,31 @@ $color-link:            #2020E0;
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
+
+// _variables.scss
+
+// Font sizes
+$font-size-xsmall: 0.75rem;     // 12px
+$font-size-small: 0.875rem;     // 14px
+$font-size-medium: 1rem;        // 16px
+$font-size-large: 1.25rem;      // 20px
+
+// Font families
+$font-family-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif: 'Georgia', 'Times New Roman', serif;
+
+// Colors
+$gray: #666666;
+$gray-light: #999999;
+$gray-dark: #333333;
+
+$primary-color: #004080;
+$secondary-color: #e6e6e6;
+
+// Spacing units
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;

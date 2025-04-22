@@ -309,6 +309,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_20614633107500
+                    jcr:lastModified="{Date}2025-04-19T16:15:02.485+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Hero-Container-Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="/libs/foundation/components/title"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_20614633107500>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650

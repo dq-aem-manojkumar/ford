@@ -1,0 +1,176 @@
+.cmp-byline {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.cmp-byline__image-container {
+  position: relative; /* Make the container a positioning context */
+  width: 100%;
+  height: auto;
+}
+
+.cmp-byline__image-container::after {
+  content: ''; /* Create a pseudo-element */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* Increase the height of the gradient for better shading */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Darker gradient */
+  pointer-events: none; /* Ensure it doesn't interfere with interactions */
+  z-index: 1; /* Ensure it appears above the image */
+}
+
+.cmp-byline__image {
+  width: 100%;
+  height: auto;
+}
+
+/* Image Props */
+.cmp-byline__image .cmp-image__image {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+}
+
+.cmp-byline__name {
+  font-size: 38px; 
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+  margin-left: 3px;
+  font-weight: 400; /* Use a lighter font weight for better readability */
+  color: white; /* Ensure text is visible */
+
+}
+
+/* Component Container */
+.cmp-content__container {
+  position: absolute;
+  bottom: 80px; /* Position text slightly above the bottom */
+  left: 220px; /* Add some padding from the left */
+  color: white; /* Ensure text is clearly visible */
+  border-radius: 8px; /* Slightly round the corners */
+  z-index: 2; /* Ensure text appears above the gradient */
+  width: 700px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .cmp-content__container {
+    bottom: 20px; /* Adjust position for smaller screens */
+    left: 20px; /* Reduce left padding */
+    width: 80%; /* Make the container responsive */
+    border-radius: 4px; /* Reduce border radius for smaller screens */
+    font-size: 14px; /* Adjust font size for better readability */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  .byline__name {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    margin: 0 0 10px 0; /* Reduce margin */
+  }
+}
+
+.cmp-byline__occupations {
+  color: #ddd; /* Use a lighter shade for better contrast */
+  font-size: 10px; /* Slightly increase font size */
+  margin: 0;
+  line-height: 1.6;
+  margin-left: 3px;
+}
+
+.cmp-byline__button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cmp-herobanner {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.cmp-herobanner__image-container {
+  position: relative; /* Make the container a positioning context */
+  width: 100%;
+  height: auto;
+}
+
+.cmp-herobanner__image-container::after {
+  content: ''; /* Create a pseudo-element */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* Increase the height of the gradient for better shading */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); /* Darker gradient */
+  pointer-events: none; /* Ensure it doesn't interfere with interactions */
+  z-index: 1; /* Ensure it appears above the image */
+}
+
+.cmp-herobanner__image {
+  width: 100%;
+  height: auto;
+}
+
+/* Image Props */
+.cmp-herobanner__image .cmp-image__image {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+}
+
+.cmp-herobanner__name {
+  font-size: 38px; 
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+  margin-left: 3px;
+  font-weight: 400; /* Use a lighter font weight for better readability */
+  color: white; /* Ensure text is visible */
+}
+
+/* Component Container */
+.cmp-content__container {
+  position: absolute;
+  bottom: 80px; /* Position text slightly above the bottom */
+  left: 220px; /* Add some padding from the left */
+  color: white; /* Ensure text is clearly visible */
+  border-radius: 8px; /* Slightly round the corners */
+  z-index: 2; /* Ensure text appears above the gradient */
+  width: 700px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .cmp-content__container {
+    bottom: 20px; /* Adjust position for smaller screens */
+    left: 20px; /* Reduce left padding */
+    width: 80%; /* Make the container responsive */
+    border-radius: 4px; /* Reduce border radius for smaller screens */
+    font-size: 14px; /* Adjust font size for better readability */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  .cmp-herobanner__name {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    margin: 0 0 10px 0; /* Reduce margin */
+  }
+}
+
+.cmp-herobanner__occupations {
+  color: #ddd; /* Use a lighter shade for better contrast */
+  font-size: 10px; /* Slightly increase font size */
+  margin: 0;
+  line-height: 1.6;
+  margin-left: 3px;
+}
+
+.cmp-herobanner__button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+

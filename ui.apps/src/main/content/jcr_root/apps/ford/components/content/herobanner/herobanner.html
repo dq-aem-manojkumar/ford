@@ -1,0 +1,37 @@
+<!--/* byline.html */-->
+<sly
+  data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"
+/>
+<sly
+  data-sly-call="${clientlib.css @ categories='ford.components.herobanner'}"
+/>
+
+<div
+  data-sly-use.herobanner="com.aem.ford.core.models.HeroBanner"
+  data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+  data-sly-test.hasContent="${!herobanner.empty}"
+  class="cmp-herobanner hero-container"
+>
+  <!-- Image Container -->
+  <div class="cmp-herobanner__image-container">
+    <div
+      class="cmp-herobanner__image"
+      data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"
+    ></div>
+
+    <!-- Text Inside Image -->
+    <div class="cmp-content__container">
+      <div class="cmp-herobanner__name">${herobanner.name}</div>
+      <!-- Container for AEM Button or Other Components -->
+      <div
+        data-sly-resource="${'contentContainer' @ resourceType='core/wcm/components/container/v1/container'}"
+      ></div>
+      <p class="cmp-herobanner__occupations" style="margin-top: 20px">
+        ${herobanner.occupations @ join=', '}
+      </p>
+    </div>
+  </div>
+</div>
+<sly
+  data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"
+></sly>
