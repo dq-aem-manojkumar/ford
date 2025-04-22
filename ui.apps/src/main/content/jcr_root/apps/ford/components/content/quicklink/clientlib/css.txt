@@ -1,1 +1,1 @@
-quicklinkcomponent.css
+quicklink.css
