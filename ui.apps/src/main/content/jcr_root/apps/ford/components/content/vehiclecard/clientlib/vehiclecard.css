@@ -38,6 +38,7 @@
 
 .vehicle-card-price-label-link {
   position: absolute;
+  color: white;
   bottom: 8px; 
   left: 8px; 
   padding: 4px 8px; 

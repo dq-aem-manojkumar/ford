@@ -1,0 +1,21 @@
+<sly
+  data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"
+/>
+<sly data-sly-call="${clientlib.css @ categories='ford.components.card'}" />
+<sly data-sly-use.card="com.aem.ford.core.models.Card" />
+
+<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="${card.image}" alt="${card.imageAlt}" />
+      <a href="${card.overlayLink}" class="overlay-text">${card.overlayText}</a>
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">${card.title}<sup>®</sup></h2>
+      <p class="card-description">${card.description}</p>
+      <a href="${card.buttonLink}" class="card-button">
+        ${card.buttonText} <span class="card-arrow">&#9002;</span>
+      </a>
+    </div>
+  </div>
+</div>
