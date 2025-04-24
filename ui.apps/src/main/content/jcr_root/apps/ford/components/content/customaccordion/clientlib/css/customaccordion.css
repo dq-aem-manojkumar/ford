@@ -1,0 +1,157 @@
+customaccordion_container
+ 
+/* Accordion Header */
+.customaccordion_container .cmp-accordion__header {
+    margin: 0;
+    position: relative; /* Ensure the pseudo-element is positioned relative to the header */
+    cursor: pointer;
+    display: flex; /* Use Flexbox for horizontal alignment */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Space out the title and the symbol */
+    width: 100%; /* Ensure the header takes up the full width */
+}
+ 
+/* Accordion Button */
+.customaccordion_container .cmp-accordion__button {
+    position: relative; /* Ensure the pseudo-element is positioned relative to the button */
+    display: flex; /* Use Flexbox for horizontal alignment */
+    align-items: center; /* Align the title and symbol vertically */
+    justify-content: flex-start; /* Align the title to the left */
+    width: 100%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #F0F0F0; 
+}
+ 
+/* Show "+" by default */
+.customaccordion_container .cmp-accordion__button[aria-expanded="false"]::after {
+    content: "+"; /* Default symbol when the accordion is collapsed */
+    position: absolute; /* Position the symbol absolutely */
+    right: 15px; /* Align the symbol to the far right */
+    font-size: 27px; /* Increase the size of the symbol */
+    color: #0067D0; /* Set the color of the symbol to blue */
+    font-weight: normal; /* Ensure the symbol is not bold */
+    top: -2px; /* Move the symbol slightly above */
+ 
+}
+ 
+/* Show "-" when expanded */
+.customaccordion_container  .cmp-accordion__button[aria-expanded="true"]::after {
+    content: "-"; /* Change the symbol to '-' when the accordion is expanded */
+    position: absolute; /* Position the symbol absolutely */
+    right: 15px; /* Align the symbol to the far right */
+    font-size: 27px; /* Match the size of the collapsed symbol */
+    color: #0067D0; /* Set the color of the symbol to blue */
+    font-weight: normal; /* Ensure the symbol is not bold */
+    top: -2px; /* Move the symbol slightly above */
+ 
+}
+ 
+/* Accordion Title */
+.customaccordion_container .cmp-accordion__title {
+    flex-grow: 1; /* Allow the title to take up available space */
+    margin-right: 10px; /* Add space between the title and the symbol */
+    text-align: left; /* Align the title text to the left */
+    padding-left: 15%; /* Add padding to the left of the title */
+    color: #5E5E5E;
+    font-weight: normal;
+    font-size: 15pt; /* Set the font size of the title */
+}
+ 
+/* Ensure no symbols appear on the expanded panel */
+.customaccordion_container .cmp-accordion__panel::after {
+    content: none;
+}
+ 
+/* Accordion Panel */
+.customaccordion_container .cmp-accordion__panel {
+    &--hidden {
+        display: none;
+    }
+ 
+    .customaccordion_container  .cmp-accordion__panel--expanded {
+        overflow-y: auto; 
+
+        padding-right: 30px ; /* Add space between content and scrollbar */
+        scrollbar-gutter: stable; /* Keeps space even if scrollbar disappears */
+        color: #464646 !important; /* Force the text color to black */
+        padding-left: 15%; /* Match the left padding with the title for alignment */
+        font-size: 1rem; /* Adjust the font size inside the expanded panel */
+    }
+ 
+
+    
+    .customaccordion_container  .cmp-accordion__panel--expanded * {
+        margin: 0; /* Reset margins for consistent alignment */
+        padding-left: 0; /* Ensure no extra padding is added to child elements */
+        font-size: inherit; /* Inherit the font size from the parent panel */
+    }
+    /* Target text inside accordion panels */
+    .customaccordion_container .cmp-accordion__panel .cmp-text {
+    font-size: 14px; /* or whatever size you prefer */
+    color: green;   /* or any hex/RGB/RGBA/variable you want */
+}
+ 
+/* Optional: More specific if multiple text types are used */
+.customaccordion_container .cmp-accordion__panel .cmp-text p {
+    margin-bottom: 1em;
+    font-size: 14px;
+    color: #333;
+}
+ #accordion-text {
+    color: #464646 !important; /* Ensure all text inside the panel is black */
+    padding-left: 16%;
+    padding-right: 16%;
+    font-size: 10px;
+ 
+  }
+  
+ 
+    &--expanded {
+        display: block;
+        max-height: 300px;
+        overflow-y: auto;
+        background-color: #F0F0F0;
+        padding: 15px;
+        border: none;
+        transition: max-height 0.3s ease, opacity 0.3s ease;
+ 
+        & > * {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+    }
+}
+
+/* Ensure the expanded panel has a fixed height of 300px */
+.customaccordion_container .cmp-accordion__panel--expanded {
+    max-height: 300px; /* Set the maximum height of the expanded panel */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds 300px */
+    background-color: #F0F0F0; /* Optional: Set a background color */
+    padding: 15px; /* Add padding inside the panel */
+    border: none; /* Remove any borders */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Optional: Style the text inside the expanded panel */
+.customaccordion_container .cmp-accordion__panel--expanded * {
+    margin: 0; /* Reset margins for consistent alignment */
+    padding-left: 0; /* Ensure no extra padding is added to child elements */
+    font-size: inherit; /* Inherit the font size from the parent panel */
+}
+
+/* Optional: Add a scrollbar style for the expanded panel */
+.customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+}
+
+.customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Add rounded corners to the scrollbar thumb */
+}
+
+.customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Set the background color of the scrollbar track */
+}
