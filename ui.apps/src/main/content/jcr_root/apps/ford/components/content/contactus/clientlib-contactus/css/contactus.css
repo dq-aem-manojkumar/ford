@@ -1,0 +1,76 @@
+.social-icons {
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #F0F0F0; /* Set background color for the entire component */
+}
+
+.social-actions {
+    display: flex; /* Align "Get Update" and "Follow Ford" in one line */
+    align-items: center; /* Vertically center align items */
+    justify-content: space-between; /* Add space between the two sections */
+    gap: 20px; /* Add spacing between the sections */
+}
+
+.social-header-icons {
+    display: flex; /* Align "Follow Ford" and icons in a row */
+    align-items: center; /* Vertically center align items */
+    gap: 20px; /* Increase spacing between "Follow Ford" and each icon */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.social-header-icons h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5E5E5E; /* Updated color for "Follow Ford" */
+}
+
+.footer-groups {
+    display: flex; /* Align icons in a row */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px; /* Increase spacing between icons */
+}
+
+.footer-groups li {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.get-update-section {
+    margin: 0;
+}
+
+.get-update-link {
+    display: flex; /* Align icon and text in a row */
+    align-items: center; /* Vertically center align items */
+    text-decoration: none; /* Remove underline from the link */
+    color: #5E5E5E; /* Set text color to match "Follow Ford" */
+    font-size: 16px;
+    font-weight: normal; /* Remove bold styling */
+    gap: 8px; /* Spacing between the icon and text */
+}
+
+.get-update-link:hover {
+    color: #0078d7; /* Change color on hover */
+}
+
+.mail-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+a[target="_blank"]::after {
+    content: none !important;
+}

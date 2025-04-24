@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Contact Us"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+
+                    <getUpdate
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Mail Configuration"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <updatePath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Get Update Path"
+                                name="./updatePath"
+                                rootPath="/content"
+                                required="{Boolean}false" />
+                            <mailIconPath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Mail Icon Path"
+                                name="./mailIconPath"
+                                rootPath="/content/dam"
+                                required="{Boolean}true"
+                                description="Select the mail icon from AEM Assets" />
+                        </items>
+                    </getUpdate>
+
+                    <social jcr:primaryType="nt:unstructured"
+                        jcr:title="Social Icons"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <socialLinks jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true">
+                                <field jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/fieldset"
+                                    name="./socialLinks">
+                                    <layout jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns" />
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <icon jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Icon"
+                                            name="icon"
+                                            rootPath="/content/dam"
+                                            required="{Boolean}true" />
+                                        <url jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="URL"
+                                            name="url" />
+                                    </items>
+                                </field>
+                            </socialLinks>
+                        </items>
+                    </social>
+
+
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
