@@ -21,7 +21,7 @@
 .card-image {
   position: relative;
   width: 432px;
-  height: 325px;
+  min-height: 330px;
   object-fit: contain;
   overflow: hidden;
   border-radius: 12px;
@@ -29,7 +29,7 @@
 
 .card-image img {
   width: 100%;
-  height: auto;
+  height: 330px;
   display: block;
 }
 
@@ -41,6 +41,7 @@
   color: #000;
   border-radius: 4px;
   text-decoration: underline;
+  padding: 6px 9px;
 }
 
 .overlay-text:hover {
@@ -53,21 +54,22 @@
 }
 
 .card-title {
-  font-size: 28px;
+  font-size: 38px;
   margin: 0 0 10px;
   color: #000;
   line-height: 1.21428571;
+
 }
 
 .card-description {
   font-size: 16px;
   margin: 0 0 20px;
-  color: #666;
+  color: #333;
 }
 
 .card-button {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: #000;
   line-height: 1.71428571;
@@ -75,7 +77,6 @@
   font-weight: 700;
   padding-bottom:20px;
   width: 100%;
-  -webkit-font-smoothing: antialiased;
 }
 
 .card-button:hover {
