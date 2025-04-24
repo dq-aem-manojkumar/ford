@@ -1,0 +1,20 @@
+<div class="footer">
+
+    <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+    <sly data-sly-call="${clientlib.css @ categories='ford.components.footer'}"/>
+
+    <sly data-sly-use.model="com.aem.ford.core.models.footer.FooterModel">
+        <ul class="footer-groups" data-sly-list.group="${model.groups}">
+            <li class="footer-group">
+                <h3>${group.group}</h3>
+                
+                <ul class="footer-nav-items" data-sly-list.item="${group.footerItems}">
+                    <li class="footer-nav-item">
+                        <a href="${item.path}">${item.label}</a>
+                    </li>
+                </ul>
+                
+            </li>
+        </ul>
+    </sly>
+</div>

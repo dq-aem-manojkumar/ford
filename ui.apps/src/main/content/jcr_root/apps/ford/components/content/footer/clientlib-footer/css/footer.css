@@ -1,0 +1,90 @@
+.footer {
+    background-color: #F0F0F0;
+    color: #010203;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align groups to the left */
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .footer-group {
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+  
+  .footer-group h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: normal; /* Remove bold styling */
+    text-align: left; /* Align group names to the left */
+    margin-left: 0; /* Ensure no extra margin */
+    font-size: small;
+  }
+  
+  .footer-nav-items {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove default list styling */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 0px; /* Add spacing between items */
+    margin-left: 0; /* Align items with the group name */
+    font-size: smaller;
+  }
+  
+  .footer-nav-item {
+    padding-top: -2px; /* Adjust padding to align with group name */
+    margin: 0; /* Remove any default margin */
+    color: #5E5E5E; /* Updated color for label text */
+    text-align: left; /* Align items to the left */
+  }  
+  
+  .footer-nav-items .footer-nav-item {
+    margin: 0; /* Remove any default margin */
+    color: #5E5E5E !important; /* Force the updated color for label text */
+    text-align: left; /* Align items to the left */
+    
+  }
+
+  .footer-nav-item a {
+    color: #5E5E5E !important; /* Force the updated color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer-nav-item a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+    color: #333333; /* Optional: Change color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: left;
+      padding: 10px;
+    }
+  
+    .footer-groups {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-group {
+      max-width: 100%;
+    }
+  }
