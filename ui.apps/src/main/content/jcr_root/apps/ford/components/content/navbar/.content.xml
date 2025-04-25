@@ -2,6 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:description="A dynamic Ford-style navbar with logo and icons"
     jcr:primaryType="cq:Component"
-    jcr:title="Custom Navbar"
+    jcr:title="navbar"
     sling:resourceType="ford/components/content/navbar"
     componentGroup="Ford Components"/>

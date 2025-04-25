@@ -1,0 +1,22 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.css @ categories='ford.components.heroaward'}"/>
+
+<sly data-sly-use.heroAward="com.aem.ford.core.models.HeroAward">
+
+    <div class="hero_award__layout" >
+        <!-- Left: Image inside the hero component -->
+        <div class="hero_award__left">
+            <sly data-sly-test="${heroAward.imagePath}">
+                <img src="${heroAward.imagePath @ context='uri'}" alt="Hero Award Image" class="hero_award__image" />
+            </sly>
+        </div>
+
+        <!-- Right: Container pulled from the page structure -->
+        <div class="hero_award__right" >
+            <div class="hero_award__container"
+                 data-sly-resource="${'contentContainer' @ resourceType='core/wcm/components/container/v1/container'}">
+            </div>
+        </div>
+    </div>
+
+</sly>

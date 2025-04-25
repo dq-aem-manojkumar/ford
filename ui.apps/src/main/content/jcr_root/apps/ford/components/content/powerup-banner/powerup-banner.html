@@ -1,0 +1,36 @@
+<div
+  class="powerup-image-wrapper"
+  style="position: relative;
+         width: ${properties.imageWidth @ context='styleToken'}px;
+         height: ${properties.imageHeight @ context='styleToken'}px;
+         overflow: hidden;">
+
+  <!-- Background Image -->
+  <img
+    src="${properties.fileReference @ context='uri'}"
+    alt="Power Up Banner"
+    style="width: 100%;
+           height: 100%;
+           border-radius: 14px;
+           object-fit: fill;" />
+
+  <!-- Overlay Content -->
+  <div class="overlay-content"
+       style="position: absolute;
+              bottom: 20px;
+              left: 80px;
+              color: white;">
+
+    <h1 style="font-size: 54px; font-weight:normal; font-family:'FordMotion,arial,sans-serif'; margin: 0 0 20px;">${properties.headingText}</h1>
+
+    <div
+    data-sly-resource="${'btn' @ resourceType='ford/components/content/fordbutton'}"
+  ></div>
+    <br/>
+
+    <a href="${properties.secondaryLink}" style="color: white; text-decoration: none; font-size: 16px; font-weight: lighter; font-family:'FordMotion,arial,sans-serif';" >
+      ${properties.secondaryText}
+    </a>
+
+  </div>
+</div>

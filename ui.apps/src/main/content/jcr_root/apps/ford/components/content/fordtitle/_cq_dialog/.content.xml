@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          xmlns:cq="http://www.day.com/jcr/cq/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="nt:unstructured"
-          jcr:title="Title"
-          sling:resourceType="cq/gui/components/authoring/dialog"
-          extraClientlibs="[core.wcm.components.title.v2.editor]"
-          helpPath="https://www.adobe.com/go/aem_cmp_title_v2"
-          trackingFeature="core-components:title:v2">
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Ford Title"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.title.v2.editor]"
+    helpPath="https://www.adobe.com/go/aem_cmp_title_v2"
+    trackingFeature="core-components:title:v2">
 
     <content
         jcr:primaryType="nt:unstructured"
         sling:resourceType="granite/ui/components/coral/foundation/container">
         <items jcr:primaryType="nt:unstructured">
-            <tabs
+            <tabs 
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/tabs"
                 maximized="{Boolean}true">
                 <items jcr:primaryType="nt:unstructured">
+
                     <!-- Content Tab -->
                     <content
                         jcr:primaryType="nt:unstructured"
@@ -40,11 +41,23 @@
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                 fieldLabel="Title"
                                                 name="./title" />
-                                            <content
+                                            <description
                                                 jcr:primaryType="nt:unstructured"
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                                                fieldLabel="Content"
-                                                name="./content" />
+                                                fieldLabel="Description"
+                                                name="./description" />
+                                            <margin
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Margin (e.g., 10px, 1rem)"
+                                                name="./margin"
+                                                emptyText="e.g., 10px" />
+                                            <padding
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Padding (e.g., 10px, 1rem)"
+                                                name="./padding"
+                                                emptyText="e.g., 10px" />
                                         </items>
                                     </column>
                                 </items>
@@ -52,58 +65,74 @@
                         </items>
                     </content>
 
-                    <!-- Styles Tab -->
                     <styles
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Styles"
-                        sling:resourceType="granite/ui/components/coral/foundation/container"
-                        margin="{Boolean}true">
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
                         <items jcr:primaryType="nt:unstructured">
                             <columns
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-                                margin="{Boolean}true">
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                                 <items jcr:primaryType="nt:unstructured">
+
+                                    <!-- Column 1: Title Styles -->
                                     <column
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/container">
                                         <items jcr:primaryType="nt:unstructured">
-                                            <backgroundColor
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
-                                                fieldLabel="Background Color"
-                                                name="./backgroundColor" />
-                                            <TitleColor
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
-                                                fieldLabel="Font Color"
-                                                name="./titleColor" />
-                                            <Titlesize
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                                fieldLabel="Title Size"
-                                                name="./titleSize">
-                                                <items jcr:primaryType="nt:unstructured">
-                                                    <h1 jcr:primaryType="nt:unstructured" text="H1" value="h1" />
-                                                    <h2 jcr:primaryType="nt:unstructured" text="H2" value="h2" />
-                                                    <h3 jcr:primaryType="nt:unstructured" text="H3" value="h3" />
-                                                    <h4 jcr:primaryType="nt:unstructured" text="H4" value="h4" />
-                                                    <h5 jcr:primaryType="nt:unstructured" text="H5" value="h5" />
-                                                    <h6 jcr:primaryType="nt:unstructured" text="H6" value="h6" />
-                                                </items>
-                                            </Titlesize>
-                                            <ContentColor
-                                                jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
-                                                fieldLabel="Content Color"
-                                                name="./contentColor" />
-                                            <!-- Removed Contentsize field here -->
+                                            <!-- Items Here -->
                                         </items>
                                     </column>
+
+                                    <!-- Column 2: Description Styles -->
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+
+                                            <titleFontSize
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Title Font Size (e.g., 16px, 1rem)"
+                                                name="./titleFontSize"
+                                                emptyText="e.g., 16px" />
+                                            <titleFontWeight
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Title Font Weight (e.g., 400, 700)"
+                                                name="./titleFontWeight"
+                                                emptyText="e.g., 400" />
+                                            <titleColor
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
+                                                fieldLabel="Title Color"
+                                                name="./titleColor" />
+
+                                            <descriptionFontSize
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Description Font Size (e.g., 14px, 1rem)"
+                                                name="./descriptionFontSize"
+                                                emptyText="e.g., 14px" />
+                                            <descriptionFontWeight
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Description Font Weight (e.g., 400, 700)"
+                                                name="./descriptionFontWeight"
+                                                emptyText="e.g., 400" />
+                                            <descriptionColor
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
+                                                fieldLabel="Description Color"
+                                                name="./descriptionColor" />
+                                        </items>
+                                    </column>
+
                                 </items>
                             </columns>
                         </items>
                     </styles>
+
                 </items>
             </tabs>
         </items>

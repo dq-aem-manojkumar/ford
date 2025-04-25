@@ -2,23 +2,22 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        jcr:mixinTypes="[cq:LiveRelationship]"
-        pageTitle="ford"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
         cq:template="/conf/ford/settings/wcm/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="ford/components/page"
-    >
+        pageTitle="ford">
         <root
+            jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ford/components/container"
-             jcr:mixinTypes="[cq:LiveRelationship]"
             layout="responsiveGrid">
             <container
+                jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
-             jcr:mixinTypes="[cq:LiveRelationship]"
                 sling:resourceType="ford/components/container">
                 <title
                     jcr:primaryType="nt:unstructured"
@@ -88,4 +87,5 @@
             cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
+    <home/>
 </jcr:root>
