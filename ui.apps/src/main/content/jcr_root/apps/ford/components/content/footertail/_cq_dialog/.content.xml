@@ -73,7 +73,7 @@
                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                             fieldLabel="Link Path"
                                             name="Link"
-                                            rootPath="/content/dam"
+                                            rootPath="/content/ford"
                                             required="{Boolean}true" />
                                     </items>
                                 </field>

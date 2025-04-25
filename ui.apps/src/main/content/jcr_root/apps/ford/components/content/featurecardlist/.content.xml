@@ -3,6 +3,6 @@
 xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:description="A dynamic Ford-style navbar with logo and icons"
     jcr:primaryType="cq:Component"
-    jcr:title="Feature Card List"
+    jcr:title="featurecardlist"
     sling:resourceType="ford/components/content/featurecardlist"
     componentGroup="Ford Components"/>

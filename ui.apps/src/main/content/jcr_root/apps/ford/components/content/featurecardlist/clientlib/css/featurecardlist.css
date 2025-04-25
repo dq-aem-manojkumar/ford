@@ -45,9 +45,9 @@
   
 }
 
- p {
+ .para {
   color: white;
-  width: 320px;
+  width: 380px;
   color: white;
   font-weight: 380;
 
@@ -79,18 +79,4 @@
   margin-left:30px;
 }
 
-.placeholder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  border: 1px dashed #ccc;
-  background-color: white;
-  font-size: 14px;
-  text-align: center;
-  font-style: italic;
-}
 
-.placeholder p{
-  color: darkgrey;
-}

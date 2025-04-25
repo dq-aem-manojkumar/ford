@@ -39,27 +39,27 @@ public class NavbarModelImpl implements Navbar {
 
     @Override
     public String getImagePath() {
-        return imagePath !=null ? imagePath :"Default Image";
+        return imagePath ;
     }
 
     @Override
     public String getSearchPath() {
-        return searchPath !=null ? searchPath :"Default Search Logo";
+        return searchPath;
     }
     @Override
     public String getUserPath() {
-        return userPath !=null ? userPath :"Default User Logo";
+        return userPath ;
     }
 
     @Override
     public String getGlobePath() {
-        return globePath !=null ? globePath  :"Default Globe Logo";
+        return globePath ;
     }
 
 
     @Override
     public List<NavItemImpl> getNavItems() {
-        return navItems !=null ? navItems:null;
+        return navItems ;
     }
 }
 

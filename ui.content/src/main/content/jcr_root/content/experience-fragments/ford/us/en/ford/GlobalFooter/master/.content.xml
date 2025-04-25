@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-19T16:13:51.304+05:30"
+        cq:lastModified="{Date}2025-04-24T18:27:25.247+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/ford/settings/wcm/templates/xf-web-variation"
@@ -16,6 +16,46 @@
             sling:resourceType="ford/components/container"
             layout="responsiveGrid">
             <button_copy jcr:primaryType="nt:unstructured"/>
+            <customaccordion
+                jcr:created="{Date}2025-04-24T15:37:49.634+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-24T17:12:49.637+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/content/customaccordion"
+                id="accordion-text"
+                singleExpansion="false">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+                <item_1745489301834
+                    cq:panelTitle="Disclosure"
+                    jcr:lastModified="{Date}2025-04-24T17:11:11.059+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    id="accordion-text">
+                    <text
+                        jcr:created="{Date}2025-04-24T17:11:19.738+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-24T17:12:40.958+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/text"
+                        text="&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;li>&lt;h3>Note.&lt;/h3>&#xd;&#xa;&lt;p>Information is provided on an &amp;quot;as is&amp;quot; basis and could include technical, typographical or other errors. Ford makes no warranties, representations, or guarantees of any kind, express or implied, including but not limited to, accuracy, currency, or completeness, the operation of the Site, the information, materials, content, availability, and products. Ford reserves the right to change product specifications, pricing and equipment at any time without incurring obligations. Your Ford dealer is the best source of the most up-to-date information on Ford vehicles.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>1.&lt;/h3>&#xd;&#xa;&lt;p>Current Manufacturer Suggested Retail Price (MSRP) for base vehicle. Excludes&amp;nbsp;&lt;a href=&quot;https://www.ford.com/auto-shipping-delivery-charges/&quot;>destination/delivery fee&lt;/a>&amp;nbsp;plus government fees and taxes, any finance charges, any dealer processing charge, any electronic filing charge, and any emission testing charge. Optional equipment not included. Starting A/X/Z Plan price is for qualified, eligible customers and excludes document fee, destination/delivery charge, taxes, title and registration. Not all vehicles qualify for A/X/Z Plan.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>2.&lt;/h3>&#xd;&#xa;&lt;p>EPA-estimated city/hwy mpg for the model indicated. See fueleconomy.gov for fuel economy of other engine/transmission combinations. Actual mileage will vary. On plug-in hybrid models and electric models, fuel economy is stated in MPGe. MPGe is the EPA equivalent measure of gasoline fuel efficiency for electric mode operation.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>3.&lt;/h3>&#xd;&#xa;&lt;p>Always wear your safety belt and secure children in the rear seat.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>4.&lt;/h3>&#xd;&#xa;&lt;p>Don’t drive while distracted. See Owner’s Manual for details and system limitations.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>5.&lt;/h3>&#xd;&#xa;&lt;p>FordPass®&amp;nbsp;Connect, the FordPass app, and complimentary Connected Services are required for remote features (see FordPass Terms for details). Connected Services and features depend on compatible AT&amp;amp;T network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features. Connected Services excludes Wi-Fi®&amp;nbsp;hotspot.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>6.&lt;/h3>&#xd;&#xa;&lt;p>Special APR offers applied to Estimated Selling Price. Special APR offers require Ford Credit Financing. Not all buyers will qualify. See dealer for qualifications and complete details.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>7.&lt;/h3>&#xd;&#xa;&lt;p>Special Lease offers applied to Estimated Capitalized Cost. Special Lease offers require Ford Credit Financing. Not all buyers will qualify. See dealer for qualifications and complete details.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>8.&lt;/h3>&#xd;&#xa;&lt;p>Current price for “as shown” vehicle excludes destination/delivery fee plus government fees and taxes, any finance charges, any dealer processing charge, any electronic filing charge, and any emission testing charge. Does not include A, Z or X Plan price.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>9.&lt;/h3>&#xd;&#xa;&lt;p>Wi-Fi®&amp;nbsp;hotspot includes complimentary wireless data trial that begins upon AT&amp;amp;T activation and expires at the end of three months or when 3GB of data is used, whichever comes first. To activate, go to&amp;nbsp;&lt;a href=&quot;http://www.att.com/ford&quot;>www.att.com/ford&lt;/a>. Don’t drive distracted or while using handheld devices. Use voice controls.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>10.&lt;/h3>&#xd;&#xa;&lt;p>Driver-assist features are supplemental and do not replace the driver’s attention, judgment, and need to control the vehicle. It does not replace safe driving. See Owner’s Manual for details and limitations.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>&lt;h3>11.&lt;/h3>&#xd;&#xa;&lt;p>Connected Navigation:&lt;/p>&#xd;&#xa;&lt;p>Navigation services require SYNC®4 and FordPass Connect (optional on select vehicles), complimentary Connected Service and the FordPass app (see FordPass Terms for details). Eligible vehicles receive a complimentary 90-day trial of navigation services that begins on the new vehicle warranty start date. Customers must unlock the navigation service trial by activating the eligible vehicle with a FordPass member account. Annual service contract is required for connected navigation services.&lt;/p>&#xd;&#xa;&lt;p>Connected service and features depend on compatible AT&amp;amp;T network availability. Evolving technology/cellular networks/vehicle capability may limit functionality and prevent operation of connected features.&lt;/p>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </item_1745489301834>
+            </customaccordion>
+            <separator
+                jcr:created="{Date}2025-04-24T15:41:17.994+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-24T15:41:17.994+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/separator"/>
             <container
                 jcr:created="{Date}2025-04-16T14:00:54.615+05:30"
                 jcr:createdBy="admin"
@@ -30,21 +70,240 @@
                         offset="1"
                         width="10"/>
                 </cq:responsive>
-                <separator
-                    jcr:created="{Date}2025-04-19T16:13:11.236+05:30"
+                <footersearch
+                    jcr:created="{Date}2025-04-24T15:38:06.077+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-19T16:13:11.236+05:30"
+                    jcr:lastModified="{Date}2025-04-24T16:02:24.559+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/footersearch"
+                    linkLabel="Popular">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            label="Lightining"
+                            link="/content/ford/us/en"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            label="Bronco"
+                            link="/content/ford/us/en"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            label="Maveric"
+                            link="/content/ford/us/en"/>
+                    </links>
+                </footersearch>
+                <separator_copy
+                    jcr:created="{Date}2025-04-24T15:41:17.994+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:41:17.994+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/separator"/>
-                <title
-                    jcr:created="{Date}2025-04-19T16:13:46.364+05:30"
+                <footer
+                    jcr:created="{Date}2025-04-24T15:40:27.699+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-19T16:13:51.302+05:30"
+                    jcr:lastModified="{Date}2025-04-24T16:26:16.544+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Global Footer Here"
-                    sling:resourceType="ford/components/title"/>
+                    sling:resourceType="ford/components/content/footer">
+                    <groupNames jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            group="All Vehicles">
+                            <footerItems jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Suv &amp; Crossovers"
+                                    path="/content/ford/us/en"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Trucks"
+                                    path="/content/ford/us/en"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Cars"
+                                    path="/content/ford/us/en"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Electrified"
+                                    path="/content/ford/us"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Commercial Vehicles"
+                                    path="/content/ford/us/en"/>
+                            </footerItems>
+                        </item0>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            group="Shop">
+                            <footerItems jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Build and Price"
+                                    path="/content/ford/us/en"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Search &amp; Inventory"
+                                    path="/content/ford/us/en"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Get a Quote"
+                                    path="/content/ford/us"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Trade in Value"
+                                    path="/content/ford/us/en"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Towing guides"
+                                    path="/content/ford/us/en"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Get Update"
+                                    path="/content/ford/us/en"/>
+                                <item6
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Certified User"
+                                    path="/content/ford/us/en"/>
+                            </footerItems>
+                        </item1>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            group="Finance">
+                            <footerItems jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Ford Credit Page"
+                                    path="/content/ford/us/en"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Why ford Credit"
+                                    path="/content/ford/us"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Finance Options"
+                                    path="/content/ford/us"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Payment Calculator"
+                                    path="/content/ford/us"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Credit Education"
+                                    path="/content/ford/us"/>
+                            </footerItems>
+                        </item2>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            group="Experience Forf">
+                            <footerItems jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Corporate"
+                                    path="/content/ford/us"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Careers"
+                                    path="/content/ford/us"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Investors"
+                                    path="/content/ford/us"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Company News"
+                                    path="/content/ford/us"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    label="About Ford"
+                                    path="/content/ford/us"/>
+                            </footerItems>
+                        </item3>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            group="Support">
+                            <footerItems jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Localate a Dealer"
+                                    path="/content/ford/us"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Support Home"
+                                    path="/content/ford/us"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Technology Support"
+                                    path="/content/ford/us"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Service &amp; Maintenance"
+                                    path="/content/ford/us"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Recails"
+                                    path="/content/ford/us"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    label="Collision Assistances"
+                                    path="/content/ford/us"/>
+                            </footerItems>
+                        </item4>
+                    </groupNames>
+                </footer>
+                <separator_1072641994
+                    jcr:created="{Date}2025-04-24T15:42:00.619+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:42:00.619+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/separator"/>
+                <contactus
+                    jcr:created="{Date}2025-04-24T15:42:39.693+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T18:19:48.727+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/contactus"
+                    mailIconPath="/content/dam/ford/icons/envelope-solid.svg"
+                    updatePath="/content/ford/us/en.html">
+                    <socialLinks jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            icon="/content/dam/ford/icons/facebook-f-brands.svg"
+                            url="http://www.facebook.com"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            icon="/content/dam/ford/icons/instagram-brands.svg"
+                            url="http://www.instagram.com"/>
+                    </socialLinks>
+                </contactus>
+                <separator_1352626742
+                    jcr:created="{Date}2025-04-24T15:42:43.249+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:42:43.249+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/separator"/>
+                <footertail
+                    jcr:created="{Date}2025-04-24T15:43:00.866+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T18:27:25.242+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/footertail"
+                    homePath="/content/ford/us/en/home"
+                    iconPhotoHome="/content/dam/ford/icons/logo.png"
+                    iconPhotoLan="/content/dam/ford/icons/globe-solid.svg"
+                    languagePath="/content/ford/language-masters">
+                    <socialLinks jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            label="Glosary"
+                            Link="/content/ford/us/en/home"/>
+                    </socialLinks>
+                </footertail>
             </container>
         </root>
     </jcr:content>

@@ -39,6 +39,9 @@ public class FordButtonImpl implements FordButton {
     private String padding;
 
     @ValueMapValue
+    private String margin;
+
+    @ValueMapValue
     private String width;
 
     @ValueMapValue
@@ -80,6 +83,9 @@ public class FordButtonImpl implements FordButton {
         if (StringUtils.isBlank(borderRadius)) {
             borderRadius = "0px"; // Default to no border radius
         }
+        if (StringUtils.isBlank(margin)) {
+            margin = "0px"; // Default to no margin
+        }
     }
 
     @Override
@@ -89,7 +95,7 @@ public class FordButtonImpl implements FordButton {
 
     @Override
     public String getLink() {
-        return link;
+        return link+".html";
     }
 
     @Override
@@ -105,6 +111,10 @@ public class FordButtonImpl implements FordButton {
     @Override
     public String getPadding() {
         return padding;
+    }
+    @Override
+    public String getMargin() {
+        return margin;
     }
 
     @Override

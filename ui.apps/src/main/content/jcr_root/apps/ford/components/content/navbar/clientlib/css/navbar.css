@@ -41,18 +41,22 @@
 
 .navbar-middle .logo {
   height: 60px;
+  
 }
 
 .navbar-right {
   display: flex;
   align-items: center;
   position: relative; 
+  gap:25px;
+  
 }
 
 .navbar-right .icon {
   height: 24px;
-  margin-left: 15px;
+  margin-left: 25px;
   cursor: pointer;
+  
 }
 
 .search-input {

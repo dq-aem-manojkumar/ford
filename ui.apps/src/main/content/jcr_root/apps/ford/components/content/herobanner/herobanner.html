@@ -1,4 +1,4 @@
-<!--/* byline.html */-->
+
 <sly
   data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"
 />
@@ -10,10 +10,10 @@
   data-sly-use.herobanner="com.aem.ford.core.models.HeroBanner"
   data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
   data-sly-test.hasContent="${!herobanner.empty}"
-  class="cmp-herobanner hero-container"
+  class="cmp-herobanner"
 >
   <!-- Image Container -->
-  <div class="cmp-herobanner__image-container">
+  <div class="cmp-herobanner__image-container" >
     <div
       class="cmp-herobanner__image"
       data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"
@@ -26,11 +26,12 @@
       <div
         data-sly-resource="${'contentContainer' @ resourceType='core/wcm/components/container/v1/container'}"
       ></div>
-      <p class="cmp-herobanner__occupations" style="margin-top: 20px">
+      <p class="cmp-herobanner__occupations">
         ${herobanner.occupations @ join=', '}
       </p>
     </div>
   </div>
+
 </div>
 <sly
   data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"

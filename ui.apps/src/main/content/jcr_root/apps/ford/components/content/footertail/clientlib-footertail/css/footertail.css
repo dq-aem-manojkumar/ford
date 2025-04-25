@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between; /* Space out items to left and right */
     align-items: center; /* Vertically align items */
-    background-color: #F0F0F0; /* Light background color */
+    /* background-color: #F0F0F0; Light background color */
     padding: 20px;
     width: auto;
 }
@@ -59,7 +59,7 @@
 .social-links {
     margin-top: -30px;
     text-align: left;
-    background-color: #F0F0F0; /* Light background color */
+    /* background-color: #F0F0F0;  */
     padding-left: 20px; /* Align with the language icon */
 }
 

@@ -32,7 +32,7 @@ public class ContactUsModel implements ContactUs {
 
     @Override
     public String getUpdatePath() {
-        return updatePath;
+        return updatePath+".html";
     }
 
     @Override

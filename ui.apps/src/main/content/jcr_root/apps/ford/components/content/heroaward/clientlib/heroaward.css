@@ -1,0 +1,67 @@
+.hero_award__layout {
+    margin: 80px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #00095b;
+    gap: 10px;
+}
+
+.hero_award__left {
+    height: 480px;
+    width: 70%; 
+    overflow: hidden; 
+}
+
+.hero_award__right {
+    width: 30%; 
+    
+
+}
+
+.hero_award__image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; 
+    display: block; 
+}
+
+@media (max-width: 1024px) { 
+    .hero_award__layout {
+        flex-direction: column; 
+    }
+
+    .hero_award__left,
+    .hero_award__right {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .hero_award__image {
+        height: auto; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .hero_award__layout {
+        margin: 10px;
+        flex-direction: column; 
+
+    }
+
+    .hero_award__left{
+        width: 100%;
+        height: auto;
+    }
+    .hero_award__right {
+        width: 100%; 
+        height: auto; 
+        padding: 5px;
+    }
+
+    .hero_award__image {
+        border-radius: 10px; 
+        height: 100%; 
+    }
+}

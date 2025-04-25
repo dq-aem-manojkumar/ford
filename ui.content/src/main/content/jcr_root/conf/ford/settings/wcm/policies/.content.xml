@@ -206,11 +206,16 @@
             </experiencefragment>
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
+                    cq:styleDefaultElement="div"
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2025-04-24T15:42:30.223+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Page Root"
+                    jcr:title="Footer Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:ford - Content,/apps/ford/components/form/container,group:ford - Structure]">
+                    backgroundColorEnabled="true"
+                    components="[/libs/foundation/components/text,/apps/ford/components/container,/apps/ford/components/separator,group:ford - Structure,/apps/ford/components/content/customaccordion,/apps/ford/components/content/footer,/apps/ford/components/content/footersearch,/apps/ford/components/content/footertail,/apps/ford/components/content/contactus]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -237,12 +242,13 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-16T13:01:53.427+05:30"
+                    jcr:lastModified="{Date}2025-04-24T15:49:30.908+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:ford - Content,/apps/ford/components/form/container,/apps/ford/components/content/footer]"
+                    backgroundColorEnabled="true"
+                    components="[group:General,group:ford - Content,group:ford - Form,group:Ford Components]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -271,19 +277,24 @@
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
                     jcr:description="Sets a &lt;main> element on the page content area."
+                    jcr:lastModified="{Date}2025-04-23T09:22:37.920+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
-                    sling:resourceType="wcm/core/components/policy/policy">
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    backgroundColorEnabled="true"
+                    components="/apps/ford/components/content/quicklink"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-16T13:50:23.771+05:30"
+                    jcr:lastModified="{Date}2025-04-22T14:38:35.429+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="XF Root"
+                    jcr:title="NavBar Polciy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,group:ford - Content,/apps/ford/components/form/container,/apps/ford/components/languagenavigation,/apps/ford/components/navigation]"
+                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/content/navbar]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -310,12 +321,12 @@
                     </cq:authoring>
                 </policy_1575040440977>
                 <policy_20614633107500
-                    jcr:lastModified="{Date}2025-04-19T16:15:02.485+05:30"
+                    jcr:lastModified="{Date}2025-04-22T14:42:19.660+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Hero-Container-Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="/libs/foundation/components/title"
+                    components="[/apps/ford/components/content/fordbutton,/apps/ford/components/content/herobanner]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_20614633107500>
