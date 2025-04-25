@@ -1,0 +1,22 @@
+<div class="social-icons" data-sly-use.model="com.aem.ford.core.models.footer.ContactUs">
+    <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+    <sly data-sly-call="${clientlib.css @ categories='ford.components.contactus'}"/>
+    <div class="social-actions">
+        <div class="get-update-section">
+            <a href="${model.updatePath}" class="get-update-link">
+                <img src="${model.mailIconPath}" alt="Mail Icon" class="mail-icon" />
+                Get Update
+            </a>
+        </div>
+        <div class="social-header-icons">
+            <h3>Follow Ford</h3>
+            <ul class="footer-groups" data-sly-list.link="${model.socialLinks}">
+                <li>
+                    <a href="${link.url}">
+                        <img src="${link.icon}" alt="Social Icon" class="social-icon"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

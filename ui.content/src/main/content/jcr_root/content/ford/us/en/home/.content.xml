@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-25T11:03:05.589+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ford/settings/wcm/templates/ford-layout"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="home"
+        sling:resourceType="ford/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ford/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                layout="responsiveGrid">
+                <heroaward
+                    jcr:created="{Date}2025-04-23T12:07:21.486+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T14:47:28.153+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/heroaward"
+                    imagePath="/content/dam/ford/landing-page/heroaward.png">
+                    <contentContainer
+                        jcr:lastModified="{Date}2025-04-23T14:13:32.672+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        layout="responsiveGrid">
+                        <fordtitle
+                            jcr:created="{Date}2025-04-23T12:27:04.296+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-23T14:17:57.081+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            contentColor="#ffffff"
+                            description="Ford trucks have won this prestigious award for the last five years. Reflecting consistent excellence in utility and design."
+                            descriptionColor="#ffffff"
+                            descriptionFontSize="17px"
+                            descriptionFontWeight="350"
+                            margin="10px"
+                            padding="10px"
+                            title="Ford Ranger® is the 2025 North American Truck of the Year™"
+                            titleColor="#ffffff"
+                            titleFontSize="30px"
+                            titleFontWeight="350"
+                            titleSize="h1">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="12"/>
+                            </cq:responsive>
+                        </fordtitle>
+                        <fordbutton
+                            jcr:created="{Date}2025-04-23T12:27:09.310+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T17:21:25.450+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordbutton"
+                            backgroundColor="#ffffff"
+                            borderRadius="2"
+                            borderSize="0px"
+                            height="auto"
+                            link="/content/ford/us/en"
+                            padding="10px"
+                            text="Experience Ranger"
+                            textColor="#000000"
+                            width="auto">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="7"/>
+                            </cq:responsive>
+                        </fordbutton>
+                    </contentContainer>
+                </heroaward>
+                <container
+                    jcr:created="{Date}2025-04-23T10:03:16.082+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T16:33:52.844+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    backgroundColor="#001527"
+                    layout="responsiveGrid">
+                    <quicklink
+                        jcr:created="{Date}2025-04-23T10:03:28.530+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-23T15:36:58.987+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/quicklink"
+                        description="Personalize your new vehicle."
+                        iconPath="/content/dam/ford/landing-page/vehicletools/wrench-solid .svg"
+                        title="Build &amp; Price"
+                        titleLink="/content/ford/us/en">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </quicklink>
+                    <quicklink_1428485116
+                        jcr:created="{Date}2025-04-23T10:07:28.386+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-23T15:37:37.411+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/quicklink"
+                        description="See pricing from your local dealer."
+                        iconPath="/content/dam/ford/landing-page/vehicletools/desktop-solid.svg"
+                        title="Get a Quote"
+                        titleLink="/content/ford/us/en/home">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </quicklink_1428485116>
+                    <quicklink_1828212746
+                        jcr:created="{Date}2025-04-23T10:07:33.623+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-23T15:38:26.599+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/quicklink"
+                        description="Find your Ford Vehicle."
+                        iconPath="/content/dam/ford/landing-page/vehicletools/car-solid.svg"
+                        title="Search Inventory"
+                        titleLink="/content/ford/us/en/home">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </quicklink_1828212746>
+                </container>
+                <fordtitle
+                    jcr:created="{Date}2025-04-22T14:46:54.265+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:20:47.055+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtitle"
+                    content="Get pumped up. Get plugged in. Or do a little bit of both. While finding your next Ford vehicle, one thing’s more important than the power you choose: What you choose to do with it."
+                    description="Get pumped up. Get plugged in. Or do a little bit of both. While finding your next Ford vehicle, one thing’s more important than the power you choose: What you choose to do with it."
+                    descriptionColor="#111111"
+                    descriptionFontSize="16px"
+                    descriptionFontWeight="400"
+                    margin="70px 80px"
+                    padding="0px"
+                    title="The Power is Yours"
+                    titleColor="#111111"
+                    titleFontSize="60px"
+                    titleFontWeight="400"
+                    titleSize="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                </fordtitle>
+                <fordtab
+                    jcr:created="{Date}2025-04-24T12:09:43.472+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:19:19.146+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtab">
+                    <item_1745476791172
+                        cq:panelTitle="Chose your Power"
+                        jcr:lastModified="{Date}2025-04-24T12:13:51.605+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container"
+                        id="tab-container"
+                        layout="responsiveGrid">
+                        <powerup_banner_copy
+                            jcr:created="{Date}2025-04-24T14:17:24.313+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T15:11:33.035+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/powerup-banner"
+                            alt="image-tab-1"
+                            altValueFromDAM="false"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/ford/landing-page/tab-images/ford-tab-img-1.png"
+                            headingText="How Will you Power Up?"
+                            imageHeight="600"
+                            isDecorative="false"
+                            secondaryLink="/content/ford/us/en/home"
+                            secondaryText="Vehicle Details"
+                            titleValueFromDAM="true">
+                            <btn
+                                jcr:lastModified="{Date}2025-04-24T15:11:45.912+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                backgroundColor="#ffffff"
+                                borderRadius="2"
+                                borderSize="0px"
+                                height="10px"
+                                link="/content/ford/us/en/home"
+                                text="Pick a Powertrain"
+                                textColor="#000000"/>
+                        </powerup_banner_copy>
+                    </item_1745476791172>
+                    <item_1745476798249
+                        cq:panelTitle="Gas + EcoBoost"
+                        jcr:lastModified="{Date}2025-04-24T13:11:16.892+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container"
+                        id="tab-container">
+                        <powerup_banner_copy
+                            jcr:created="{Date}2025-04-24T12:11:28.180+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T15:12:48.980+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/powerup-banner"
+                            alt="tab-img-2"
+                            altValueFromDAM="false"
+                            buttonText="Ford BTN"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/ford/landing-page/tab-images/ford-tab-img-2.png"
+                            headingText="Gas Power"
+                            imageHeight="600"
+                            isDecorative="false"
+                            secondaryLink="/content/ford/us/en"
+                            secondaryText="Vehicle Details"
+                            titleValueFromDAM="true">
+                            <btn
+                                jcr:lastModified="{Date}2025-04-24T15:13:32.914+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                backgroundColor="#ffffff"
+                                borderRadius="2"
+                                text="Explore Gas + EcoBoost"
+                                textColor="#000000"/>
+                        </powerup_banner_copy>
+                    </item_1745476798249>
+                    <item_1745477438045
+                        cq:panelTitle="Hybrid"
+                        jcr:lastModified="{Date}2025-04-24T13:11:52.775+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container"
+                        id="tab-container">
+                        <powerup_banner_copy
+                            jcr:created="{Date}2025-04-24T12:11:28.180+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T15:14:40.230+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/powerup-banner"
+                            alt="tab-img-3"
+                            altValueFromDAM="false"
+                            buttonText="Ford BTN"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/ford/landing-page/tab-images/ford-tab-img-3.png"
+                            headingText="Hybrid Versatility"
+                            imageHeight="600"
+                            isDecorative="false"
+                            secondaryText="Vehicle Details"
+                            titleValueFromDAM="true">
+                            <btn
+                                jcr:lastModified="{Date}2025-04-24T15:14:56.154+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                backgroundColor="#ffffff"
+                                borderRadius="2"
+                                text="Explore Hybrid Power"
+                                textColor="#000000"/>
+                        </powerup_banner_copy>
+                    </item_1745477438045>
+                    <item_1745477457600
+                        cq:panelTitle="Electric"
+                        jcr:lastModified="{Date}2025-04-24T14:14:44.324+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container"
+                        id="tab-container">
+                        <powerup_banner
+                            jcr:created="{Date}2025-04-24T14:14:53.931+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T15:15:40.279+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/powerup-banner"
+                            alt="tab-img-4"
+                            altValueFromDAM="false"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/ford/landing-page/tab-images/ford-tab-img-4.png"
+                            headingText="All-Electric"
+                            id="id"
+                            imageHeight="600"
+                            isDecorative="false"
+                            secondaryLink="/content/ford/us/en"
+                            secondaryText="Vehicle Details"
+                            titleValueFromDAM="true">
+                            <btn
+                                jcr:lastModified="{Date}2025-04-24T15:16:39.180+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                backgroundColor="#ffffff"
+                                borderRadius="2"
+                                height="12px"
+                                text="Explore EV Power"
+                                textColor="#000000"/>
+                        </powerup_banner>
+                    </item_1745477457600>
+                    <item_1745477483645
+                        cq:panelTitle="Diesel"
+                        jcr:lastModified="{Date}2025-04-24T14:17:19.424+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container"
+                        id="tab-container">
+                        <powerup_banner
+                            jcr:created="{Date}2025-04-24T14:17:24.313+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T15:18:33.756+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/powerup-banner"
+                            alt="image-tab-1"
+                            altValueFromDAM="false"
+                            displayPopupTitle="true"
+                            fileReference="/content/dam/ford/landing-page/tab-images/ford-tab-img-5.png"
+                            headingText="Diesel Muscle"
+                            imageHeight="600"
+                            isDecorative="false"
+                            secondaryLink="/content/ford/us/en/home"
+                            secondaryText="Vehicle Details"
+                            titleValueFromDAM="true">
+                            <btn
+                                jcr:lastModified="{Date}2025-04-24T15:18:55.512+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                backgroundColor="#ffffff"
+                                borderRadius="2"
+                                borderSize="0px"
+                                height="10px"
+                                link="/content/ford/us/en/home"
+                                text="Explore Super Duty"
+                                textColor="#000000"/>
+                        </powerup_banner>
+                    </item_1745477483645>
+                </fordtab>
+                <featurecardlist
+                    jcr:created="{Date}2025-04-24T16:43:18.004+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T16:46:09.535+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/featurecardlist">
+                    <featureCardList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            buttonLink="/content/ford/us/en"
+                            buttonText="Explore Bruecase"
+                            description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecard-img-1.png"
+                            title="Ford Ranger® is the 2025"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            buttonLink="/content/ford/us/en/home"
+                            buttonText="Explore Connected Services"
+                            description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecard-img-3.png"
+                            title="Ford Connected Services"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            buttonLink="/content/ford/us/en/home"
+                            buttonText="Explore Mobile Services"
+                            description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecardl-img-2.png"
+                            title="Complimentary Mobile Service"/>
+                    </featureCardList>
+                </featurecardlist>
+                <fordtitle_791039827
+                    jcr:created="{Date}2025-04-24T15:43:37.458+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T15:45:31.227+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtitle"
+                    margin="70px 90px"
+                    title="Thrilling. Liberating. Hardworking. Iconic."
+                    titleColor="#000000"
+                    titleFontSize="50px"
+                    titleFontWeight="400"/>
+                <container_572660744
+                    jcr:created="{Date}2025-04-24T16:47:04.994+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T16:54:13.500+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    layout="responsiveGrid">
+                    <vehiclecard
+                        jcr:created="{Date}2025-04-24T16:48:52.621+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-24T16:49:37.705+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/vehiclecard">
+                        <cards jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                cta1Link="/content/ford/us/en/home"
+                                cta1Text="Explore Mustang"
+                                description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                                image="/content/dam/ford/landing-page/vehiclecard/SUVcar.jpeg"
+                                overlayLink="/content/ford/us/en"
+                                overlayText="Vehicle Details"
+                                title="Mustang"/>
+                        </cards>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </vehiclecard>
+                    <vehiclecard_copy
+                        jcr:created="{Date}2025-04-24T16:48:52.621+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-24T17:14:22.093+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/vehiclecard">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                        <cards jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                cta1Link="/content/ford/us/en/home"
+                                cta1Text="Explore Mustang"
+                                description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                                image="/content/dam/ford/landing-page/vehiclecard/car 2.jpg"
+                                overlayLink="/content/ford/us/en"
+                                overlayText="Vehicle Details"
+                                title="Mustang"/>
+                        </cards>
+                    </vehiclecard_copy>
+                    <vehiclecard_copy_1156549148
+                        jcr:created="{Date}2025-04-24T16:48:52.621+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-24T17:14:32.301+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/vehiclecard">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                        <cards jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                cta1Link="/content/ford/us/en/home"
+                                cta1Text="Explore Mustang"
+                                description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                                image="/content/dam/ford/landing-page/heroaward.png"
+                                overlayLink="/content/ford/us/en"
+                                overlayText="Vehicle Details"
+                                title="Mustang"/>
+                        </cards>
+                    </vehiclecard_copy_1156549148>
+                </container_572660744>
+                <container_2006192600
+                    jcr:created="{Date}2025-04-24T16:50:48.139+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T17:02:55.976+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    backgroundColor="#001527"
+                    layout="responsiveGrid">
+                    <fordtitle
+                        jcr:created="{Date}2025-04-24T16:50:54.607+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-25T11:02:13.333+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        description="Don’t miss out. Get the latest on our newest vehicles, offers, product updates and more"
+                        descriptionColor="#ffffff"
+                        descriptionFontSize="14px"
+                        descriptionFontWeight="300"
+                        margin="20px 80px"
+                        title="Send Me ford Updates"
+                        titleColor="#ffffff"
+                        titleFontSize="50px"
+                        titleFontWeight="400"/>
+                    <fordbutton
+                        jcr:created="{Date}2025-04-24T16:53:57.881+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-04-25T11:03:05.580+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordbutton"
+                        backgroundColor="#ffffff"
+                        borderRadius="2"
+                        borderSize="0px"
+                        height="12px"
+                        link="/content/ford/us/en"
+                        margin="0px 0px 40px 80px"
+                        text="Sign Up"
+                        textColor="#000000">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </fordbutton>
+                </container_2006192600>
+            </container>
+            <container_1390198985
+                jcr:created="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-23T14:04:18.313+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                layout="responsiveGrid">
+                <herobanner
+                    jcr:created="{Date}2025-04-22T14:31:43.621+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-24T16:07:01.696+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/herobanner"
+                    fileReference="/content/dam/ford/landing-page/ford-employee-pricing.png"
+                    name="You Pay What We Pay*."
+                    occupations="*important  Details">
+                    <contentContainer
+                        jcr:lastModified="{Date}2025-04-23T09:10:07.119+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        layout="responsiveGrid">
+                        <fordbutton
+                            jcr:created="{Date}2025-04-22T14:32:19.256+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T17:15:14.426+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordbutton"
+                            backgroundColor="#ffffff"
+                            borderColor="#ffffff"
+                            borderRadius="2"
+                            height="12px"
+                            link="/content/ford/us/en"
+                            text="See Employe Pricing"
+                            textColor="#000000">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </fordbutton>
+                        <fordbutton_1762842794
+                            jcr:created="{Date}2025-04-23T09:08:30.404+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-24T17:21:11.802+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordbutton"
+                            borderColor="#ffffff"
+                            borderRadius="2"
+                            borderSize="1px"
+                            height="12px"
+                            link="/content/ford/us/en"
+                            padding="10px"
+                            text="Find a Dealer"
+                            textColor="#ffffff">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </fordbutton_1762842794>
+                    </contentContainer>
+                </herobanner>
+            </container_1390198985>
+        </root>
+    </jcr:content>
+</jcr:root>

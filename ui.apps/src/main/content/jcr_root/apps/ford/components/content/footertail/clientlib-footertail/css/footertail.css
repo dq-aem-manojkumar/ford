@@ -1,0 +1,90 @@
+/* General container styling */
+.footertail-container {
+    display: flex;
+    justify-content: space-between; /* Space out items to left and right */
+    align-items: center; /* Vertically align items */
+    /* background-color: #F0F0F0; Light background color */
+    padding: 20px;
+    width: auto;
+}
+
+/* Left Section: Language Change */
+.language-change {
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+}
+
+.language-link {
+    display: flex;
+    align-items: center; /* Align icon and text in the same row */
+    gap: 10px; /* Add spacing between icon and text */
+    text-decoration: none; /* Remove underline from link */
+    color: #5E5E5E; /* Neutral text color */
+    font-size: 16px; /* Text size */
+    line-height: 1; /* Ensure proper vertical alignment */
+}
+
+.language-link:hover {
+    color: #0078D7; /* Change text color on hover */
+}
+
+.language-icon {
+    width: 20px; /* Decreased icon size */
+    height: 20px;
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.language-text {
+    position: relative;
+    top: 0; /* Ensure text is vertically centered */
+    text-decoration: none; /* Ensure no underline */
+    font-size: 14px; /* Match text size */
+    color: inherit; /* Inherit link color */
+}
+
+/* Right Section: Ford Icon */
+.home-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align the Ford icon to the right */
+}
+
+.home-link img {
+    width: 50px; /* Decreased icon size */
+    height: 50px;
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Social Links Section */
+.social-links {
+    margin-top: -30px;
+    text-align: left;
+    /* background-color: #F0F0F0;  */
+    padding-left: 20px; /* Align with the language icon */
+}
+
+.social-links ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px; /* Add spacing between social links */
+    justify-content: flex-start; /* Align links to the left */
+}
+
+.social-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #5E5E5E; /* Neutral text color */
+    font-size: 10px; /* Font size for social links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-links li a:hover {
+    color: #0078D7; /* Change text color on hover */
+}
+
+
+
+
+
+

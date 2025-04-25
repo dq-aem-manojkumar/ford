@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Footer Tail Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    
+                    <icons
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer Tail Logo Configuration"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <languageIconPath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Language Icon"
+                                name="./iconPhotoLan"
+                                rootPath="/content/dam"
+                                required="{Boolean}true"
+                                description="Select the icon" />
+
+                            <languagePath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="language Link"
+                                name="./languagePath"
+                                rootPath="/content"
+                                required="{Boolean}false" />
+                        
+                            <homePath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Footer tail Brand "
+                                name="./homePath"
+                                rootPath="/content"
+                                required="{Boolean}false" />
+
+                            <homeIconPath jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                fieldLabel="Footer tail Brand logo"
+                                name="./iconPhotoHome"
+                                rootPath="/content/dam"
+                                required="{Boolean}true"
+                                description="Select the icon" />
+                        </items>
+                    </icons>
+                    <social jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer Tail links"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <socialLinks jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true">
+                                <field jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/fieldset"
+                                    name="./socialLinks">
+                                    <layout jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns" />
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <label jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="label"
+                                            name="label" />
+                                        <link jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Link Path"
+                                            name="Link"
+                                            rootPath="/content/ford"
+                                            required="{Boolean}true" />
+                                    </items>
+                                </field>
+                            </socialLinks>
+                        </items>
+                    </social>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

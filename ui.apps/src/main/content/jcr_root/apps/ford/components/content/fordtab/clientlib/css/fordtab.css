@@ -1,0 +1,52 @@
+
+.ford_tab .cmp-tabs__tablist {
+    display: flex;
+    border-bottom: none;
+    margin: 0px 50px;
+    justify-content: space-between;
+    border: black;
+
+}
+.ford_tab .cmp-tabs__tab {
+    position: relative;
+    padding:0px 50px;
+    font-size: 20px; 
+    font-weight: 400;
+    color: #666666;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 15px;
+    /* margin:0px 10px; */
+}
+
+.ford_tab .cmp-tabs__tab::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #999999;
+    transition: all 5ms ease;
+}
+
+.ford_tab .cmp-tabs__tab--active {
+    color: #0066b3;
+    font-weight: 400;
+    
+    
+}
+
+.ford_tab .cmp-tabs__tab--active::after {
+    background-color: #0066b3;
+    height: 4px;
+}
+
+
+#tab-container{
+ margin: 50px 80px;
+}
+
+
+

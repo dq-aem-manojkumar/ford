@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+        xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+        xmlns:cq="http://www.day.com/jcr/cq/1.0"
+        xmlns:jcr="http://www.jcp.org/jcr/1.0"
+        xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Footer Dialog"
+        sling:resourceType="cq/gui/components/authoring/dialog"
+        extraClientlibs="[core.wcm.components.title.v2.editor]">
+
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/tabs">
+
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Properties"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+
+                        <items jcr:primaryType="nt:unstructured">
+                            <groupname
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                    composite="true"
+                                   >
+
+                                <field
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset"
+                                        name="./groupNames">
+
+                                    <layout
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns"
+                                            margin="true"/>
+
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <group
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldLabel="Navigation Group Name"
+                                                name="group"/>
+
+                                        <navItems
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="true"
+                                                fieldLabel="Navigation Items">
+
+                                            <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/fieldset"
+                                                    name="./footerItems">
+
+                                                <layout
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns"
+                                                        margin="true"/>
+
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <label
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            fieldLabel="Label"
+                                                            name="label"/>
+
+                                                    <path
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                            fieldLabel="Path"
+                                                            name="path"
+                                                            rootPath="/content/ford"
+                                                            required="true"
+                                                            showTitles="true"
+                                                            filter="hierarchyNotFile"
+                                                            forceSelection="true"/>
+                                                </items>
+                                            </field>
+                                        </navItems>
+                                    </items>
+                                </field>
+                            </groupname>
+                        </items>
+                    </properties>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

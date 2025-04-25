@@ -1,17 +1,37 @@
 package com.aem.ford.core.models;
 
+
 public interface FordTitle {
 
+   
     String getTitle();
 
-    String getContent();
+   
+    String getDescription();
 
-    String getBackgroundColor();
+    
+    String getMargin();
 
+    
+    String getPadding();
+
+   
+    String getTitleFontSize();
+
+    
+    String getTitleFontWeight();
+
+    
     String getTitleColor();
 
-    String getTitleSize();
+    
+    String getDescriptionFontSize();
 
-    String getContentColor();
+    
+    String getDescriptionFontWeight();
 
+    
+    String getDescriptionColor();
+
+    boolean isEmpty();
 }

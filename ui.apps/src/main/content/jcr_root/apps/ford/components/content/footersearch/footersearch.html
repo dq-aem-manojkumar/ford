@@ -1,0 +1,33 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.css @ categories='ford.components.footersearch'}" />
+
+<div class="footersearch" data-sly-use.footerSearch="com.aem.ford.core.models.footer.FooterSearch">
+    <!-- Footer Left -->
+    <div class="footer-left">
+        <!-- Core Search Component -->
+        <div class="search-bar">
+            <div data-sly-resource="${'search' @ resourceType='core/wcm/components/search/v1/search'}"></div>
+        </div>
+    </div>
+
+    <!-- Footer Right -->
+    <div class="footer-right">
+        <!-- Link Label -->
+        <div class="footersearch__link-label">
+            <h3>${footerSearch.linkLabel @ context='text'}</h3>
+        </div>
+
+        <!-- Links Multifield -->
+        <div class="footersearch__links">
+            <ul>
+                <sly data-sly-list.linkItem="${footerSearch.links}">
+                    <li>
+                        <a href="${linkItem.link @ context='uri'}.html">
+                            ${linkItem.label @ context='text'}
+                        </a>
+                    </li>
+                </sly>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -2,14 +2,17 @@
 <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />    
 <sly data-sly-call="${clientlib.css @ categories='ford.components.fordbutton'}"/>
  
+<a href="${model.link}"> 
 <div class="ford-custom-button-wrapper"
      style="background-color: ${model.backgroundColor @ context='styleToken'};
             color: ${model.textColor @ context='styleToken'};
             padding: ${model.padding @ context='styleToken'};
+            margin: ${model.margin @ context='unsafe'};
             width: ${model.width @ context='styleToken'};
             height: ${model.height @ context='styleToken'};
             border: ${model.borderSize @ context='styleToken'} solid ${model.borderColor @ context='styleToken'};
             border-radius: ${model.borderRadius @ context='styleToken'};">
-    ${model.text}
+  ${model.text}
 </div>
 
+</a>

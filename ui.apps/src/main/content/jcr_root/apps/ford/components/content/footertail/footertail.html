@@ -1,0 +1,37 @@
+<sly data-sly-use.model="com.aem.ford.core.models.footer.FooterTailModel">
+    <!-- Include the CSS client library -->
+    <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+    <sly data-sly-call="${clientlib.css @ categories='ford.components.footertail'}" />
+
+    <div class="footertail-container">
+        <!-- Left Section: Language Change -->
+        <div class="language-change">
+            <a href="${model.languagePath}.html" class="language-link">
+                <img src="${model.iconPhotoLan @ context='uri'}" alt="Language Icon" class="language-icon" />
+                <span class="language-text"> Change Language</span>
+            </a>
+        </div>
+
+        <!-- Right Section: Ford Icon -->
+        <div class="home-link">
+            <a href="${model.homePath}.html">
+                <img src="${model.iconPhotoHome @ context='uri'}" alt="Ford Icon" />
+            </a>
+        </div>
+    </div>
+
+    <!-- Social Links Section -->
+    <div class="social-links">
+        <ul>
+            <sly data-sly-list.social="${model.socialLinks}">
+                <li>
+                    <a href="${social.link}.html">
+                        ${social.label}
+                    </a>
+                </li>
+            </sly>
+        </ul>
+    </div>
+</sly>
+
+

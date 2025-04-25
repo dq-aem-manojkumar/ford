@@ -42,6 +42,15 @@ public interface FordButton {
     @Nullable
     String getPadding();
 
+        /**
+     * Gets the padding for the button.
+     *
+     * @return the padding
+     */
+    @Nullable
+    String getMargin();
+
+
     /**
      * Gets the width of the button.
      *

@@ -7,48 +7,70 @@ import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
-@Model(
-    adaptables = {SlingHttpServletRequest.class},
-    adapters = {FordTitle.class},
-    resourceType = {FordTitleImpl.RESOURCE_TYPE},
-    defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Model(adaptables = { SlingHttpServletRequest.class }, adapters = { FordTitle.class }, resourceType = {
+        FordTitleImpl.RESOURCE_TYPE }, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class FordTitleImpl implements FordTitle {
 
-
-protected static final String RESOURCE_TYPE = "ford/components/content/fordtitle";
-
+    protected static final String RESOURCE_TYPE = "ford/components/content/fordtitle";
 
     @ValueMapValue
     private String title;
 
     @ValueMapValue
-    private String content;
+    private String description;
 
     @ValueMapValue
-    private String backgroundColor;
+    private String margin;
+
+    @ValueMapValue
+    private String padding;
+
+    @ValueMapValue
+    private String titleFontSize;
+
+    @ValueMapValue
+    private String titleFontWeight;
 
     @ValueMapValue
     private String titleColor;
 
     @ValueMapValue
-    private String titleSize;
+    private String descriptionFontSize;
 
     @ValueMapValue
-    private String contentColor;
+    private String descriptionFontWeight;
+
+    @ValueMapValue
+    private String descriptionColor;
 
     @Override
     public String getTitle() {
-        return title != null ? title : "Default Title";
+        return title;
     }
 
     @Override
-    public String getContent() {
-        return content != null ? content : "Default Content";
+    public String getDescription() {
+        return description;
     }
 
     @Override
-    public String getBackgroundColor() {
-        return backgroundColor != null ? backgroundColor : "transparent"; 
+    public String getMargin() {
+        return margin != null ? margin : "0px";
+    }
+
+    @Override
+    public String getPadding() {
+        return padding != null ? padding : "0px";
+    }
+
+    @Override
+    public String getTitleFontSize() {
+        return titleFontSize != null ? titleFontSize : "16px";
+    }
+
+    @Override
+    public String getTitleFontWeight() {
+        return titleFontWeight != null ? titleFontWeight : "400";
     }
 
     @Override
@@ -57,12 +79,22 @@ protected static final String RESOURCE_TYPE = "ford/components/content/fordtitle
     }
 
     @Override
-    public String getTitleSize() {
-        return titleSize != null ? titleSize : "h1"; 
+    public String getDescriptionFontSize() {
+        return descriptionFontSize != null ? descriptionFontSize : "14px";
     }
 
     @Override
-    public String getContentColor() {
-        return contentColor != null ? contentColor : "#000000"; 
+    public String getDescriptionFontWeight() {
+        return descriptionFontWeight != null ? descriptionFontWeight : "400";
+    }
+
+    @Override
+    public String getDescriptionColor() {
+        return descriptionColor != null ? descriptionColor : "#000000";
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return (title == null || title.isEmpty()) && (description == null || description.isEmpty());
     }
 }
