@@ -1,18 +1,17 @@
+
 package com.aem.ford.core.models;
+
+import java.util.List;
 
 public interface FeatureCard {
 
-    String getImagePath();
+    List<FeatureCardItem> getCards();
+    boolean isEmpty();
+    interface FeatureCardItem {
+        String getImagePath();
+        String getTitle();
+        String getDescription(); 
+        
+    }
 
-    String getDescription();
-
-    String getTitle();
-
-    String getButtonText();
-
-    String getButtonLink();
-
-    String getVehicleText();
-
-    String getVehiclLink();
 }

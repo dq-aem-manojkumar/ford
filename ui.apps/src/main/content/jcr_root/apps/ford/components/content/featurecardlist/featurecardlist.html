@@ -1,36 +1,38 @@
+<sly
+  data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"
+/>
+<sly
+  data-sly-call="${clientlib.css @ categories='ford.components.featurecardlist'}"
+/>
 
+<sly data-sly-use.featureCard="com.aem.ford.core.models.FeatureCard"
+data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+  data-sly-test.hasContent="${!FeatureCard.empty}">
+  <div class="featurecard-container">
+    <sly data-sly-list.item="${featureCard.cards}">
+      <div class="feature-card">
+        <div class="featurecard-image-wrapper">
+          <img
+            src="${item.imagePath @ context='uri'}"
+            alt="${item.title @ context='text'}"
+            class="featurecard-image"
+          />
+        </div>
+        <div class="featurecard-content">
+          <h1 class="featurecard-title">${item.title @ context='text'}</h1>
+          <p class="featurecard-description">
+            ${item.description @ context='text'}
+          </p>
 
-<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
-    <sly data-sly-call="${clientlib.css @ categories='ford.components.featurecardlist'}"/>
-
-<sly data-sly-use.featureCardList="com.aem.ford.core.models.FeatureCardList">
-
-
-    <div class="card-container">
-
-          <div class="card-list">
-              <sly data-sly-list.item="${featureCardList.featureCard}">
-                
-                <div class="card">
-                    <img src="${item.imagePath @ context='uri'}" alt="image">
-                    <div class="card-content">
-                    <h1 class="break-lines">${item.title @ context='text'}</h1>
-                    <p class="para">${item.description @ context='text'}</p>
-                  <button class="btn"> <a  href="${item.buttonLink @ context='uri'}">${item.buttonText @ context='text'}</a></button> 
-                  </div>
-
-                </div>
-                
-            
-               </sly>
-        
-          </div>
-
-    </div>
-  </sly>
-
+          <div class="featurecard-button"
+          data-sly-resource="${['btn', itemList.index] @ join='',resourceType='ford/components/content/fordbutton'}"
+        ></div>
+        </div>
+      </div>
+    </sly>
+  </div>
 </sly>
 
-
-
-
+<sly
+  data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"
+></sly>

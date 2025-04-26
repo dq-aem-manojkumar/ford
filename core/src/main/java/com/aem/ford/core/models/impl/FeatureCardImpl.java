@@ -1,77 +1,79 @@
 package com.aem.ford.core.models.impl;
-import org.apache.sling.api.SlingHttpServletRequest;
-import org.apache.sling.models.annotations.DefaultInjectionStrategy;
-import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 import com.aem.ford.core.models.FeatureCard;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.DefaultInjectionStrategy;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.ChildResource;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 @Model(
-    adaptables = {SlingHttpServletRequest.class},
-    adapters = {FeatureCard.class},
-    resourceType = {FeatureCardImpl.RESOURCE_TYPE},
-    defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-public class FeatureCardImpl implements FeatureCard{
+    adaptables = Resource.class,
+    adapters = FeatureCard.class,
+    defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
+)
+public class FeatureCardImpl implements FeatureCard {
 
-protected static final String RESOURCE_TYPE = "ford/components/content/featurecardlist";
+    @ChildResource(name = "cards")
+    private List<Resource> cards;
 
-@ValueMapValue
-private String imagePath;
+    @Override
+    public List<FeatureCardItem> getCards() {
+        if (cards == null) {
+            return Collections.emptyList();
+        }
+        List<FeatureCardItem> cardItems = new ArrayList<>();
+        for (Resource card : cards) {
+            cardItems.add(new FeatureCardItemImpl(card));
+        }
+        return cardItems;
+    }
 
-@ValueMapValue
-private String description;
+    @Override
+    public boolean isEmpty() {
+       
+        return cards == null || cards.isEmpty();
+    }
 
-@ValueMapValue
-private String title;
+    
+    public static class FeatureCardItemImpl implements FeatureCardItem {
 
-@ValueMapValue
-private String buttonText;
+        private final Resource resource;
 
-@ValueMapValue
-private String buttonLink;
+        public FeatureCardItemImpl(Resource resource) {
+            this.resource = resource;
+        }
 
-@ValueMapValue
-private String vehicleText;
+        @ValueMapValue(name = "imagePath")
+        private String imagePath;
 
-@ValueMapValue
-private String vehiclLink;
+        @ValueMapValue(name = "title")
+        private String title;
 
+        @ValueMapValue(name = "description")
+        private String description;
 
-@Override
-public String getImagePath() {
-    return imagePath != null ? imagePath : "Deafutl Image";
+        @Override
+        public String getImagePath() {
+            return resource.getValueMap().get("imagePath", String.class);
+        }
+
+        @Override
+        public String getTitle() {
+            return resource.getValueMap().get("title", String.class);
+        }
+
+        @Override
+        public String getDescription() {
+            return resource.getValueMap().get("description", String.class);
+        }
+    }
+
+    
 }
 
-@Override
-public String getDescription() {
-    return description != null ? description : "Deafutl description";
-}
 
-@Override
-public String getTitle() {
-    return title != null ? title : "Deafutl title";
-}
-
-@Override
-public String getButtonText() {
-    return buttonText != null ? buttonText : "Deafutl buttonText";
-}
-
-@Override
-public String getButtonLink() {
-    return buttonLink != null ? buttonLink :"Deafutl buttonLink";
-}
-
-@Override
-public String getVehicleText() {
-    return vehicleText != null ? vehicleText :"Deafutl vehicleText";
-}
-
-@Override
-public String getVehiclLink() {
-    return vehiclLink != null ? vehiclLink :"Deafutl vehiclLink";
-}
-
-
-
-}

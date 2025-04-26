@@ -18,6 +18,7 @@
                     <metadata
                             jcr:primaryType="nt:unstructured"
                             sling:hideResource="{Boolean}true"/>
+                            
                     <properties
                             jcr:primaryType="nt:unstructured"
                             jcr:title="Properties"
