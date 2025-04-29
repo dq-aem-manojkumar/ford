@@ -1,0 +1,108 @@
+.service-card {
+    font-family: sans-serif !important;
+    display: flex;
+    height: 230px;
+    width: auto; /* Set a fixed width for the card */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align all content to the left */
+    gap: 16px; /* Space between the icon and the content */
+    padding-left: 10px;  /* Add padding inside the card */
+    padding-top: 10px; /* Add padding inside the card */
+    padding-right: 15px;
+    margin: 7.5px; /* Add margin outside the card for spacing */
+
+    color: black;
+    border-radius: 13px; /* Optional: Add rounded corners */
+    background-color: #E5E5E5; /* Optional: Add a background color */
+    position: relative;
+
+    /* transition: background-color 0.3s ease, box-shadow 0.3s ease;  */
+}
+
+.service-card__link {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align all content to the left */
+    text-decoration: none; /* Remove underline from the link */
+    color:inherit; /* Inherit text color */
+    width: 100%; /* Make the link cover the entire card */
+    height: 100%; /* Ensure the link spans the full height */
+}
+
+ .service-card:hover {
+    background-color: #034EA7; /* Turn the background blue on hover */
+    color:white;/* Turn all text white on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    transition: opacity 0.3s ease; /* Smooth transition for the image */
+
+}
+
+.service-card__icon img {
+    width: 50px; /* Set a fixed width for the icon */
+    height: 50px; /* Set a fixed height for the icon */
+    transform: scale(0.8); /* Scale the image to 90% of its original size */
+    object-fit: cover; /* Ensure the image covers the container */
+    margin: auto; /* Center the image within the container */
+
+}
+
+
+
+
+.service-card__content {
+    text-align: left; /* Align text to the left */
+    padding-left: 5px;
+    padding-top: 13px; /* Add padding to the top */
+}
+
+.service-card__title {
+    font-size: 1.25rem; /* Adjust the font size for the title */
+    font-weight: bold;
+    margin: 0 0 3px 0; /* Add spacing below the title */
+    color: inherit; /* Inherit text color */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.service-card__description {
+    font-size: 0.9rem; /* Adjust the font size for the description */
+    margin: 0; /* Remove default margin */
+    color: inherit; /* Inherit text color */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+.service-card-round {
+    position: absolute; /* Position the element relative to the parent */
+    bottom: 0; /* Align to the bottom edge */
+    right: 0; /* Align to the right edge */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    width: 17px; /* Set a fixed width for the round container */
+    height: 25px; /* Set a fixed height for the round container */
+    border-radius: 50%; /* Make it circular */
+    background-color: #ffffff; /* Optional: Background color for the round container */
+    color:black; /* Optional: Text color for the arrow */
+    margin: 10px; /* Add spacing from the edges */
+    padding-left: 10px;
+    padding-top: 2px; 
+    /* padding-left: 5px; */
+
+}
+
+.service-card-arrow {
+    font-size: 16px; /* Adjust the font size of the arrow */
+    font-weight: bold; /* Make the arrow bold */
+    text-align: center; /* Center the text inside the container */
+}
+
+.service-card__icon img {
+    width: 50px; /* Set a fixed width for the icon */
+    height: 50px; /* Set a fixed height for the icon */
+    object-fit: cover; /* Ensure the image covers the container */
+    margin: auto; /* Center the image within the container */
+    transition: filter 0.3s ease; /* Smooth transition for the filter effect */
+    filter: invert(0); /* Default: no inversion (black) */
+}
+
+.service-card:hover .service-card__icon img {
+    filter: invert(1); /* Invert colors (black to white) */
+}
