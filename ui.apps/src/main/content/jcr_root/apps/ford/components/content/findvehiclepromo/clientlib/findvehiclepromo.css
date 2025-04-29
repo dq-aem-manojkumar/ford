@@ -1,0 +1,68 @@
+.ford_findvehiclepromo .hero_award__layout {
+    margin: 80px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    gap: 10px;
+    width: auto;
+}
+
+.ford_findvehiclepromo .hero_award__left {
+    height: 480px;
+    width: 50%; 
+    overflow: hidden; 
+}
+
+.ford_findvehiclepromo .hero_award__right {
+    width: 50%; 
+    
+
+}
+
+.ford_findvehiclepromo .hero_award__image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; 
+    display: block; 
+}
+
+/* @media (max-width: 1024px) { 
+    ford_findvehiclepromo .hero_award__layout {
+        flex-direction: column; 
+    }
+
+    ford_findvehiclepromo .hero_award__left,
+    ford_findvehiclepromo .hero_award__right {
+        width: 100%; 
+        height: auto; 
+    }
+
+    ford_findvehiclepromo .hero_award__image {
+        height: auto; 
+    }
+}
+
+@media (max-width: 768px) { 
+    ford_findvehiclepromo  .hero_award__layout {
+        margin: 10px;
+        flex-direction: column; 
+
+    }
+
+    ford_findvehiclepromo .hero_award__left{
+        width: 100%;
+        height: auto;
+    }
+    ford_findvehiclepromo .hero_award__right {
+        width: 100%; 
+        height: auto; 
+        padding: 5px;
+    }
+
+    ford_findvehiclepromo .hero_award__image {
+        border-radius: 10px; 
+        height: 100%; 
+    }
+} */
