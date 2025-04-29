@@ -1,12 +1,26 @@
 package com.aem.ford.core.models;
 
+import java.util.List;
+
 public interface ServiceCard {
-    String getServiceCardIcon();
 
-    String getServiceCardTitle();
+    /**
+     * Returns a list of service card items.
+     *
+     * @return List of ServiceCardItem
+     */
+    List<ServiceCardItem> getServiceCards();
 
-    String getServiceCardDescription();
+    /**
+     * Represents a single service card item.
+     */
+    interface ServiceCardItem {
+        String getServiceCardIcon();
 
-    String getServiceCardPath();
-    
+        String getServiceCardTitle();
+
+        String getServiceCardDescription();
+
+        String getServiceCardPath();
+    }
 }
