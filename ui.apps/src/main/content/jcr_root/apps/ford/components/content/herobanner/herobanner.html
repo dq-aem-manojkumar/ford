@@ -1,4 +1,3 @@
-
 <sly
   data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"
 />
@@ -13,7 +12,7 @@
   class="cmp-herobanner"
 >
   <!-- Image Container -->
-  <div class="cmp-herobanner__image-container" >
+  <div class="cmp-herobanner__image-container">
     <div
       class="cmp-herobanner__image"
       data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"
@@ -21,18 +20,26 @@
 
     <!-- Text Inside Image -->
     <div class="cmp-content__container">
-      <div class="cmp-herobanner__name">${herobanner.name}</div>
+      <!-- Display Name if Present -->
+      <sly data-sly-test.namePresent="${herobanner.name}">
+        <div class="cmp-herobanner__name">${herobanner.name}</div>
+      </sly>
+
       <!-- Container for AEM Button or Other Components -->
       <div
         data-sly-resource="${'contentContainer' @ resourceType='core/wcm/components/container/v1/container'}"
       ></div>
-      <p class="cmp-herobanner__occupations">
-        ${herobanner.occupations @ join=', '}
-      </p>
+
+      <!-- Display Occupations if Present -->
+      <sly data-sly-test.occupationsPresent="${herobanner.occupations}">
+        <p class="cmp-herobanner__occupations">
+          ${herobanner.occupations @ join=', '}
+        </p>
+      </sly>
     </div>
   </div>
-
 </div>
+
 <sly
   data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"
 ></sly>

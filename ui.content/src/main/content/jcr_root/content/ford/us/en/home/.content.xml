@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-26T17:51:07.910+05:30"
+        cq:lastModified="{Date}2025-04-29T13:02:24.775+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -80,6 +80,12 @@
                             </cq:responsive>
                         </fordbutton>
                     </contentContainer>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="11"/>
+                    </cq:responsive>
                 </heroaward>
                 <container
                     jcr:created="{Date}2025-04-23T10:03:16.082+05:30"
@@ -370,6 +376,12 @@
                                     textColor="#000000"/>
                             </powerup_banner>
                         </item_1745477483645>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="11"/>
+                        </cq:responsive>
                     </fordtab_copy_copy>
                 </container_1421885593>
                 <container_338442596_

@@ -2,15 +2,15 @@
     font-family: sans-serif !important;
     display: flex;
     height: 230px;
+    border:2px solid rebeccapurple;
     width: auto; /* Set a fixed width for the card */
     flex-direction: column; /* Stack items vertically */
     align-items: flex-start; /* Align all content to the left */
-    gap: 16px; /* Space between the icon and the content */
-    padding-left: 10px;  /* Add padding inside the card */
+    /* gap: 16px; Space between the icon and the content */
+    /* padding-left: 10px;  Add padding inside the card */
     padding-top: 10px; /* Add padding inside the card */
-    padding-right: 15px;
-    margin: 7.5px; /* Add margin outside the card for spacing */
-
+    /* padding-right: 15px; */
+    /* margin: 7.5px; Add margin outside the card for spacing */
     color: black;
     border-radius: 13px; /* Optional: Add rounded corners */
     background-color: #E5E5E5; /* Optional: Add a background color */

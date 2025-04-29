@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-29T15:54:29.809+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ford/settings/wcm/templates/ford-layout"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="employee-pricing"
+        sling:resourceType="ford/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ford/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                layout="responsiveGrid">
+                <fordtitle
+                    jcr:created="{Date}2025-04-29T12:40:35.107+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-29T12:41:19.928+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtitle"
+                    description="*Offer available on the purchase or lease of the following eligible new 2024–2025 Ford and Lincoln vehicles ONLY: Ford Mustang®, Escape®, Bronco®, Bronco Sport®, F-150®, F-150® Lightning®, Mustang Mach-E®, Maverick®, Ranger®, Transit®, E-Transit™, Lincoln Corsair® and Nautilus®; new 2024 Ford Super Duty® (pickup models only), Expedition®, and Lincoln Navigator® only; and new 2025 Ford Explorer® and Lincoln Aviator® only. Excludes all Bronco Stroppe models, Raptor® models, Mustang Dark Horse®, Mustang GTD, and all chassis cab models. U.S. residents only. Prior purchases not eligible. A/X/Z/D Plan ineligible. Place a new retail order or take new retail delivery from an authorized Ford Dealer’s or Lincoln Retailer’s stock by 6/2/25. See a participating dealer or retailer for details. The 2024 and 2025 Mustang Mach-E® SUV inventory may be limited and may vary by location. Please contact your Ford Dealer for the most current inventory status. Please contact your Ford Dealer for the most current inventory status.">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </fordtitle>
+                <fordtab
+                    jcr:created="{Date}2025-04-29T12:08:13.065+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-29T15:54:29.804+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtab"
+                    activeItem="item_1745908732395"
+                    cssClassName="SuvCars"
+                    id="ford_tab_container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                    <item_1745908732395
+                        cq:panelTitle="2024"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container">
+                        <fordtitle
+                            jcr:created="{Date}2025-04-29T12:21:33.547+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T12:22:22.905+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            title="SUVs &amp; Cars"
+                            titleFontSize="48px"
+                            titleFontWeight="500"/>
+                        <ford_carousel_152827
+                            jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T15:44:43.587+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/ford-carousel">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="7"/>
+                            </cq:responsive>
+                            <suvCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-1.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-3.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-4.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-5.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                            </suvCards>
+                        </ford_carousel_152827>
+                        <fordtitle_copy
+                            jcr:created="{Date}2025-04-29T12:21:33.547+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T12:36:46.692+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            title="Trucks &amp; Vans"
+                            titleFontSize="48px"
+                            titleFontWeight="500"/>
+                        <ford_carousel_152827_466877673
+                            jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T15:52:00.249+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/ford-carousel">
+                            <suvCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-1.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-3.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-4.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-5.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                            </suvCards>
+                        </ford_carousel_152827_466877673>
+                    </item_1745908732395>
+                    <item_1745908744826
+                        cq:panelTitle="2025"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container">
+                        <fordtitle_copy
+                            jcr:created="{Date}2025-04-29T12:21:33.547+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T12:35:15.151+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            title="SUVs &amp; Cars"
+                            titleFontSize="48px"
+                            titleFontWeight="500"/>
+                        <ford_carousel_152827
+                            jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T15:53:10.186+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/ford-carousel">
+                            <suvCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2025-1.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2025-2.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2025-3.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2025-4.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/car-2025-5.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                            </suvCards>
+                        </ford_carousel_152827>
+                        <fordtitle_copy_copy
+                            jcr:created="{Date}2025-04-29T12:21:33.547+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T12:35:46.837+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            title="Trucks &amp; Vans"
+                            titleFontSize="48px"
+                            titleFontWeight="500"/>
+                        <ford_carousel_152827_2050369148
+                            jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T15:54:18.872+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/ford-carousel">
+                            <suvCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-1.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-2.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-3.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-4.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    cta1Link="/content/ford/us/en"
+                                    cta1Text="Employee Service"
+                                    cta2Link="/content/ford/us/en"
+                                    cta2Text="Find a Dealer"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    imagePath="/content/dam/ford/landing-page/suv-imgs/suv-img-5.png"
+                                    priceDescription="Starting At MSRP $31,9201"
+                                    title="2024 Mustang®"/>
+                            </suvCards>
+                        </ford_carousel_152827_2050369148>
+                    </item_1745908744826>
+                </fordtab>
+            </container>
+            <container_1390198985
+                jcr:created="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-19T16:14:20.246+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container">
+                <herobanner
+                    jcr:created="{Date}2025-04-29T11:47:44.924+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-04-29T15:30:10.583+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/herobanner"
+                    fileReference="/content/dam/ford/images/hero-banner-emp-pricing.png"
+                    name="You Pay What We Pay"/>
+            </container_1390198985>
+        </root>
+    </jcr:content>
+</jcr:root>

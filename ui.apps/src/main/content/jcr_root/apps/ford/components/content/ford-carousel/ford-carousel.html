@@ -1,0 +1,38 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+<sly data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"/>
+<sly data-sly-call="${clientlib.css @ categories='ford.components.ford-carousel'}"/>
+<sly data-sly-call="${clientlib.js @ categories='ford.components.ford-carousel'}"/>
+<sly data-sly-use.model="com.aem.ford.core.models.SuvCard"
+     data-sly-test.hasContent="${!model.empty}">
+
+<div class="ford-carousel-wrapper">
+  <div class="ford-carousel-container">
+    <button class="carousel-arrow left">&#8249;</button>
+
+    <div class="ford-carousel-track">
+      <!-- Iterate over suvCards -->
+      <sly data-sly-list.item="${model.suvCards}">
+        <div class="ford_carousal_card">
+          <div class="ford_carousal_content">
+            <h3 class="ford_carousal_title">${item.title @ context='text'}</h3>
+            <p class="ford_carousal_price_desc">${item.priceDescription @ context='text'}</p>
+            <p class="ford_carousal_emp_price_desc">${item.employeePriceDescription @ context='text'}</p>
+          </div>
+          <img class="ford_carousal_img" src="${item.image @ context='uri'}" alt="${item.title @ context='text'}" />
+          <div class="ford_carousal_btns">
+            <a class="ford_carousal_btn_link primary-btn" href="${item.cta1Link @ context='uri'}">${item.cta1Text @ context='text'}</a>
+            <a class="ford_carousal_btn_link secondary-btn" href="${item.cta2Link @ context='uri'}">${item.cta2Text @ context='text'}</a>
+          </div>
+        </div>
+      </sly>
+    </div>
+
+    <button class="carousel-arrow right">&#8250;</button>
+  </div>
+</div>
+
+<!-- Placeholder for empty content -->
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
+
+

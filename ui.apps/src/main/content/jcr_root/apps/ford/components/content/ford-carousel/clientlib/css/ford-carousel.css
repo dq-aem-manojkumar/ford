@@ -1,0 +1,173 @@
+/* Wrapper for the entire carousel */
+
+.ford-carousel-wrapper {
+  position: relative;
+ /* Set the container to take 75% of the viewport width */
+  margin: 50px auto; /* Center-align the container horizontally */
+  overflow: hidden;
+  /* padding: 20px; */
+  border-radius: 16px; /* Optional: Add rounded corners */
+
+  
+}
+
+/* Carousel container */
+.ford-carousel-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Carousel track */
+.ford-carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px; /* Space between cards */
+  
+}
+
+/* Individual card styling */
+/* Individual card styling */
+.ford_carousal_card {
+  flex: 0 0 calc((93% / 3) - 20px); /* Ensure 3 cards fit in the viewport */
+  background: #f0f0f0F0;
+  border-radius: 16px;
+  display: flex;
+  /* height:70%; */
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  padding: 20px; /* Add padding inside the card */
+  overflow: hidden; /* Ensure content stays within the card */
+  border: 1px ;
+  /* border:3px solid red; */
+}
+
+/* Card image */
+.ford_carousal_img {
+  padding-top:30px;
+  /* border:3px solid blue; */
+
+  width: 100%; /* Make the image take the full width of the card */
+  height: 300px;
+  /* height: 50%; */
+  object-fit: cover; /* Ensure the image maintains its aspect ratio */
+}
+
+/* Card content */
+.ford_carousal_card > .ford_carousal_content {
+  padding: 15px; /* Add padding for the text content */
+  width: 100%; /* Ensure the content spans the full width of the card */
+}
+
+/* Card content */
+.ford_carousal_content {
+  padding: 15px; /* Add padding for the text content */
+  width: 100%; /* Ensure the content spans the full width of the card */
+}
+
+/* Card title */
+.ford_carousal_title {
+  margin:0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000; /* Black text */
+  margin-bottom: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Price description */
+.ford_carousal_price_desc {
+  margin:0px;
+  font-size: 14px;
+  color: #000; /* Black text */
+  margin-bottom: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Employee price description */
+.ford_carousal_emp_price_desc {
+  margin:0px;
+  font-weight:600;
+  font-size: 18px;
+  color: #000; /* Black text */
+  margin-bottom: 15px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Button container */
+.ford_carousal_btns {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start; /* Align buttons to the left */
+  margin-top: 10px;
+  width: 100%; /* Ensure buttons span the full width */
+  padding: 15px; /* Add padding around the buttons */
+  justify-content: space-between;
+  }
+
+/* Primary button */
+.primary-btn {
+  /* background-color: #0078d7; */
+  color: #0078d7;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border:2px solid #0078d7;
+}
+
+/* .primary-btn:hover {
+  background-color: #005bb5;
+} */
+
+/* Secondary button */
+.secondary-btn {
+  background-color: transparent;
+  color: #0078d7;
+  text-decoration: none;
+  padding: 8px 16px;
+  /* border: 2px solid #0078d7; */
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 5px;
+}
+
+.secondary-btn:hover {
+  background-color: #0078d7;
+  color: white;
+}
+
+/* Arrow buttons */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #4D4D4D; /* Apply the given background color */
+  color: white; /* Set the icon color to white */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make the buttons circular */
+  width: 50px; /* Set button width */
+  height: 50px; /* Set button height */
+  font-size: 30px; /* Increase icon size */
+  line-height: 1; /* Ensure proper alignment of the icon */
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+}
+
+/* Left arrow button */
+.carousel-arrow.left {
+  left: 20px; /* Position the left arrow */
+}
+
+/* Right arrow button */
+.carousel-arrow.right {
+  right: 20px; /* Position the right arrow */
+}

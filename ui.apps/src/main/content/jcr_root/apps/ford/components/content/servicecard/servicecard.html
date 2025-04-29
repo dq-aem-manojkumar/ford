@@ -1,6 +1,7 @@
 <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
 <sly data-sly-call="${clientlib.css @ categories='ford.components.servicecard'}" />
 
+
 <div class="service-card" data-sly-use.model="com.aem.ford.core.models.ServiceCard">
     <a class="service-card__link" href="${model.serviceCardPath @ context='uri'}.html">
         <div class="service-card__icon">
