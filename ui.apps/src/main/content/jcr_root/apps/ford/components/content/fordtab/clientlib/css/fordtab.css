@@ -50,3 +50,43 @@
 
 
 
+
+
+/* Style for Suv cars */
+
+
+.ford_tabSuvCars .cmp-tabs__tablist {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: fit-content;
+    overflow: hidden;
+    margin-left:80px;
+    justify-content: center;
+    
+  }
+  
+  
+  .ford_tabSuvCars .cmp-tabs__tab {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    margin:0px;
+    text-align: center;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ford_tabSuvCars .cmp-tabs__tab--active {
+    background-color: #0562D2; 
+    color: white;
+    border-radius: 6px;
+    margin:4px;
+  }
+  
+  

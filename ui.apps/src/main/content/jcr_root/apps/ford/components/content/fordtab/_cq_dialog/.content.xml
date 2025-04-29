@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
+          xmlns:cq="http://www.day.com/jcr/cq/1.0" 
+          xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Ford Tab"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs jcr:primaryType="nt:unstructured"
+                  sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                
+                    <properties jcr:primaryType="nt:unstructured"
+                                jcr:title="Properties"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                        </items>
+                    </properties>
+                    <cssClass jcr:primaryType="nt:unstructured"
+                              jcr:title="CSS Class"
+                              sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <cssClassName jcr:primaryType="nt:unstructured"
+                                          sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                          fieldLabel="CSS Class Name"
+                                          name="./cssClassName"
+                                          emptyText="SuvCars"/>
+                        </items>
+                    </cssClass>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
