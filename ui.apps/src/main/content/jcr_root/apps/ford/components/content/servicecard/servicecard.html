@@ -1,17 +1,23 @@
 <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
 <sly data-sly-call="${clientlib.css @ categories='ford.components.servicecard'}" />
 
-<div class="service-card" data-sly-use.model="com.aem.ford.core.models.ServiceCard">
-    <a class="service-card__link" href="${model.serviceCardPath @ context='uri'}.html">
-        <div class="service-card__icon">
-            <img src="${model.serviceCardIcon @ context='uri'}" alt="Service Card Icon" />
-        </div>
-        <div class="service-card__content">
-            <h2 class="service-card__title">${model.serviceCardTitle}</h2>
-            <p class="service-card__description">${model.serviceCardDescription}</p>
-        </div>
-    </a>
-    <div 
-        class="service-card-round"><span class="service-card-arrow">&#9002;</span>
+<sly data-sly-use.model="com.aem.ford.core.models.ServiceCard">
+    <div class="service-card-container">
+        <sly data-sly-list.serviceCard="${model.serviceCards}">
+            <div class="service-card">
+                <a class="service-card__link" href="${serviceCard.serviceCardPath @ context='uri'}">
+                    <div class="service-card__icon">
+                        <img src="${serviceCard.serviceCardIcon @ context='uri'}" alt="Service Card Icon" />
+                    </div>
+                    <div class="service-card__content">
+                        <h2 class="service-card__title">${serviceCard.serviceCardTitle}</h2>
+                        <p class="service-card__description">${serviceCard.serviceCardDescription}</p>
+                    </div>
+                </a>
+                <div class="service-card-round">
+                    <span class="service-card-arrow">&#9002;</span>
+                </div>
+            </div>
+        </sly>
     </div>
-</div>
+</sly>
