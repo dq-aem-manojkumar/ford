@@ -174,7 +174,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="8"/>
+                            width="12"/>
                     </cq:responsive>
                 </fordtitle>
                 <container_1421885593

@@ -72,7 +72,8 @@
   white-space: nowrap; /* Prevent wrapping */
   overflow: hidden; /* Hide overflowing text */
   text-overflow: ellipsis;
-  max-height: 25px; }
+  max-height: 25px; 
+}
 
 .vehicle-card-description {
   font-size: 16px;
@@ -89,9 +90,6 @@
   max-height: 20px;
   text-overflow: ellipsis;
 }
-
-
-
 
 
 .vehicle-card-buttons {

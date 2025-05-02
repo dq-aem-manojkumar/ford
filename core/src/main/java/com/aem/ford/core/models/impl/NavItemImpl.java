@@ -11,18 +11,15 @@ public class NavItemImpl implements NavItem {
     @ValueMapValue
     private String label;
 
-    @ValueMapValue
-    private String path;
+    // @ValueMapValue
+    // private String path;
 
     @Override
     public String getLabel() {
         return label;
     }
 
-    @Override
-    public String getPath() {
-        return path+".html";
-    }
+   
 }
 
 
