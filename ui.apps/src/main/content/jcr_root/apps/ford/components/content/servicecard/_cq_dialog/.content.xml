@@ -44,14 +44,16 @@
                                             fieldLabel="Title"
                                             name="serviceCardTitle"
                                             required="{Boolean}true"
-                                            description="Enter the title for the service card" />
+                                            description="Enter the title for the service card" 
+                                            maxlength= "50"/>
                                         <serviceCardDescription
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
                                             fieldLabel="Description"
                                             name="serviceCardDescription"
                                             required="{Boolean}false"
-                                            description="Enter the description for the service card" />
+                                            description="Enter the description for the service card" 
+                                            maxlength= "100"/>
                                         <serviceCardPath
                                             jcr:primaryType="nt:unstructured"
                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"

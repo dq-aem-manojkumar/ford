@@ -9,7 +9,7 @@
           <img src="${card.imagePath @ context='uri'}" alt="${card.title}" class="vehicle-card-image" />
           <sly data-sly-test="${card.shownPriceLabel}">
             <a href="${card.overlayLink @ context='uri'}" class="vehicle-card-price-label-link">
-              <span class="vehicle-card-price-label">${card.shownPriceLabel}</span>
+             <span class="vehicle-card-price-label">${card.shownPriceLabel}</span> 
             </a>
           </sly>
         </div>
@@ -17,7 +17,7 @@
         <div class="vehicle-card-content">
           <h2 class="vehicle-card-title">${card.title}Text<sup>®</sup></h2>
           <p class="vehicle-card-price">Starting at ${card.price}<sup>1</sup></p>
-          <p class="vehicle-card-description">${card.description}</p>
+          <p class="vehicle-card-description"style="max-height: 80px; " >${card.description}</p>
           <div class="vehicle-card-buttons" >
             <sly data-sly-test="${card.cta1Text && card.cta1Link}">
               <a href="${card.cta1Link @ context='uri'}" class="vehicle-card-btn blue">${card.cta1Text}</a>

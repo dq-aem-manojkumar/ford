@@ -45,14 +45,16 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                 name="./headingText"
-                                fieldLabel="Heading Text" />
+                                fieldLabel="Heading Text" 
+                                maxlength="50"/>
 
 
                             <secondaryText
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                 name="./secondaryText"
-                                fieldLabel="Secondary Text Link Label" />
+                                fieldLabel="Secondary Text Link Label" 
+                                maxlength="50"/>
 
                             <secondaryLink
                                 jcr:primaryType="nt:unstructured"

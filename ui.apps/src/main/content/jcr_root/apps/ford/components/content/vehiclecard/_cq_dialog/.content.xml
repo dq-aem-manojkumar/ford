@@ -51,7 +51,8 @@
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                             fieldLabel="Overlay Text"
-                                                            name="./overlayText" />
+                                                            name="./overlayText"
+                                                            maxlength="20" />
                                                         <overlayLink
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
@@ -77,7 +78,8 @@
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                             fieldLabel="CTA 1 Text"
-                                                            name="./cta1Text" />
+                                                            name="./cta1Text" 
+                                                            maxlength="30" />
                                                         <cta1Link
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
@@ -88,7 +90,8 @@
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                             fieldLabel="CTA 2 Text"
-                                                            name="./cta2Text" />
+                                                            name="./cta2Text"
+                                                            maxlength="30" />
                                                         <cta2Link
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"

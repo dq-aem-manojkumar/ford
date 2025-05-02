@@ -7,12 +7,14 @@
     padding: 20px;
     width: auto;
     
+    
 }
 
 /* Left Section: Language Change */
 .language-change {
     display: flex;
     align-items: center; /* Vertically align icon and text */
+    
 }
 
 .language-link {

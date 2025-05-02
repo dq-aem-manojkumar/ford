@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-29T15:54:29.809+05:30"
+        cq:lastModified="{Date}2025-04-30T14:57:07.597+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -19,7 +19,7 @@
                 <fordtitle
                     jcr:created="{Date}2025-04-29T12:40:35.107+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-29T12:41:19.928+05:30"
+                    jcr:lastModified="{Date}2025-04-30T14:44:58.184+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtitle"
@@ -34,7 +34,7 @@
                 <fordtab
                     jcr:created="{Date}2025-04-29T12:08:13.065+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-29T15:54:29.804+05:30"
+                    jcr:lastModified="{Date}2025-04-30T14:45:35.667+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtab"
@@ -64,7 +64,7 @@
                         <ford_carousel_152827
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T15:44:43.587+05:30"
+                            jcr:lastModified="{Date}2025-04-30T14:54:57.507+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -81,40 +81,40 @@
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
-                                    imagePath="/content/dam/ford/images/carousal-suvs/car-1.png"
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* &#xd;&#xa;"
+                                    imagePath="/content/dam/ford/images/carousal-suvs/mustang.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    title="2024 Mustang®2024"/>
                                 <item1
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting at MSRP $27,446* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $29,4951 &#xd;&#xa;&#xd;&#xa;"
+                                    title="2024 Escape®"/>
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting at MSRP $28,169* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-3.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $29,7951 &#xd;&#xa;&#xd;&#xa;"
+                                    title="2024 Bronco Sport®"/>
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting at MSRP $37,341* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-4.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting at MSRP $39,6301 &#xd;&#xa;&#xd;&#xa;"
+                                    title="2024 Bronco®"/>
                                 <item4
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
@@ -197,6 +197,42 @@
                                     title="2024 Mustang®"/>
                             </suvCards>
                         </ford_carousel_152827_466877673>
+                        <container
+                            jcr:created="{Date}2025-04-29T16:04:35.746+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-29T16:04:35.746+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/container">
+                            <servicecard
+                                jcr:created="{Date}2025-04-29T16:04:43.000+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-04-30T14:57:07.592+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/servicecard">
+                                <serviceCards jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        serviceCardDescription="Find Your ford Vehicle"
+                                        serviceCardIcon="/content/dam/ford/icons/service-card-1.svg"
+                                        serviceCardPath="/content/ford/us/en"
+                                        serviceCardTitle="Search Inventory"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        serviceCardDescription="See Pricing on Your local Dealer"
+                                        serviceCardIcon="/content/dam/ford/icons/service-card-2.svg"
+                                        serviceCardPath="/content/ford/language-masters/en"
+                                        serviceCardTitle="Get A Quote"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        serviceCardDescription="Personalize your new Vehicle"
+                                        serviceCardIcon="/content/dam/ford/icons/service-card-3.svg"
+                                        serviceCardPath="/content/ford/us/en"
+                                        serviceCardTitle="Build &amp; Price"/>
+                                </serviceCards>
+                            </servicecard>
+                        </container>
                     </item_1745908732395>
                     <item_1745908744826
                         cq:panelTitle="2025"
@@ -215,7 +251,7 @@
                         <ford_carousel_152827
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T15:53:10.186+05:30"
+                            jcr:lastModified="{Date}2025-04-29T16:22:03.695+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -228,7 +264,7 @@
                                     cta2Text="Find a Dealer"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-1.png"
-                                    priceDescription="Starting At MSRP $31,9201"
+                                    priceDescription="Starting At MSRP $31,9201 "
                                     title="2024 Mustang®"/>
                                 <item1
                                     jcr:primaryType="nt:unstructured"
@@ -236,20 +272,20 @@
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Price Starting at MSRP $27,130* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-2.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting at MSRP $29,1501 "
+                                    title="2025 Escape®"/>
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $28,355* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-3.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $29,9951 "
+                                    title="2025 Bronco Sport®"/>
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
@@ -285,7 +321,7 @@
                         <ford_carousel_152827_2050369148
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T15:54:18.872+05:30"
+                            jcr:lastModified="{Date}2025-04-29T16:23:35.550+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -296,30 +332,30 @@
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $25,693* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-1.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $26,9951 &#xd;&#xa;&#xd;&#xa;"
+                                    title="2025 Maverick®"/>
                                 <item1
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $31,067* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-2.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $33,0801 "
+                                    title="2025 Ranger®"/>
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
                                     cta1Text="Employee Service"
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
-                                    employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
+                                    employeePriceDescription="Employee Pricing Starting At MSRP $35,799* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-3.png"
-                                    priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    priceDescription="Starting At MSRP $38,8101 "
+                                    title="2025 F-150®"/>
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
@@ -355,12 +391,13 @@
                 <herobanner
                     jcr:created="{Date}2025-04-29T11:47:44.924+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-29T15:30:10.583+05:30"
+                    jcr:lastModified="{Date}2025-04-30T14:40:49.309+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/herobanner"
                     fileReference="/content/dam/ford/images/hero-banner-emp-pricing.png"
-                    name="You Pay What We Pay"/>
+                    name="You Pay What We Pay You Pay You Pay What We Pay Yo"
+                    occupations="*important details "/>
             </container_1390198985>
         </root>
     </jcr:content>

@@ -40,7 +40,8 @@
                                                 fieldLabel="Button Text"
                                                 name="./text"
                                                 required="{Boolean}true"
-                                                emptyText="Enter button text" />
+                                                emptyText="Enter button text" 
+                                                maxlength="30"/>
 
                                             <!-- Button Link -->
                                             <link

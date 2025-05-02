@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-29T15:26:12.976+05:30"
+        cq:lastModified="{Date}2025-05-02T11:11:22.299+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -22,20 +22,21 @@
                 <fordtitle
                     jcr:created="{Date}2025-04-29T14:34:35.746+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-29T15:06:18.621+05:30"
+                    jcr:lastModified="{Date}2025-04-30T15:40:04.358+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtitle"
-                    description="These capable vehicles combine towing capacity with spacious interiors for cargo and passengers (seating for up to eight on select models). And the Mustang® Mach-E® delivers soul-stirring EV power in a beautifully versatile package. Whether you’re seeking family-focused practicality or exhilarating performance—or both—you’ll find it in a Ford SUV."
+                    description="These capable vehicles combine towing capacity with spacious interiors for cargo and passengers (seating for up to eight on select models). And the Mustang® Mach-E® delivers soul-stirring EV power in a beautifully versatile package. Whether you’re seeking family-focused practicality or exhilarating performance—or both—you’ll find it in a Ford SUV.These capable vehicles combine towing capacity with spacious interiors for cargo and passengers (seating for up to eight on select models)."
+                    descriptionFontSize="18px"
                     margin="80px 30px"
                     title="Ford SUVs"
-                    titleFontSize="48px"
-                    titleFontWeight="500">
+                    titleFontSize="54px"
+                    titleFontWeight="300">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="10"/>
+                            width="6"/>
                     </cq:responsive>
                 </fordtitle>
                 <fordtitle_2056470143
@@ -72,7 +73,7 @@
                     <vehiclecard
                         jcr:created="{Date}2025-04-29T14:37:06.918+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-04-29T15:25:10.430+05:30"
+                        jcr:lastModified="{Date}2025-04-30T14:35:29.347+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/vehiclecard">
@@ -89,7 +90,7 @@
                                 cta1Text="Build Price"
                                 cta2Link="/content/ford/us/en"
                                 cta2Text="Search Inventory"
-                                description="Starting at $62,000 1 &#xd;&#xa;Featuring an eye-catching exterior with a plush and adaptable interior, the all-new 2025 Ford Expedition® SUV is thoughtfully designed to help you get more out of every moment"
+                                description="Starting at $62,000 1 &#xd;&#xa;Featuring an eye-catching exterior with a plush and adaptable interior, the all-new 2025 Ford Expedition® SUV is thoughtfully designed to help you get more out of every momentStarting at $62,000 1 "
                                 image="/content/dam/ford/images/suvs/suv-2.png"
                                 overlayText="As Shown Price"
                                 price="2025 Ford Expedition® SUV"
@@ -180,7 +181,7 @@
                     <vehiclecard_copy_812359634
                         jcr:created="{Date}2025-04-29T14:37:06.918+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-04-29T15:25:43.124+05:30"
+                        jcr:lastModified="{Date}2025-04-29T16:39:30.300+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/vehiclecard">
@@ -197,7 +198,7 @@
                                 cta1Text="Build Price"
                                 cta2Link="/content/ford/us/en"
                                 cta2Text="Search Inventory"
-                                description="Starting at $62,000 1 &#xd;&#xa;Featuring an eye-catching exterior with a plush and adaptable interior, the all-new 2025 Ford Expedition® SUV is thoughtfully designed to help you get more out of every moment"
+                                description="Starting at $62,000 1 &#xd;&#xa;Featuring an eye-catching exterior with a plush and adaptable interior, the all-new 2025 Ford Expedition® SUV is thoughtfully designed to help you get more out of every momentOthers who use "
                                 image="/content/dam/ford/images/suvs/suv-8.png"
                                 overlayText="As Shown Price"
                                 price="2025 Ford Expedition® SUV"

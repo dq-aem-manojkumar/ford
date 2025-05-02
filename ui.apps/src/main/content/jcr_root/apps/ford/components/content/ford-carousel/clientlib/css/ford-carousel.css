@@ -67,31 +67,46 @@
 
 /* Card title */
 .ford_carousal_title {
-  margin:0px;
+  margin: 0px;
   font-size: 20px;
   font-weight: bold;
   color: #000; /* Black text */
   margin-bottom: 10px;
   text-align: left; /* Align text to the left */
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
 }
 
 /* Price description */
 .ford_carousal_price_desc {
-  margin:0px;
+  margin: 0px;
   font-size: 14px;
   color: #000; /* Black text */
   margin-bottom: 5px;
   text-align: left; /* Align text to the left */
+  display: -webkit-box; /* Use WebKit box model for line clamping */
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  line-clamp: 2; /* Standard property for compatibility */
+  line-clamp: 2; /* Standard property for compatibility */
+  -webkit-box-orient: vertical; /* Set box orientation to vertical */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
 }
 
 /* Employee price description */
 .ford_carousal_emp_price_desc {
-  margin:0px;
-  font-weight:600;
+  margin: 0px;
+  font-weight: 600;
   font-size: 18px;
   color: #000; /* Black text */
   margin-bottom: 15px;
   text-align: left; /* Align text to the left */
+  display: -webkit-box; /* Use WebKit box model for line clamping */
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical; /* Set box orientation to vertical */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
 }
 
 /* Button container */

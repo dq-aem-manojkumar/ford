@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-24T18:27:25.247+05:30"
+        cq:lastModified="{Date}2025-04-29T18:00:19.749+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/ford/settings/wcm/templates/xf-web-variation"
@@ -12,8 +12,12 @@
         jcr:title="Global Footer"
         sling:resourceType="ford/components/xfpage">
         <root
+            jcr:lastModified="{Date}2025-04-29T18:00:19.745+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="ford/components/container"
+            backgroundColor="#f2f2f2"
+            id="footer_container"
             layout="responsiveGrid">
             <button_copy jcr:primaryType="nt:unstructured"/>
             <customaccordion

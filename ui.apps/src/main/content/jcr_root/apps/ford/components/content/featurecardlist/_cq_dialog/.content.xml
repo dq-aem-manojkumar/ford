@@ -47,7 +47,8 @@
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                             fieldLabel="Title"
                                                             name="./title"
-                                                            required="true"/>
+                                                            required="true"
+                                                            maxlength="28"/>
                                                         <description
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
