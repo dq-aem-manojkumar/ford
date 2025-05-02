@@ -51,6 +51,7 @@
   padding-top: 16px; 
   padding-left: 16px; 
   color: #333;
+  
 }
 
 .vehicle-card-title {
@@ -60,19 +61,38 @@
   padding: 0px 0px 10px;
   line-height: 1.21428571;
   -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+  max-height: 30px;
+  text-overflow: ellipsis;
 }
 
 .vehicle-card-price {
   font-size: 20px;
   line-height: 1.21428571;
   -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+  max-height: 25px;
+  text-overflow: ellipsis;
 }
 
 .vehicle-card-description {
   font-size: 16px;
   line-height: 1.21428571;
   -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+  max-height: 20px;
+  text-overflow: ellipsis;
 }
+
+.vehicle-card-price-label {
+  width: 100px; /* Inherit the width of the parent */
+  height: 20px; /* Inherit the height of the parent */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+  overflow: hidden; /* Hide overflowing content */
+  color:aliceblue;
+}
+
+
 
 .vehicle-card-buttons {
   display: flex;

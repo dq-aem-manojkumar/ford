@@ -28,8 +28,7 @@
                             <groupname
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
-                                    composite="true"
-                                   >
+                                    composite="true" >
 
                                 <field
                                         jcr:primaryType="nt:unstructured"
