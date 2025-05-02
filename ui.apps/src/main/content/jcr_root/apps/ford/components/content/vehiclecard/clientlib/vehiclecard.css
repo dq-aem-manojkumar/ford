@@ -1,20 +1,17 @@
-* {
-  font-family: "FordMotion, arial, sans-serif";
-  font-weight: normal;
-}
-
 .vehicle-cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin: 30px;
+ 
 }
 
 .vehicle-card {
   background: transparent;
   box-shadow: none;
   border-radius: 0;
-  padding: 0;
+  padding: 0px;
+  margin-bottom: 45px;
 }
 
 .vehicle-card-image-wrapper {
@@ -50,48 +47,49 @@
 .vehicle-card-content {
   padding-top: 16px; 
   padding-left: 16px; 
+  max-height: 200px;
   color: #333;
   
 }
 
 .vehicle-card-title {
-  font-size: 28px;
-  font-weight: lighter;
+  font-size: 38px;
+  font-weight: 400;
   margin: 0px 0px 10px;
   padding: 0px 0px 10px;
   line-height: 1.21428571;
   -webkit-text-size-adjust: 100%;
-  overflow: hidden;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
   max-height: 30px;
-  text-overflow: ellipsis;
 }
 
 .vehicle-card-price {
   font-size: 20px;
   line-height: 1.21428571;
   -webkit-text-size-adjust: 100%;
-  overflow: hidden;
-  max-height: 25px;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflowing text */
   text-overflow: ellipsis;
+  max-height: 25px; 
 }
 
 .vehicle-card-description {
   font-size: 16px;
-  line-height: 1.21428571;
-  -webkit-text-size-adjust: 100%;
+  line-height: 1.5; /* Adjust line height for better readability */
+  max-height: calc(1.5em * 3); /* Limit to 3 lines (line-height * 3) */
+  overflow: hidden; /* Hide overflowing text */
+  display: -webkit-box; /* Use WebKit box model for line clamping */
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  line-clamp: 3; /* Standard property for compatibility */
+  -webkit-box-orient: vertical; /* Set box orientation to vertical */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
+  margin-bottom: 60px;
   overflow: hidden;
   max-height: 20px;
   text-overflow: ellipsis;
 }
-
-.vehicle-card-price-label {
-  width: 100px; /* Inherit the width of the parent */
-  height: 20px; /* Inherit the height of the parent */
-  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
-  overflow: hidden; /* Hide overflowing content */
-  color:aliceblue;
-}
-
 
 
 .vehicle-card-buttons {

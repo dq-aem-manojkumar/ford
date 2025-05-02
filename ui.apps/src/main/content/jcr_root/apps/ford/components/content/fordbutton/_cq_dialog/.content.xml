@@ -41,7 +41,7 @@
                                                 name="./text"
                                                 required="{Boolean}true"
                                                 emptyText="Enter button text" 
-                                                maxlength="20"/>
+                                                maxlength="30"/>
 
                                             <!-- Button Link -->
                                             <link

@@ -88,4 +88,6 @@
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
     <home/>
+    <employee-pricing/>
+    <suvs/>
 </jcr:root>

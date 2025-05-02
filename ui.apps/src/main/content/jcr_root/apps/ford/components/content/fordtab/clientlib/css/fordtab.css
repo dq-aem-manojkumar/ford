@@ -1,4 +1,4 @@
-
+/* Default Styling */
 .ford_tab .cmp-tabs__tablist {
     display: flex;
     border-bottom: none;
@@ -54,15 +54,18 @@
 
 /* Style for Suv cars */
 
-
+.ford_tabSuvCars{
+    margin: 60px 0px;
+}
 .ford_tabSuvCars .cmp-tabs__tablist {
     display: flex;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 1px solid rgb(19, 19, 19);
+    border-radius: 3px;
     width: fit-content;
     overflow: hidden;
-    margin-left:80px;
+    /* margin-left:80px; */
     justify-content: center;
+    
     
   }
   
@@ -85,8 +88,8 @@
   .ford_tabSuvCars .cmp-tabs__tab--active {
     background-color: #0562D2; 
     color: white;
-    border-radius: 6px;
+    border-radius: 4px;
     margin:4px;
   }
   
-  
+

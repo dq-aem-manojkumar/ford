@@ -49,11 +49,11 @@ public class HeroBannerImpl implements HeroBanner {
         // set the image object
         image = modelFactory.getModelFromWrappedRequest(request, request.getResource(), Image.class);
         if(StringUtils.isBlank(name)) {
-            name = "Youre Title Here"; // Set a default name if none is provided
+            name = ""; // Set a default name if none is provided
         }
         if (occupations == null || occupations.isEmpty()) {
             occupations = new ArrayList<>();
-            occupations.add("Sub Titles"); // Set a default occupation if none is provided
+            occupations.add(""); // Set a default occupation if none is provided
         }
     }
 
