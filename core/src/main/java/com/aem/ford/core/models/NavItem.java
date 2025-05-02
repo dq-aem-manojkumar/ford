@@ -6,5 +6,5 @@ public interface NavItem {
    
     String getLabel();
 
-    String getPath();
+    
 }

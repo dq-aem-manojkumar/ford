@@ -46,11 +46,12 @@ justify-items: space-between;
   color:white;
   font-weight:300;
   font-size: 50px;
-  /* s */
   margin:10px 0px 0px 0px;
   line-height: 1;
-  padding:0px;
-}
+  padding-bottom:50px;
+  overflow: hidden; 
+  max-height: 50px;
+} 
 
 .featurecard-description {
   width: 373px;
