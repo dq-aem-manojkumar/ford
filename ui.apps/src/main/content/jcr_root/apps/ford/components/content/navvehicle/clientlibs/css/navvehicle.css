@@ -1,0 +1,53 @@
+.nav-vehicle-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0px 0px;
+  
+  width:auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0);
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  text-align: center;
+  border: none;
+}
+
+.nav-vehicle-card .vehicle-image img {
+  width: 90%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto 12px auto;
+}
+
+.nav-vehicle-card .vehicle-details {
+  padding: 0 8px;
+}
+
+.nav-vehicle-card .vehicle-title {
+  font-size: 1.25rem;
+  margin: 0 0 -3px 0;
+  color: #333;
+}
+
+.nav-vehicle-card .vehicle-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-vehicle-card .vehicle-title a:hover,
+.nav-vehicle-card .vehicle-title a:focus {
+  text-decoration: none;
+}
+
+.nav-vehicle-card .price-description {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 0 6px 0;
+}
+
+.nav-vehicle-card .vehicle-category {
+  font-size: 0.9rem;
+  color: #999;
+  margin: 0;
+  font-style: italic;
+}
