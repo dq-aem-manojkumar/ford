@@ -1,0 +1,29 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='ford.components.navvehicle'}"/>
+
+<sly data-sly-use.navVehicle="com.aem.ford.core.models.impl.NavVehicle">
+<div class="nav-vehicle-card">
+    <div class="vehicle-image">
+      <sly data-sly-test="${navVehicle.path}">
+        <a href="${navVehicle.path}.html">
+          <img src="${navVehicle.vehicleImage @ context='uri'}" alt="${navVehicle.vehicleTitle @ context='text'}" />
+        </a>
+      </sly>
+      <sly data-sly-test="${!navVehicle.path}">
+        <img src="${navVehicle.vehicleImage @ context='uri'}" alt="${navVehicle.vehicleTitle @ context='text'}" />
+      </sly>
+    </div>
+    <div class="vehicle-details">
+      <h2 class="vehicle-title">
+        <sly data-sly-test="${navVehicle.path}">
+          <a href="${navVehicle.path}.html">${navVehicle.vehicleTitle}</a>
+        </sly>
+        <sly data-sly-test="${!navVehicle.path}">
+          ${navVehicle.vehicleTitle}
+        </sly>
+      </h2>
+      <p class="price-description">${navVehicle.priceDescription}</p>
+      <p class="vehicle-category">${navVehicle.vehicleCategory}</p>
+    </div>
+  </div>
+</sly>
