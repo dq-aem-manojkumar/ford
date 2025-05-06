@@ -208,13 +208,13 @@
                 <policy_1574694950110
                     cq:styleDefaultElement="div"
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-24T15:42:30.223+05:30"
+                    jcr:lastModified="{Date}2025-05-05T17:11:19.937+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Footer Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
                     backgroundColorEnabled="true"
-                    components="[/libs/foundation/components/text,/apps/ford/components/container,/apps/ford/components/separator,group:ford - Structure,/apps/ford/components/content/customaccordion,/apps/ford/components/content/footer,/apps/ford/components/content/footersearch,/apps/ford/components/content/footertail,/apps/ford/components/content/contactus]"
+                    components="[/libs/foundation/components/text,/apps/ford/components/container,/apps/ford/components/separator,group:ford - Structure,/apps/ford/components/content/customaccordion,/apps/ford/components/content/footer,/apps/ford/components/content/footersearch,/apps/ford/components/content/footertail,/apps/ford/components/content/contactus,/apps/ford/components/content/fordbutton,/apps/ford/components/content/fordtitle,/apps/ford/components/content/linklist,/apps/ford/components/content/navvehicle,/apps/ford/components/content/verticletab]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -289,12 +289,13 @@
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-22T14:38:35.429+05:30"
+                    jcr:lastModified="{Date}2025-05-06T09:27:23.014+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="NavBar Polciy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/content/navbar]"
+                    backgroundColorEnabled="true"
+                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/container,/apps/ford/components/content/fordbutton,/apps/ford/components/content/fordtitle,/apps/ford/components/content/linklist,/apps/ford/components/content/navvehicle,/apps/ford/components/content/navbar]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">

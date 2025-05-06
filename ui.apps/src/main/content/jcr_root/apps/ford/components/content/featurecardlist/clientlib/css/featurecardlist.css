@@ -50,7 +50,7 @@ justify-items: space-between;
   line-height: 1;
   padding-bottom:50px;
   overflow: hidden;
-  max-height: 20px;
+  max-height: 80px;
 }
 .featurecard-description {
   width: 373px;

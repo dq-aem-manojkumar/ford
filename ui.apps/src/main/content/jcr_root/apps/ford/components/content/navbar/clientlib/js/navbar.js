@@ -28,6 +28,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+//Vehicle Dropdown logic
+const vehicleToggle = document.getElementById('vehicleToggle');
+  const vehicleMenu = document.getElementById('vehicleMenu');
+
+ 
+  if (vehicleToggle && vehicleMenu) {
+    vehicleToggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      vehicleMenu.classList.toggle('show');
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!vehicleToggle.contains(e.target) && !vehicleMenu.contains(e.target)) {
+        vehicleMenu.classList.remove('show');
+      }
+    });
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 

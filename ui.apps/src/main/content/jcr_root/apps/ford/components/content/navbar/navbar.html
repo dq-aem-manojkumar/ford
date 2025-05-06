@@ -9,7 +9,7 @@
     <div class="navbar-left">
       <ul>
         <sly data-sly-list.item="${nav.navItems}">
-          <li  class="${item.label == 'Shop' ? 'shop-label' : (item.label == 'Vehicles' ? 'vehicle-label' : (item.label == 'Support&Services' ? 'support-label' : ''))}"
+          <li  class="${item.label == 'Shop' ? 'shop-label' : (item.label == 'Vehicle' ? 'vehicle-label' : (item.label == 'Support&Services' ? 'support-label' : ''))}"
           id="${item.label == 'Shop' ? 'shopToggle' : (item.label == 'Vehicle' ? 'vehicleToggle' : (item.label == 'Support&Services' ? 'supportToggle' : ''))}">
            
               ${item.label}
@@ -50,92 +50,74 @@
     </div>
   </nav>
 
+
+
+
+  
+
   <!-- User Icon Drop Down -->
   <div class="user-menu" id="userMenu">
-    <h3>Get more with a Ford Account</h3>
-    <p>
-      Sign in for easier vehicle and accessories shopping, order tracking, or to
-      manage your vehicle.
-    </p>
-
-    <div class="button-group">
-      <a href="#" class="sign">Sign In</a>
-      <a href="#" class="create">Create Account</a>
-    </div>
-
-    <ul>
-      <li><a href="/order-status">Check Order Status</a></li>
-      <li><a href="/payment-center">Payment Center</a></li>
-      <li><a href="/fordpass-rewards">FordPass Rewards</a></li>
-      <li><a href="/saved-items">Saved Items</a></li>
-    </ul>
+  <div class="container"
+  data-sly-resource="${'userContainer' @ resourceType='core/wcm/components/container/v1/container'}"
+></div>
   </div>
 
   <!-- Language Icon Drop Down -->
 
   <div class="globe-menu" id="globeMenu">
-    <ul>
-      <li class="english"><a href="/english">English</a></li>
-      <hr />
-      <li><a href="/spanish">Spanish</a></li>
-    </ul>
+  <div class="container"
+  data-sly-resource="${'globeContainer' @ resourceType='core/wcm/components/container/v1/container'}"
+></div>
   </div>
 
   <!--  Shop Drop Down -->
   <div class="shop-menu" id="shopMenu">
-    <ul class="list1">
-      <li><a href="/build-price">Build&Price</a></li>
-      <li><a href="/search-inventory">Search Inventory</a></li>
-      <li><a href="/local-dealers">Local Dealer</a></li>
-      <li>
-        <a href="/accessories"
-          >Accessories<span class="arrow">&rsaquo;</span></a
-        >
-      </li>
-
-      <li><a href="/merchandise">Merchandise</a></li>
-      <li><a href="/special-offers">Special Offers</a></li>
-      <li><a href="/certified-used">Certified Used</a></li>
-      <li><a href="/ev-charges">Ev Charges</a></li>
-      <li><a href="/parts">Parts</a></li>
-    </ul>
-
-    <ul class="list2">
-      <li><a href="/credit">Credit</a></li>
-      <li><a href="/financing-options">Financing Options</a></li>
-      <li><a href="/pre-qualify">Pre-Qualify</a></li>
-    </ul>
+    <div class="container"
+    data-sly-resource="${'shopContainer' @ resourceType='core/wcm/components/container/v1/container'}"
+  ></div>
   </div>
 
   <!--/* Support Menu */-->
 
   <div class="support-menu" id="supportMenu">
-    <ul>
-      <li><a href="/support-home">SupportHome</a></li>
-      <li><a href="/recalls">Recalls</a></li>
-      <li class="support">
-        <a href="/vehicle-support"
-          >Vehicle Support<span class="support-arrow">&rsaquo;</span></a
-        >
-      </li>
-      <li class="support">
-        <a href="/maintenance"
-          >Maintenance<span class="support-arrow">&rsaquo;</span></a
-        >
-      </li>
-      <li class="support">
-        <a href="/get-to-know-your-vehicle"
-          >Get to Know Your Vehicle<span class="support-arrow"
-            >&rsaquo;</span
-          ></a
-        >
-      </li>
-      <li class="support">
-        <a href="/technology"
-          >Technology<span class="support-arrow">&rsaquo;</span></a
-        >
-      </li>
-      <li><a href="/contact-us">Contact Us</a></li>
-    </ul>
+
+    <div class="container"
+    data-sly-resource="${'supportContainer' @ resourceType='core/wcm/components/container/v1/container'}"
+  ></div>
+  </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  <!--/* Vehicle Menu */-->
+  <div class="vehicle-menu" id="vehicleMenu">
+
+
+  <div class="container"
+  data-sly-resource="${'navItems' @ resourceType='ford/components/content/verticletab'}"
+></div>
   </div>
+
+
+
+
 </sly>

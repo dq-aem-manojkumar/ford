@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-05-03T09:00:51.773+05:30"
+        cq:lastModified="{Date}2025-05-06T13:59:18.813+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -288,7 +288,7 @@
                     </vehiclecard_copy_1629773875>
                 </container>
                 <findvehiclepromo
-                    cq:styleIds="[1746173585704]"
+                    cq:styleIds="[1746173631178]"
                     jcr:created="{Date}2025-04-29T15:13:31.617+05:30"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2025-04-29T15:16:05.122+05:30"
@@ -308,14 +308,14 @@
                         <fordtitle
                             jcr:created="{Date}2025-04-29T15:16:19.543+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T15:24:07.497+05:30"
+                            jcr:lastModified="{Date}2025-05-06T13:59:18.807+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/fordtitle"
                             description="Discover the vehicle that offers towing features and capability you need. Take our simple three-step quiz to find the perfect ride for your everyday adventures."
                             descriptionFontSize="16px"
                             padding="10px"
-                            title="Find Which Vehicle Fits Your Towing Needs"
+                            title="Find Which Vehicle Fits Your Towing "
                             titleFontSize="40px"
                             titleFontWeight="500"/>
                         <fordbutton
