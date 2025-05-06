@@ -1,0 +1,23 @@
+.ford_findvehiclepromo {
+    display: flex;
+
+    &--row .hero_award__layout{
+        flex-direction: row;
+    }
+
+    &--column .hero_award__layout{
+        flex-direction: column;
+    }
+
+    &--row-reverse .hero_award__layout{
+        flex-direction: row-reverse;
+    }
+
+    &--column-reverse .hero_award__layout{
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+

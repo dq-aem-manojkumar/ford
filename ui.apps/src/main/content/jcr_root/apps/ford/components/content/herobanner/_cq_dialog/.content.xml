@@ -41,7 +41,6 @@
                                                     fieldDescription="The contributor's name to display."
                                                     fieldLabel="Title"
                                                     name="./name"
-                                                    required="{Boolean}true"
                                                     maxlength="50"/>
                                             <occupations
                                                     jcr:primaryType="nt:unstructured"
@@ -55,7 +54,7 @@
                                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                                         emptyText="Enter Description"
                                                         name="./occupations"
-                                                        maxlength="30"/>
+                                                        maxlength="100"/>
                                             </occupations>
                                         </items>
                                     </column>
