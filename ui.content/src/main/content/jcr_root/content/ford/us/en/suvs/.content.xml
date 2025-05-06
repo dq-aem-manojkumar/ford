@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-05-02T11:11:22.299+05:30"
+        cq:lastModified="{Date}2025-05-03T09:00:51.773+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -36,7 +36,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="6"/>
+                            width="11"/>
                     </cq:responsive>
                 </fordtitle>
                 <fordtitle_2056470143
@@ -288,6 +288,7 @@
                     </vehiclecard_copy_1629773875>
                 </container>
                 <findvehiclepromo
+                    cq:styleIds="[1746173585704]"
                     jcr:created="{Date}2025-04-29T15:13:31.617+05:30"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2025-04-29T15:16:05.122+05:30"
@@ -298,8 +299,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="10"/>
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                     <contentContainer
                         jcr:primaryType="nt:unstructured"
