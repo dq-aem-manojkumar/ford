@@ -8,7 +8,7 @@
 <sly data-sly-use.featureCard="com.aem.ford.core.models.FeatureCard"
 data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
   data-sly-test.hasContent="${!FeatureCard.empty}">
-  <div class="featurecard-container">
+  <div class="featurecard-container" style="background-color:${properties.backgroundColor @ context='styleToken'};" >
     <sly data-sly-list.item="${featureCard.cards}">
       <div class="feature-card">
         <div class="featurecard-image-wrapper">
@@ -18,15 +18,16 @@ data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
             class="featurecard-image"
           />
         </div>
-        <div class="featurecard-content">
-          <h1 class="featurecard-title">${item.title @ context='text'}</h1>
-          <p class="featurecard-description">
+        <div class="featurecard-content" style="background-color:${properties.backgroundColor @ context='styleToken'};" >
+          <h1 class="featurecard-title" style="color:${properties.textColor @ context='styleToken'};" >${item.title @ context='text'}</h1>
+          <p class="featurecard-description" style="color:${properties.textColor @ context='styleToken'};">
             ${item.description @ context='text'}
           </p>
-
-          <div class="featurecard-button"
-          data-sly-resource="${['btn', itemList.index] @ join='',resourceType='ford/components/content/fordbutton'}"
-        ></div>
+          <sly data-sly-test="${item.showButton}">
+            <div class="featurecard-button"
+            data-sly-resource="${['btn', itemList.index] @ join='',resourceType='ford/components/content/fordbutton'}">
+            </div>
+          </sly>
         </div>
       </div>
     </sly>
