@@ -41,6 +41,9 @@ public class FordTitleImpl implements FordTitle {
     private String descriptionFontWeight;
 
     @ValueMapValue
+    private String descriptionWidth;
+
+    @ValueMapValue
     private String descriptionColor;
 
     @Override
@@ -96,5 +99,10 @@ public class FordTitleImpl implements FordTitle {
     @Override
     public boolean isEmpty() {
         return (title == null || title.isEmpty()) && (description == null || description.isEmpty());
+    }
+
+    @Override
+    public String getDescriptionWidth() {
+      return descriptionWidth;
     }
 }

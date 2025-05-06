@@ -33,5 +33,7 @@ public interface FordTitle {
     
     String getDescriptionColor();
 
+    String getDescriptionWidth();
+
     boolean isEmpty();
 }

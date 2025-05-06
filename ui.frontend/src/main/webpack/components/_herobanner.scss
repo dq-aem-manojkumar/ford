@@ -1,0 +1,76 @@
+.cmp-herobanner {
+  
+  .cmp-herobanner__image-container {
+    position: relative; 
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Ensure content doesn't overflow */
+
+  }
+
+  .cmp-herobanner__image {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    display: block; 
+  }
+
+  .cmp-herobanner__image .cmp-image__image {
+    width: 100%;
+    height: auto;
+    max-height:950px;
+    object-fit: cover;
+    display: block;
+  }
+  
+
+
+
+  .cmp-content__container {
+    position: absolute;
+   
+  }
+
+  /* Top-Left Position */
+  &--top-left .cmp-content__container {
+    top: 50px;
+    left: 80px;
+    right: auto;
+    bottom: auto;
+   
+  }
+
+  /* Top-Right Position */
+  &--top-right .cmp-content__container {
+    top: 50px;
+    right: -300px;
+    left: auto;
+    bottom: auto;
+    .container{
+      width:300px;
+    }
+  }
+
+  /* Bottom-Left Position */
+  &--bottom-left .cmp-content__container {
+    bottom:50px;
+    left: 80px;
+    right: auto;
+    top: auto;
+  }
+
+  /* Bottom-Right Position */
+  &--bottom-right .cmp-content__container {
+    bottom: 50px;
+    right:-300px;
+    left: auto;
+    top: auto;
+
+    .container{
+      width:300px;
+    }
+  }
+
+
+  
+}
