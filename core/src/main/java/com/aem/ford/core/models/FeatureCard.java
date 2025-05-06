@@ -11,6 +11,7 @@ public interface FeatureCard {
         String getImagePath();
         String getTitle();
         String getDescription(); 
+        boolean isShowButton(); 
         
     }
 

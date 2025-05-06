@@ -57,6 +57,9 @@ public class FeatureCardImpl implements FeatureCard {
         @ValueMapValue(name = "description")
         private String description;
 
+        @ValueMapValue(name = "showButton")
+        private boolean showButton;
+
         @Override
         public String getImagePath() {
             return resource.getValueMap().get("imagePath", String.class);
@@ -70,6 +73,11 @@ public class FeatureCardImpl implements FeatureCard {
         @Override
         public String getDescription() {
             return resource.getValueMap().get("description", String.class);
+        }
+
+        @Override
+        public boolean isShowButton()  {
+            return resource.getValueMap().get("showButton", Boolean.class);
         }
     }
 
