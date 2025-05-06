@@ -25,11 +25,11 @@
   margin-right: 15px;
 } 
 
-.navbar-left li{
+.navbar-left ul li{
   color: #333;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
- font-size: 20px;
+ font-size: 18px;
 
 }
 
@@ -43,7 +43,7 @@
 }
 
 .navbar-middle .logo {
-  height: 60px;
+  height: 100px;
 }
 
 .navbar-right {
@@ -150,78 +150,12 @@
   z-index: 1000;
   
 }
-.user-menu h3{
-  font-size: 20px;
-  font-weight: 400;
-  margin:0px;
-padding-bottom: 10px;;
-}
 
-.user-menu p{
-  font-size: 14px;
- margin:0px;
-  font-weight: 400;
-}
 
 
 .user-menu.show {
   display: block;
 }
-
-.button-group {
-  margin: 2.5rem 0;
-  width: 300px;
-}
-
-.sign{
-  background-color: #0068D0;
-  color: white !important;
-  padding: 8px 16px;
-  border-radius: 30px;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 18px;
-  font-weight: 400;
-  border:none;
-justify-content: center;
-align-items: center;
-  padding:  12px 20px;
-  /* line-height: 34px; */
-
-
-}
-.create{
-  border:2px solid #0068D0;
-  padding: 8px 16px;
-  border-radius: 30px;
-  text-decoration: none;
-  color: #0068D0 !important;
-  padding:  12px 20px;
-}
-
-.user-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.user-menu li {
-  margin: 30px 0;
-  font:20px arial,sans-serif;
-  
-}
-
-
-.user-menu li:hover {
-  cursor: pointer;
-color: #0068D0 !important;
-}
-.user-menu a {
-  color: #333;
-  text-decoration: none;
-}
-
-
 
 
 
@@ -249,32 +183,7 @@ color: #0068D0 !important;
 }
 
 
-.globe-menu ul {
-  margin-top: 30px;
-  list-style: none;
-  padding: 0;
-  
-}
 
-.globe-menu li {
-  margin: 15px;
-  font:18px arial,sans-serif;
-  
-  
-}
-
-.globe-menu .english{
-  color:#0068D0 !important;
-
-}
-.globe-menu li:hover {
-  cursor: pointer;
-color: #0068D0 !important;
-}
-.globe-menu a {
-  color: #333;
-  text-decoration: none;
-}
 
 
 
@@ -303,27 +212,6 @@ color: #0068D0 !important;
 
 
 
-.shop-menu .list1 {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 80px;
-}
-
-.shop-menu .list1 li {
-  margin: 28px 0;
-  font:20px arial,sans-serif;
-  
-}
-
-
-.shop-menu .list1 li:hover {
-  cursor: pointer;
-color: #0068D0 !important;
-}
-.shop-menu .list1 a {
-  color: #333;
-  text-decoration: none;
-}
 
 
 
@@ -331,34 +219,7 @@ color: #0068D0 !important;
 
 
 
-.shop-menu .list2 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
-.shop-menu .list2 li {
-  margin: 30px 0;
-  font:14px arial,sans-serif;
-  
-}
-
-
-.shop-menu .list2 li:hover {
-  cursor: pointer;
-color: #0068D0 !important;
-}
-.shop-menu .list2 a {
-  color: #333;
-  text-decoration: none;
-}
-
-
-.shop-menu  .arrow {
-  margin-left:200px;
-  color: black;
-  font-size: 30px;
-}
 
 
 
@@ -367,63 +228,47 @@ color: #0068D0 !important;
 
 .support-menu {
   display: none;
-  position: absolute;
-  /* right: 5%; */
-  background-color :white;
-  border: 1px solid white;
+  position: relative;
+  background-color: white;
+  border: 1px solid #e0e0e0;
   padding: 3rem;
   width: 350px;
-  height: 400px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   margin-left: 30px;
-
- 
 }
-
 
 .support-menu.show {
   display: block;
 }
-
-
-
-.support-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.support-menu li {
-  margin: 30px 0;
-  font:20px arial,sans-serif;
   
+
+
+
+
+
+
+
+
+
+/* Vehicle Styling*/
+
+.vehicle-menu {
+  display:none;
+  position: absolute;
+   width: 1380px;
+   height: auto;
+ margin: 0px 30px 0px 30px; 
+background-color: white; 
+ z-index: 1000;
+ border-radius: 10px;
 }
 
 
-.support-menu li:hover {
-  cursor: pointer;
-color: #0068D0 !important;
+
+.vehicle-menu.show {
+  display: block;
 }
-
-
-
-.support-menu .support {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
- 
- 
-}
-
-.support-arrow {
-  margin-left: auto;
-  color: black;
-  font-size: 30px;
-  
-}
-
-
 

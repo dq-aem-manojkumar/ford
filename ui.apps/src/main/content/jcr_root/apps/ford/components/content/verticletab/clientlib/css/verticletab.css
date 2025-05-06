@@ -1,0 +1,250 @@
+/* Main container for the vertical tab component */
+.verticle_tab {
+    height:auto;
+    width: 100%; /* Make it responsive */
+    max-width: 1380px; /* Optional: Set a maximum width */
+    min-width: 1380px;
+    margin: 0 auto; /* Center the container */
+    border-radius: 5px;
+}
+
+/* Tabs container */
+.verticle_tab .cmp-tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    height: 100%;
+}
+
+/* Tab list: Left column */
+.verticle_tab .cmp-tabs__tablist {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    min-width: 25%;
+    /* padding-bottom: 250px; */
+    list-style: none;
+    border-right: 1px solid black;
+    
+}
+
+/* Tab buttons */
+.verticle_tab .cmp-tabs__tab {
+    position: relative; /* Required for ::after underline */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    font: 20px arial, sans-serif;
+    font-weight: 500;
+    color: #333;
+    background: none; /* Removed background color */
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Hover effect for tabs */
+.verticle_tab .cmp-tabs__tab:hover {
+    color: #0050d5;
+}
+
+/* Remove underline from all tabs by default */
+.verticle_tab .cmp-tabs__tab::after {
+    content: "";
+    display: none;
+}
+
+/* Active tab style */
+.verticle_tab .cmp-tabs__tab--active {
+    color: #0078D7;
+    font-weight: 500;
+}
+
+/* Show blue underline for active tab */
+.verticle_tab .cmp-tabs__tab--active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 10px; /* Adjust based on font size */
+    left: 20px; /* Matches padding */
+    width: 320px; /* Short underline */
+    height: 1px;
+    background-color: #0562D2;
+    border-radius: 2px;
+}
+
+/* Chevron icon on the right of each tab */
+.verticle_tab .cmp-tabs__tab::before {
+    content: ">";
+    font-size: 22px;
+    color: inherit;
+    position: absolute;
+    left: 320px;
+}
+
+/* Tab content area: Right column */
+.verticle_tab .cmp-tabs__tabpanel {
+    /* flex-grow: 1; Allow the right-side content to grow or shrink dynamically */
+    /* min-width: 0; Prevent content overflow */
+    padding: 20px;
+    display: none; /* Hide by default */
+    overflow: hidden;
+    object-fit: contain;
+    max-width: 70%;
+    min-width: 70%;
+}
+
+/* Only show the active panel */
+.verticle_tab .cmp-tabs__tabpanel--active {
+    display: block;
+}
+
+/* Responsive container */
+#tab-container {
+    width: 100%; /* Make the container responsive */
+    max-width: 1380px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1024px) {
+    .verticle_tab {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .verticle_tab .cmp-tabs {
+        flex-direction: column; /* Stack tabs and content vertically */
+    }
+
+    .verticle_tab .cmp-tabs__tablist {
+        width: 100%; /* Full width for the tab list */
+        border-right: none; /* Remove the right border */
+        border-bottom: 1px solid #e0e0e0; /* Add a bottom border */
+    }
+
+    .verticle_tab .cmp-tabs__tabpanel {
+        width: 100%; /* Full width for the content area */
+    }
+}
+
+
+
+
+
+
+
+/* Seperate Styles for Shop and Support and Service */
+
+
+
+.verticle_tab #ShopAndSupport {
+    height:auto;
+    width: 100%; /* Make it responsive */
+    max-width: 1380px; /* Optional: Set a maximum width */
+    min-width: 1380px;
+    margin: 0px; /* Center the container */
+   padding: 0px;
+   
+}
+
+/* Tabs container */
+.verticle_tab #ShopAndSupport .cmp-tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    height: 100%;
+    
+}
+
+/* Tab list: Left column */
+.verticle_tab #ShopAndSupport .cmp-tabs__tablist {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 28.5%;
+    min-width: 28.5%;
+    /* padding-bottom: 250px; */
+    list-style: none;
+    border: none;
+   
+}
+
+/* Tab buttons */
+.verticle_tab #ShopAndSupport .cmp-tabs__tab {
+ 
+    position: relative; /* Required for ::after underline */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px 28px 20px ;
+    font: 20px arial, sans-serif;
+    font-weight: 500;
+    color: #333;
+    background: none; /* Removed background color */
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    margin: 0px;
+}
+.verticle_tab #ShopAndSupport .cmp-tabs__tab:last-child {
+    padding-bottom: 0px; /* No bottom padding for the last tab */
+}
+
+/* Hover effect for tabs */
+.verticle_tab #ShopAndSupport .cmp-tabs__tab:hover {
+    color: #0050d5;
+}
+
+/* Remove underline from all tabs by default */
+.verticle_tab #ShopAndSupport .cmp-tabs__tab::after {
+    content: "";
+    display: none;
+    background-color: white;
+    height: 500px;
+}
+
+/* Active tab style */
+.verticle_tab #ShopAndSupport .cmp-tabs__tab--active {
+    color: #0078D7;
+    font-weight: 500;
+}
+
+
+
+/* Chevron icon on the right of each tab */
+.verticle_tab #ShopAndSupport .cmp-tabs__tab::before {
+    content: ">";
+    font-size: 22px;
+    color: inherit;
+    position: absolute;
+    left: 320px;
+}
+
+/* Tab content area: Right column */
+.verticle_tab #ShopAndSupport .cmp-tabs__tabpanel {
+    flex-grow: 1;  
+    padding:0px;
+    display: none; 
+    overflow: hidden;
+    object-fit: contain;
+    margin:0px;
+    min-width: 350px;
+    max-width: fit-content;
+  
+
+}
+
+/* Only show the active panel */
+.verticle_tab #ShopAndSupport .cmp-tabs__tabpanel--active {
+    display: block;
+}
+
+
+
+

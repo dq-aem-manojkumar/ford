@@ -1,0 +1,12 @@
+{
+  "links": [
+    {
+      "text": "Google",
+      "path": "https://www.google.com"
+    },
+    {
+      "text": "Adobe",
+      "path": "https://www.adobe.com"
+    }
+  ]
+}
