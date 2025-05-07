@@ -62,7 +62,7 @@
   white-space: nowrap; /* Prevent wrapping */
   overflow: hidden; /* Hide overflowing text */
   text-overflow: ellipsis; /* Add ellipsis for overflow */
-  max-height: 30px;
+
 }
 
 .vehicle-card-price {
