@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-05-07T15:37:02.423+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ford/settings/wcm/templates/ford-layout"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Ford Insure"
+        sling:resourceType="ford/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ford/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2025-05-06T18:19:52.501+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-06T18:21:31.506+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    backgroundColor="#Ffffff">
+                    <fordtitle
+                        jcr:created="{Date}2025-05-06T18:07:16.545+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T09:42:42.814+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        description="Jump into the driver's seat with Ford Insure* and customize your auto insurance to fit your needs. We’ve made it easier than ever to get a quote. See how much you can save in 30 seconds or less."
+                        descriptionFontSize="16px"
+                        descriptionWidth="800px"
+                        margin="0px 0px 0px 20px"
+                        padding="50px"/>
+                </container>
+                <fordtitle_299330313
+                    jcr:created="{Date}2025-05-06T18:14:11.992+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T09:41:19.827+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordtitle"
+                    description="Ford Insure is a fresh take on a decades-old product. We streamline quoting by using your current policy’s limits. We designed our insurance product for the Ford driver, with coverage and customer benefits tailored to fit your needs and wants. Ford Insure is powered by Alset Insurance Services.&#xd;&#xa;&#xd;&#xa;"
+                    descriptionFontSize="16px"
+                    descriptionWidth="800px"
+                    margin="60px 0px 0px 70px"
+                    title="What is Ford Insure?"
+                    titleFontSize="55px"/>
+                <fordbutton
+                    jcr:created="{Date}2025-05-06T18:22:24.280+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T09:42:00.306+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/fordbutton"
+                    backgroundColor="#0074D9"
+                    borderRadius="2"
+                    link="/content/ford/us/en"
+                    margin="0px 0px 50px 70px"
+                    text="Get Quote"
+                    textColor="#FFFFFF"
+                    width="100px"/>
+                <container_1146269510
+                    jcr:created="{Date}2025-05-07T10:53:58.587+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T10:55:33.898+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    backgroundColor="#ffffff">
+                    <fordtitle_copy
+                        jcr:created="{Date}2025-05-06T18:07:16.545+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T11:10:39.802+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        descriptionFontSize="16px"
+                        descriptionWidth="800px"
+                        margin="0px 0px 0px 40px"
+                        padding="40px"
+                        title="Perks of Ford Insure"
+                        titleFontSize="60px"
+                        titleFontWeight="350"/>
+                </container_1146269510>
+                <featurecardlist
+                    jcr:created="{Date}2025-05-07T10:55:48.036+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T11:07:55.127+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/featurecardlist"
+                    backgroundColor="#ffffff"
+                    textColor="#111111">
+                    <cards jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            description="If your Ford vehicle is in an accident, we will repair it with OEM parts."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecard-image4.png"
+                            showButton="false"
+                            title="OEM Parts"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            description="Every policy includes up to $30 per day (up to $900 total) for a rental vehicle."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecard-image5.png"
+                            showButton="false"
+                            title="Rental Reimbursement"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            description="We offer a suite of discounts crafted to the Ford driver to help make insurance wallet-friendly without compromising coverage."
+                            imagePath="/content/dam/ford/landing-page/feature-card-images/featurecard-image6.png"
+                            showButton="false"
+                            title="Complimentry Mobile Services"/>
+                    </cards>
+                </featurecardlist>
+                <findvehiclepromo
+                    cq:styleIds="[1746597458836]"
+                    jcr:created="{Date}2025-05-07T11:16:24.273+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T15:35:57.296+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/findvehiclepromo"
+                    backgroundColor="#F2F2F2"
+                    imagePath="/content/dam/ford/find-vehicle-promo/findvehiclepromo-img1.png">
+                    <contentContainer
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <fordtitle
+                            jcr:created="{Date}2025-05-07T12:52:48.269+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-07T13:11:53.068+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            description="Call a Ford Insure representative at 1-888-270-0025 from 8 a.m. to 5 p.m. CT, Monday through Friday"
+                            descriptionFontSize="18px"
+                            descriptionWidth="600px"
+                            margin="0px 15px"
+                            title="Need help with your quote or policy?"
+                            titleFontSize="45px"
+                            titleFontWeight="400"/>
+                    </contentContainer>
+                </findvehiclepromo>
+                <findvehiclepromo_cop
+                    cq:styleIds="[1746597477563]"
+                    jcr:created="{Date}2025-05-07T11:16:24.273+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T15:23:28.188+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/findvehiclepromo"
+                    backgroundColor="#ffffff"
+                    imagePath="/content/dam/ford/find-vehicle-promo/findvehiclepromo-img1.png">
+                    <contentContainer
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <fordtitle_copy
+                            jcr:created="{Date}2025-05-07T12:52:48.269+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-07T13:11:40.125+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            description="As your insurance company, we can help you easily navigate the claims process and get back on the road. Click the button below to start a claim, or call 1-800-608-6506 to talk to our Claims Team"
+                            descriptionFontSize="18px"
+                            descriptionWidth="600px"
+                            margin="0px 0px 0px 30px"
+                            title="How to Submit a Claim"
+                            titleFontSize="45px"
+                            titleFontWeight="400"/>
+                        <fordbutton
+                            jcr:created="{Date}2025-05-07T13:01:44.138+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-07T13:10:15.204+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordbutton"
+                            backgroundColor="#0074D9"
+                            borderRadius="2"
+                            height="12px"
+                            link="/content/ford/us/en"
+                            margin="20px 40px"
+                            text="Start Claim"
+                            textColor="#FFFFFF"
+                            width="70px"/>
+                    </contentContainer>
+                </findvehiclepromo_cop>
+                <container_1054172635
+                    jcr:created="{Date}2025-05-07T13:13:06.288+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-07T14:47:54.706+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/container"
+                    backgroundColor="#ffffff">
+                    <fordtitle_copy_copy_1894801003
+                        jcr:created="{Date}2025-05-07T14:43:42.104+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:37:02.416+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        margin="0px 0px 30px 50px"
+                        padding="20px 0px"
+                        title="About Ford Insure"
+                        titleColor="#111111"
+                        titleFontSize="50px"
+                        titleFontWeight="500"/>
+                    <accordion_list
+                        jcr:created="{Date}2025-05-07T14:43:53.753+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:00:51.131+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/accordion-list">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                answer="Ford Insure is a fresh take on a decades-old product. We have streamlined quoting by using your current policy’s limits to get you a price in 30 seconds or less. We have designed our insurance product for the Ford driver, with coverage and customer benefits customized to fit your needs and wants. Ford Insure is powered by Alset Insurance Services."
+                                question="What is Ford Insure?"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                answer="Yes! All vehicles are eligible for a Ford Insure policy."
+                                question="Is my vehicle eligible for Ford Insure?"/>
+                        </items>
+                    </accordion_list>
+                    <fordtitle_copy
+                        jcr:created="{Date}2025-05-07T14:43:42.104+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:03:11.552+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        margin="100px 0px 30px 50px"
+                        title="Insurance 101"
+                        titleColor="#111111"
+                        titleFontSize="50px"
+                        titleFontWeight="500"/>
+                    <accordion_list_copy
+                        jcr:created="{Date}2025-05-07T14:43:53.753+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:06:21.897+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/accordion-list">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                answer="Most states require every automobile being driven on the road to be insured. Also, if your vehicle is loaned or leased, the lender may require you to carry a minimum amount of insurance.&#xd;&#xa;"
+                                question="Why do I need auto insurance?"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                answer="The amount of auto insurance you need depends on your state's minimum requirements, the value of your vehicle, and requirements in the loan or lease agreement. Our agents can help you determine the right amount of coverage for your needs when you call 1-888-270-0025."
+                                question="How much auto insurance do I need?"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                answer="No"
+                                question="Does getting a quote impact my credit score?"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                answer="&#xd;&#xa;A deductible is the maximum the policy holder will have to pay for a covered claim."
+                                question="What is a deductible?"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                answer="Any driver that will have regular access to your vehicle. This includes anyone over the age of 16 who is living in your house and has a driver’s license."
+                                question="Who should be on my policy?"/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                answer="There are several ways to lower your premium, like increasing your deductible, taking advantage of discounts, and maintaining a clean driving record."
+                                question="How can I lower my auto insurance premium?"/>
+                        </items>
+                    </accordion_list_copy>
+                    <fordtitle_copy_copy
+                        jcr:created="{Date}2025-05-07T14:43:42.104+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:08:52.779+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        margin="100px 0px 30px 50px"
+                        title="Available Discounts"
+                        titleColor="#111111"
+                        titleFontSize="50px"
+                        titleFontWeight="500"/>
+                    <accordion_list_copy_
+                        jcr:created="{Date}2025-05-07T14:43:53.753+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:11:52.432+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/accordion-list">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                answer="Do you have more than one vehicle in your house? Great! If you put two or more vehicles on your Ford Insure policy, you will earn the multi-vehicle discount.&#xd;&#xa;"
+                                question="Multi-Vehicle Discount"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                answer="If you have been accident-free for three years, then you will earn a discount. No accidents for five years or more? You’ll earn an even bigger discount.&#xd;&#xa;"
+                                question="Years Clean Discount"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                answer="Vehicles less than three years are qualified for a discount."
+                                question="New Vehicle Discount"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                answer="Any customer that currently has auto insurance qualifies for a discount.&#xd;&#xa;"
+                                question="Prior Insurance Discount"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                answer="A discount for any driver on the policy who has a GPA above 3.0.&#xd;&#xa;"
+                                question="Good Student Discount"/>
+                        </items>
+                    </accordion_list_copy_>
+                    <fordtitle_copy_copy_
+                        jcr:created="{Date}2025-05-07T14:43:42.104+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:12:55.769+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        margin="100px 0px 30px 50px"
+                        title="Available Coverages"
+                        titleColor="#111111"
+                        titleFontSize="50px"
+                        titleFontWeight="500"/>
+                    <accordion_list_copy__242011325
+                        jcr:created="{Date}2025-05-07T14:43:53.753+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:16:22.142+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/accordion-list">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                answer="This coverage helps pay for the medical expenses of the other party if you're at fault in an accident. It is required by each state to carry a minimum amount of insurance. By carrying liability insurance, you can comply with state laws and protect your financial interests.&#xd;&#xa;"
+                                question="Bodily Injury Coverage"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                answer="This coverage helps pay for the repair or replacement of the other party's vehicle or property if you're at fault in an accident. It also covers damage to other types of property, such as buildings, fences, or telephone poles, which may be damaged in the accident.&#xd;&#xa;"
+                                question="Property Damage Coverage"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                answer="Comprehensive coverage is an essential component of auto insurance that provides protection against damage to your vehicle from events that are out of your control. By adding comprehensive coverage to your policy, you can have peace of mind knowing that you're protected against theft, vandalism, natural disasters, and other unexpected events.&#xd;&#xa;"
+                                question="Comprehensive Coverage"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                answer="Covers damage to your vehicle in case of an accident.&#xd;&#xa;"
+                                question="Collision Coverage"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                answer="Covers you if you're in an accident with someone who doesn't have insurance or enough insurance."
+                                question="Uninsured/Underinsured Motorist Coverage"/>
+                            <item5
+                                jcr:primaryType="nt:unstructured"
+                                answer="Also known as MedPay, this is an optional coverage for medical expenses resulting from an auto accident, regardless of who is at fault. By carrying medical payments coverage, you can ensure you and your passengers receive prompt medical treatment without having to worry about the cost.&#xd;&#xa;"
+                                question="Medical Payments"/>
+                            <item6
+                                jcr:primaryType="nt:unstructured"
+                                answer="Also known as PIP, it provides coverage for medical expenses, lost wages, funeral expenses, and survivor's benefits resulting from a car accident. PIP is considered a “no-fault” coverage, which means you are covered regardless of who is at fault for the incident. Only available in select states.&#xd;&#xa;"
+                                question="Personal Injury Protection"/>
+                            <item7
+                                jcr:primaryType="nt:unstructured"
+                                answer="If you are involved in an auto accident and need a rental vehicle while your vehicle is being repaired, we will reimburse you for the daily rental rate up to the policy limit.&#xd;&#xa;"
+                                question="Rental Vehicle Reimbursement"/>
+                        </items>
+                    </accordion_list_copy__242011325>
+                    <fordtitle_copy_copy__198463078
+                        jcr:created="{Date}2025-05-07T14:43:42.104+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:16:44.411+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        margin="100px 0px 30px 50px"
+                        title="Claims"
+                        titleColor="#111111"
+                        titleFontSize="50px"
+                        titleFontWeight="500"/>
+                    <accordion_list_467141827
+                        jcr:created="{Date}2025-05-07T15:16:52.931+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:17:44.515+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/accordion-list">
+                        <items jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                answer="Click here to start your claim, or call 1-800-608-6506 to talk to our Claims Team."
+                                question="How do I submit a claim?"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                answer="Even if you feel that you are not at fault for an incident, it’s still a good idea to report the claim to Alset Insurance Services. As your insurance company, we can help you easily navigate the claims process and get back on the road. Once the claim is filed, we will confirm your coverage, contact the involved parties, and determine liability. If you carry collision coverage, we can begin repairs or even help you file a claim with the other driver’s insurance company."
+                                question="Should I file a claim if I’m not at fault?"/>
+                        </items>
+                    </accordion_list_467141827>
+                    <fordtitle_815568923
+                        jcr:created="{Date}2025-05-07T15:18:16.620+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-05-07T15:22:40.717+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/content/fordtitle"
+                        description="*Ford Insure is a product presented by Ford Motor Insurance Agency, a Ford affiliate and licensed insurance agency. Ford Motor Insurance Agency’s principal place of business is in Dearborn, Michigan, with its domicile in Delaware. Ford Insure is underwritten by Incline Property &amp; Casualty Company and Redpoint County Mutual. Home Office: Austin, TX. Agency of Record: Alset Insurance Services, LLC. Subsidiary of In The Car, LLC. Home Office: Stamford, CT. Insurance terms, definitions, and explanations are intended for informational purposes only and do not in any way replace or modify the definitions and information contained in individual insurance contracts, policies, or declaration pages, which are controlling. Product coverages, features and discounts may vary by state and are subject to qualifications. Ford Motor Company and Ford Credit are not insurance companies or agents.&#xd;&#xa;"
+                        margin="70px 0px 0px 20px"
+                        padding="0px 0px 30px 0px"/>
+                </container_1054172635>
+            </container>
+            <container_1390198985
+                jcr:created="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-19T16:14:20.246+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container">
+                <herobanner
+                    cq:styleIds="[1746534202114]"
+                    jcr:created="{Date}2025-05-06T17:52:30.572+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-06T17:58:15.054+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/herobanner"
+                    fileReference="/content/dam/ford/landing-page/ford-insure-img.png"
+                    name="Ford Insure">
+                    <contentContainer
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <fordtitle
+                            jcr:created="{Date}2025-05-06T17:59:26.513+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-07T09:38:58.308+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            description="Insurance with today’s technology.&#xd;&#xa;Call 1-888-270-0025."
+                            descriptionColor="#ffffff"
+                            descriptionFontSize="18px"
+                            descriptionFontWeight="350"
+                            descriptionWidth="300px"/>
+                        <fordbutton
+                            jcr:created="{Date}2025-05-06T18:03:16.137+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-06T18:05:30.405+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordbutton"
+                            backgroundColor="#ffffff"
+                            borderColor="#ffffff"
+                            borderRadius="3"
+                            link="/content/ford/us/en"
+                            text="Get Quote"
+                            textColor="#111111"
+                            width="100px"/>
+                    </contentContainer>
+                </herobanner>
+            </container_1390198985>
+        </root>
+    </jcr:content>
+</jcr:root>

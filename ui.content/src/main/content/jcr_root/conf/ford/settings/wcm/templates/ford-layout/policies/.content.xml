@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-05-03T09:17:16.622+05:30"
+        cq:lastModified="{Date}2025-05-07T14:43:07.046+05:30"
         cq:lastModifiedBy="admin"
         cq:policy="ford/components/page/policy"
         jcr:primaryType="nt:unstructured"
@@ -23,11 +23,7 @@
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <content jcr:primaryType="nt:unstructured">
                             <findvehiclepromo
-                                cq:policy="ford/components/content/findvehiclepromo/policy_1746173582106"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="wcm/core/components/policies/mapping"/>
-                            <herobanner
-                                cq:policy="ford/components/content/herobanner/policy_26246159455083"
+                                cq:policy="ford/components/content/findvehiclepromo/policy_1746597391019"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>
@@ -42,7 +38,7 @@
                     <components jcr:primaryType="nt:unstructured">
                         <content jcr:primaryType="nt:unstructured">
                             <herobanner
-                                cq:policy="ford/components/content/herobanner/policy_1401740970500"
+                                cq:policy="ford/components/content/herobanner/policy_1746534181196"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="wcm/core/components/policies/mapping"/>
                         </content>

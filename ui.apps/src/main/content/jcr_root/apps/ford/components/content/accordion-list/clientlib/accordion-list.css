@@ -1,13 +1,12 @@
 
 .accordion-list {
-  border-top: 1px solid #ccc;
-  max-width: 85%;
-  margin: 0px 150px 0px 150px;
 
+  /* max-width: 85%; */
+  margin: 0px 60px;
 }
 
 .accordion-item {
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 
 .accordion-title {

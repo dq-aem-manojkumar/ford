@@ -3,9 +3,14 @@
     xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     xmlns:cq="http://www.day.com/jcr/cq/1.0"
     xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
     jcr:primaryType="nt:unstructured"
     jcr:title="Footer Tail Dialog"
     sling:resourceType="cq/gui/components/authoring/dialog">
+
+    <clientlibs
+        jcr:primaryType="nt:unstructured"
+        categories="[ford.components.footertail]"/>
 
     <content
         jcr:primaryType="nt:unstructured"
@@ -15,7 +20,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/tabs">
                 <items jcr:primaryType="nt:unstructured">
-                    
+
                     <icons
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Footer Tail Logo Configuration"
@@ -35,7 +40,7 @@
                                 name="./languagePath"
                                 rootPath="/content"
                                 required="{Boolean}false" />
-                        
+
                             <homePath jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                 fieldLabel="Footer tail Brand "
@@ -58,7 +63,19 @@
                         <items jcr:primaryType="nt:unstructured">
                             <socialLinks jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
-                                composite="{Boolean}true">
+                                validation="top-nav-multifield-validation"
+                                composite="{Boolean}true"
+                                name="./socialLinks">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    cq-msm-lockable="{Boolean}true">
+                                    <validation
+                                        jcr:primaryType="nt:unstructured">
+                                        <maxItems
+                                            jcr:primaryType="nt:unstructured"
+                                            value="{Long}2"/>
+                                    </validation>
+                                </granite:data>
                                 <field jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/coral/foundation/form/fieldset"
                                     name="./socialLinks">
