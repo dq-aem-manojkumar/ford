@@ -208,13 +208,13 @@
                 <policy_1574694950110
                     cq:styleDefaultElement="div"
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-05-05T17:11:19.937+05:30"
+                    jcr:lastModified="{Date}2025-04-24T15:42:30.223+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Footer Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
                     backgroundColorEnabled="true"
-                    components="[/libs/foundation/components/text,/apps/ford/components/container,/apps/ford/components/separator,group:ford - Structure,/apps/ford/components/content/customaccordion,/apps/ford/components/content/footer,/apps/ford/components/content/footersearch,/apps/ford/components/content/footertail,/apps/ford/components/content/contactus,/apps/ford/components/content/fordbutton,/apps/ford/components/content/fordtitle,/apps/ford/components/content/linklist,/apps/ford/components/content/navvehicle,/apps/ford/components/content/verticletab]"
+                    components="[/libs/foundation/components/text,/apps/ford/components/container,/apps/ford/components/separator,group:ford - Structure,/apps/ford/components/content/customaccordion,/apps/ford/components/content/footer,/apps/ford/components/content/footersearch,/apps/ford/components/content/footertail,/apps/ford/components/content/contactus]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -242,12 +242,13 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-24T15:49:30.908+05:30"
+                    jcr:lastModified="{Date}2025-05-07T14:43:07.037+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Page Content"
+                    jcr:title="service card policy"
                     sling:resourceType="wcm/core/components/policy/policy"
                     backgroundColorEnabled="true"
+                    columns="11"
                     components="[group:General,group:ford - Content,group:ford - Form,group:Ford Components]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -289,13 +290,12 @@
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-05-06T09:27:23.014+05:30"
+                    jcr:lastModified="{Date}2025-04-22T14:38:35.429+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="NavBar Polciy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    backgroundColorEnabled="true"
-                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/container,/apps/ford/components/content/fordbutton,/apps/ford/components/content/fordtitle,/apps/ford/components/content/linklist,/apps/ford/components/content/navvehicle,/apps/ford/components/content/navbar]"
+                    components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/content/navbar]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -322,12 +322,12 @@
                     </cq:authoring>
                 </policy_1575040440977>
                 <policy_20614633107500
-                    jcr:lastModified="{Date}2025-04-22T14:42:19.660+05:30"
+                    jcr:lastModified="{Date}2025-05-06T17:59:18.290+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Hero-Container-Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/ford/components/content/fordbutton,/apps/ford/components/content/herobanner]"
+                    components="[/apps/ford/components/content/fordbutton,/apps/ford/components/content/fordtitle,/apps/ford/components/content/herobanner]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_20614633107500>
@@ -368,207 +368,87 @@
                 </policy>
             </page>
             <content jcr:primaryType="nt:unstructured">
-                <findvehiclepromo jcr:primaryType="nt:unstructured">
-                    <policy_1746173582106
-                        cq:styleDefaultClasses="ford_findvehiclepromo--row"
-                        jcr:lastModified="{Date}2025-05-02T13:45:43.192+05:30"
+                <herobanner jcr:primaryType="nt:unstructured">
+                    <policy_1746534181196
+                        cq:styleDefaultClasses="cmp-herobanner--bottom-left"
+                        jcr:lastModified="{Date}2025-05-06T17:55:56.261+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="ford_findvehiclepromo-styling"
+                        jcr:title="hero-banner-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowUpload="true"
+                        disableLazyLoading="true"
+                        jpegQuality="{Long}1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Allignment"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-herobanner--top-left"
+                                        cq:styleId="1746534202114"
+                                        cq:styleLabel="Top-Left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-herobanner--top-right"
+                                        cq:styleId="1746534204694"
+                                        cq:styleLabel="Top-Right"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-herobanner--bottom-right"
+                                        cq:styleId="1746534205422"
+                                        cq:styleLabel="Bottom-Right"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="cmp-herobanner--bottom-left"
+                                        cq:styleId="1746534206118"
+                                        cq:styleLabel="Bottom-Left"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1746534181196>
+                </herobanner>
+                <findvehiclepromo jcr:primaryType="nt:unstructured">
+                    <policy_1746597391019
+                        cq:styleDefaultClasses="ford_findvehiclepromo--row"
+                        jcr:lastModified="{Date}2025-05-07T11:29:03.270+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Ford-insure-vehicle-promo-policy"
                         sling:resourceType="wcm/core/components/policy/policy">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:styleGroups jcr:primaryType="nt:unstructured">
                             <item0
-                                cq:styleGroupLabel="Alignment"
+                                cq:styleGroupLabel="Allignment"
                                 jcr:primaryType="nt:unstructured">
                                 <cq:styles jcr:primaryType="nt:unstructured">
                                     <item0
                                         cq:styleClasses="ford_findvehiclepromo--row"
-                                        cq:styleId="1746173585704"
+                                        cq:styleId="1746597458836"
                                         cq:styleLabel="Row"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item1
                                         cq:styleClasses="ford_findvehiclepromo--column"
-                                        cq:styleId="1746173592844"
+                                        cq:styleId="1746597476700"
                                         cq:styleLabel="Column"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item2
                                         cq:styleClasses="ford_findvehiclepromo--row-reverse"
-                                        cq:styleId="1746173631178"
+                                        cq:styleId="1746597477563"
                                         cq:styleLabel="Row-Reverse"
                                         jcr:primaryType="nt:unstructured"/>
                                     <item3
                                         cq:styleClasses="ford_findvehiclepromo--column-reverse"
-                                        cq:styleId="1746173652006"
+                                        cq:styleId="1746597478504"
                                         cq:styleLabel="Column-Reverse"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
                         </cq:styleGroups>
-                    </policy_1746173582106>
+                    </policy_1746597391019>
                 </findvehiclepromo>
-                <herobanner jcr:primaryType="nt:unstructured">
-                    <policy_1746187245713
-                        cq:styleDefaultClasses="cmp-herobanner--top-right"
-                        jcr:lastModified="{Date}2025-05-02T17:32:00.452+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="herobanner-styling"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        allowUpload="true"
-                        disableLazyLoading="true"
-                        jpegQuality="{Long}2">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:styleGroupLabel="Alignment"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-herobanner--top-left"
-                                        cq:styleId="1746187249634"
-                                        cq:styleLabel="Top-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-herobanner--top-right"
-                                        cq:styleId="1746187257707"
-                                        cq:styleLabel="Top-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-herobanner--bottom-left"
-                                        cq:styleId="1746187277923"
-                                        cq:styleLabel="Bottom-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="cmp-herobanner--bottom-right"
-                                        cq:styleId="1746187292110"
-                                        cq:styleLabel="Botttom-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_1746187245713>
-                    <policy_24864881615958
-                        cq:styleDefaultClasses="cmp-herobanner--bottom-left"
-                        jcr:lastModified="{Date}2025-05-02T17:46:55.136+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="herobanner-styling"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        allowUpload="true"
-                        disableLazyLoading="true"
-                        jpegQuality="{Long}2">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:styleGroupLabel="Alignment"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-herobanner--top-left"
-                                        cq:styleId="1746187475865"
-                                        cq:styleLabel="Top-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-herobanner--top-right"
-                                        cq:styleId="1746187497707"
-                                        cq:styleLabel="Top-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-herobanner--bottom-left"
-                                        cq:styleId="1746188077099"
-                                        cq:styleLabel="Bottom-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="cmp-herobanner--bottom-right"
-                                        cq:styleId="1746188086099"
-                                        cq:styleLabel="Botttom-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_24864881615958>
-                    <policy_26246159455083
-                        cq:styleDefaultClasses="cmp-herobanner--bottom-left"
-                        jcr:lastModified="{Date}2025-05-02T17:58:44.566+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="herobanner-styling"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        allowUpload="true"
-                        disableLazyLoading="true"
-                        jpegQuality="{Long}1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:styleGroupLabel="Alignment"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-herobanner--top-left"
-                                        cq:styleId="1746188889347"
-                                        cq:styleLabel="Top-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-herobanner--top-right"
-                                        cq:styleId="1746188895133"
-                                        cq:styleLabel="Top-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-herobanner--bottom-left"
-                                        cq:styleId="1746188899410"
-                                        cq:styleLabel="Bottom-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="cmp-herobanner--bottom-right"
-                                        cq:styleId="1746188904749"
-                                        cq:styleLabel="Botttom-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_26246159455083>
-                    <policy_1401740970500
-                        cq:styleDefaultClasses="cmp-herobanner--bottom-left"
-                        jcr:lastModified="{Date}2025-05-03T09:17:16.594+05:30"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="herobanner-styling"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        allowUpload="true"
-                        disableLazyLoading="true"
-                        jpegQuality="{Long}1">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                        <cq:styleGroups jcr:primaryType="nt:unstructured">
-                            <item0
-                                cq:styleGroupLabel="Alignment"
-                                jcr:primaryType="nt:unstructured">
-                                <cq:styles jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        cq:styleClasses="cmp-herobanner--top-left"
-                                        cq:styleId="1746244004830"
-                                        cq:styleLabel="Top-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item1
-                                        cq:styleClasses="cmp-herobanner--top-right"
-                                        cq:styleId="1746244007961"
-                                        cq:styleLabel="Top-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item2
-                                        cq:styleClasses="cmp-herobanner--bottom-left"
-                                        cq:styleId="1746244015552"
-                                        cq:styleLabel="Bottom-Left"
-                                        jcr:primaryType="nt:unstructured"/>
-                                    <item3
-                                        cq:styleClasses="cmp-herobanner--bottom-right"
-                                        cq:styleId="1746244019962"
-                                        cq:styleLabel="Botttom-Right"
-                                        jcr:primaryType="nt:unstructured"/>
-                                </cq:styles>
-                            </item0>
-                        </cq:styleGroups>
-                    </policy_1401740970500>
-                </herobanner>
             </content>
         </components>
     </ford>
