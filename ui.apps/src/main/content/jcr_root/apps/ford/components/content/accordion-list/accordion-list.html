@@ -1,0 +1,18 @@
+
+
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.css @ categories='ford.components.accordion-list'}" />
+<sly data-sly-call="${clientlib.js @ categories='ford.components.accordion-list'}" />
+
+<sly data-sly-use.list="com.aem.ford.core.models.AccordionList" />
+
+<div class="accordion-list" data-sly-list.item="${list.items}">
+  <div class="accordion-item">
+    <div class="accordion-title" tabindex="0">
+     <span class="accordion-question">${item.question}</span>
+      <span class="accordion-toggle-icon">+</span>
+    </div>
+    <div class="accordion-answer">${item.answer}</div>
+  </div>
+</div>
+  
