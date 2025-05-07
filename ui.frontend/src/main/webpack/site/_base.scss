@@ -9,19 +9,19 @@ body {
     color:       $color-foreground;
     background:  $color-background;
 
-    @media (prefers-color-scheme: dark) {
-        color:       $color-foreground-dark;
-        background:  $color-background-dark;
-    }
+    // @media (prefers-color-scheme: dark) {
+    //     color:       $color-foreground-dark;
+    //     background:  $color-background-dark;
+    // }
 }
 
 
 a {
     color: $color-link;
 
-    @media (prefers-color-scheme: dark) {
-        color: $color-link-dark;
-    }
+    // @media (prefers-color-scheme: dark) {
+    //     color: $color-link-dark;
+    // }
 }
 
 button,
