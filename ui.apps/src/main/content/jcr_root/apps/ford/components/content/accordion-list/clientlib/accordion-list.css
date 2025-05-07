@@ -1,0 +1,42 @@
+
+.accordion-list {
+  border-top: 1px solid #ccc;
+  max-width: 85%;
+  margin: 0px 150px 0px 150px;
+
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  padding:24px 16px;
+  cursor: pointer;
+  color: #5e5e5e;
+  font-size: 24px;
+  line-height: 1.33333333;
+  opacity: 0.9;
+  
+}
+.accordion-title.active {
+  color: #0070c9; 
+}
+
+.accordion-toggle-icon {
+  color: #0070c9;
+  text-align: center;
+  transition: transform 0.8s ease;
+}
+.accordion-answer {
+  display: none;
+  padding: 10px 16px;
+  color: #5e5e5e;
+  font-size: 20px;
+}
+.accordion-item.open .accordion-answer {
+  display: block;
+}
+

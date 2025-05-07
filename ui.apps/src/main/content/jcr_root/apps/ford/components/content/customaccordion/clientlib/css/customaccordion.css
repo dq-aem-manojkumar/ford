@@ -8,20 +8,25 @@ customaccordion_container
     display: flex; /* Use Flexbox for horizontal alignment */
     align-items: center; /* Align items vertically in the center */
     justify-content: space-between; /* Space out the title and the symbol */
-    width: 100%; /* Ensure the header takes up the full width */
+    /* width: 100%;  */
+  
+   
 }
  
 /* Accordion Button */
 .customaccordion_container .cmp-accordion__button {
-    position: relative; /* Ensure the pseudo-element is positioned relative to the button */
-    display: flex; /* Use Flexbox for horizontal alignment */
-    align-items: center; /* Align the title and symbol vertically */
-    justify-content: flex-start; /* Align the title to the left */
-    width: 100%;
-    padding: 15px;
+    position: relative;
+    /* display: flex; Use Flexbox for horizontal alignment */
+    /* align-items: center;  */
+    /* justify-content: flex-start;  */
+    /* width: 100%; */
+    /* max-width: 85%;
+    margin: 0px 150px 0px 150px; */
+    /* padding: 15px; */
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    
 }
  
 /* Show "+" by default */
