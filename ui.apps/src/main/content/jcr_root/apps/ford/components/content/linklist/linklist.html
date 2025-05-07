@@ -1,24 +1,107 @@
-
 <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
-<sly data-sly-call="${clientlib.css @ categories='ford.components.linklist'}"/>
 
+
+<style>
+  /* List One */
+  .listOne ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  .listOne ul li {
+    margin-top: 28px;
+    font: 20px arial, sans-serif;
+  }
+
+  .listOne ul li:first-child {
+    margin-top: 0px;
+    font: 20px arial, sans-serif;
+  }
+
+  .listOne ul li:hover {
+    cursor: pointer;
+    color: #0068D0 !important;
+  }
+
+  .listOne ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* List Two */
+  .listTwo ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .listTwo ul li {
+    margin: 30px 0;
+    font: 14px arial, sans-serif;
+  }
+
+  .listTwo ul li:hover {
+    cursor: pointer;
+    color: #0068D0 !important;
+  }
+
+  .listTwo ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  /* Globe Icon / Language List */
+  .language ul {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .language ul li {
+    margin: 15px 0;
+  }
+
+  .language ul li a {
+    display: block;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .language ul li.active a {
+    color: black;
+    border-bottom: 1px solid #0a3cda;
+    font-weight: 500;
+  }
+
+  .language ul li:last-child a {
+    border-bottom: none !important;
+  }
+
+  .language ul li a:hover {
+    cursor: pointer;
+    color: #0068D0 !important;
+  }
+</style>
 
 <div data-sly-use.linkList="com.aem.ford.core.models.LinkList"
-data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
-  data-sly-test.hasContent="${!linkList.empty}"
-  class="${linkList.cssClass}">
+     data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasContent="${!linkList.empty}"
+     class="${linkList.cssClass}">
+  
   <ul>
     <div data-sly-list.link="${linkList.links}">
       <li class="active">
         <a href="${link.path @ context='uri'}" class="link">${link.text}</a>
       </li>
-     
     </div>
   </ul>
 </div>
 
-
-<sly
-  data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"
-></sly>
-
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}" />
