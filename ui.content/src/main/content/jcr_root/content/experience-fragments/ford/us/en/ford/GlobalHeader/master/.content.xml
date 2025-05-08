@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-05-06T13:55:12.887+05:30"
+        cq:lastModified="{Date}2025-05-08T09:02:23.533+05:30"
         cq:lastModifiedBy="admin"
         cq:tags="[experience-fragments:variation/web]"
         cq:template="/conf/ford/settings/wcm/templates/xf-web-variation"
@@ -586,7 +586,7 @@
                     <linklist
                         jcr:created="{Date}2025-05-05T12:34:09.234+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-05-05T12:35:46.150+05:30"
+                        jcr:lastModified="{Date}2025-05-06T18:14:15.808+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/linklist"
@@ -598,11 +598,11 @@
                                 text="Build &amp; Price"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text=" Search Inventory"/>
                             <item2
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text="  Locate Dealer "/>
                             <item3
                                 jcr:primaryType="nt:unstructured"
@@ -614,7 +614,7 @@
                                 text="Merchandise"/>
                             <item5
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text="Special Offers"/>
                             <item6
                                 jcr:primaryType="nt:unstructured"
@@ -633,7 +633,7 @@
                     <linklist_613961851
                         jcr:created="{Date}2025-05-05T12:34:14.404+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-05-05T12:36:23.469+05:30"
+                        jcr:lastModified="{Date}2025-05-06T18:14:23.025+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/linklist"
@@ -641,7 +641,7 @@
                         <links jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text="Ford Credit   "/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
@@ -660,7 +660,7 @@
                     <linklist
                         jcr:created="{Date}2025-05-05T12:36:42.355+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-05-05T12:37:02.632+05:30"
+                        jcr:lastModified="{Date}2025-05-06T18:11:16.842+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/linklist"
@@ -668,7 +668,7 @@
                         <links jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text="English"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
@@ -683,7 +683,7 @@
                     <linklist_copy
                         jcr:created="{Date}2025-05-05T17:09:52.344+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-05-05T17:11:01.241+05:30"
+                        jcr:lastModified="{Date}2025-05-06T18:14:35.838+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/linklist"
@@ -691,7 +691,7 @@
                         <links jcr:primaryType="nt:unstructured">
                             <item0
                                 jcr:primaryType="nt:unstructured"
-                                path="/content/ford/us/en/ford-insure"
+                                path="/content/ford/us/en"
                                 text="Support Home"/>
                             <item1
                                 jcr:primaryType="nt:unstructured"
@@ -714,47 +714,7 @@
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/container"
                             id="tab-container"
-                            layout="responsiveGrid">
-                            <linklist
-                                jcr:created="{Date}2025-05-06T13:38:37.610+05:30"
-                                jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2025-05-06T13:55:12.876+05:30"
-                                jcr:lastModifiedBy="admin"
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="ford/components/content/linklist"
-                                cssClass="listOne">
-                                <links jcr:primaryType="nt:unstructured">
-                                    <item0
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text="Build &amp; Price"/>
-                                    <item1
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text=" Search Inventory"/>
-                                    <item2
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text="  Locate Dealer "/>
-                                    <item3
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text="Accessories"/>
-                                    <item4
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text="Merchandise"/>
-                                    <item5
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text="Special Offers"/>
-                                    <item6
-                                        jcr:primaryType="nt:unstructured"
-                                        path="/content/ford/us/en"
-                                        text=" EV Chargers "/>
-                                </links>
-                            </linklist>
-                        </item_1746445556758>
+                            layout="responsiveGrid"/>
                         <item_1746445636430
                             cq:panelTitle="Maintenance"
                             jcr:primaryType="nt:unstructured"

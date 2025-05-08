@@ -333,6 +333,13 @@
                             textColor="#0074D9"/>
                     </contentContainer>
                 </findvehiclepromo>
+                <herobanner
+                    jcr:created="{Date}2025-05-06T17:49:26.618+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-06T17:49:26.618+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/herobanner"/>
             </container>
             <container_1390198985
                 jcr:created="{Date}2025-04-19T16:08:26.716+05:30"

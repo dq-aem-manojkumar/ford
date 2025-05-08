@@ -148,7 +148,7 @@
                 <fordtitle
                     jcr:created="{Date}2025-04-22T14:46:54.265+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-24T15:20:47.055+05:30"
+                    jcr:lastModified="{Date}2025-05-06T17:57:26.058+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtitle"
@@ -157,6 +157,7 @@
                     descriptionColor="#111111"
                     descriptionFontSize="16px"
                     descriptionFontWeight="400"
+                    descriptionWidth="720px"
                     margin="70px 80px"
                     padding="0px"
                     title="The Power is Yours"
@@ -464,13 +465,13 @@
                                 image="/content/dam/ford/landing-page/vehiclecard/car 2.jpg"
                                 overlayLink="/content/ford/us/en"
                                 overlayText="Vehicle Details"
-                                title="Mustang"/>
+                                title="Bronco"/>
                         </cards>
                     </vehiclecard_copy>
                     <vehiclecard_copy_1156549148
                         jcr:created="{Date}2025-04-24T16:48:52.621+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2025-04-24T17:14:32.301+05:30"
+                        jcr:lastModified="{Date}2025-05-06T18:05:50.618+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="ford/components/content/vehiclecard">
@@ -485,11 +486,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 cta1Link="/content/ford/us/en/home"
                                 cta1Text="Explore Mustang"
-                                description="Raising heart rates for 60 years. Tailor the perfect Mustang for you, whether it's a workday or track day."
+                                description="If there’s work to be done or weekend fun to be had, just look around. A Ford F-150 truck is probably there."
                                 image="/content/dam/ford/landing-page/heroaward.png"
                                 overlayLink="/content/ford/us/en"
                                 overlayText="Vehicle Details"
-                                title="Mustang"/>
+                                title="F-150"/>
                         </cards>
                     </vehiclecard_copy_1156549148>
                 </container_572660744>

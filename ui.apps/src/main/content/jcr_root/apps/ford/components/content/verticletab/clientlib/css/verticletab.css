@@ -166,12 +166,13 @@
     
     display: flex;
     flex-direction: column;
-    max-width: 28.5%;
-    min-width: 28.5%;
+    max-width: 25%;
+    min-width: 25%;
     /* padding-bottom: 250px; */
     list-style: none;
     border: none;
    
+    
 }
 
 /* Tab buttons */
@@ -205,8 +206,7 @@
 .verticle_tab #ShopAndSupport .cmp-tabs__tab::after {
     content: "";
     display: none;
-    background-color: white;
-    height: 500px;
+   
 }
 
 /* Active tab style */
@@ -236,7 +236,6 @@
     margin:0px;
     min-width: 350px;
     max-width: fit-content;
-  
 
 }
 
@@ -246,5 +245,9 @@
 }
 
 
-
-
+.verticle_tab #ShopAndSupport #tab-container {
+    width: 100%; /* Make the container responsive */
+    max-width: 1380px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    
+}
