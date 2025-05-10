@@ -23,7 +23,8 @@ customaccordion_container
     /* max-width: 85%;
     margin: 0px 150px 0px 150px; */
     /* padding: 15px; */
-    border: none;
+    background-color: #ECECEC;
+    border: none!important; /* Remove default border */
     cursor: pointer;
     font-size: 1rem;
     
@@ -50,6 +51,7 @@ customaccordion_container
     color: #0067D0; /* Set the color of the symbol to blue */
     font-weight: normal; /* Ensure the symbol is not bold */
     top: -2px; /* Move the symbol slightly above */
+    
  
 }
  
@@ -58,7 +60,7 @@ customaccordion_container
     flex-grow: 1; /* Allow the title to take up available space */
     margin-right: 10px; /* Add space between the title and the symbol */
     text-align: left; /* Align the title text to the left */
-    padding-left: 15%; /* Add padding to the left of the title */
+    padding-left: 20px; /* Add padding to the left of the title */
     color: #5E5E5E;
     font-weight: normal;
     font-size: 15pt; /* Set the font size of the title */
@@ -76,8 +78,8 @@ customaccordion_container
     }
  
     .customaccordion_container  .cmp-accordion__panel--expanded {
-        overflow-y: auto; 
-
+        overflow-y: auto;
+ 
         padding-right: 30px ; /* Add space between content and scrollbar */
         scrollbar-gutter: stable; /* Keeps space even if scrollbar disappears */
         color: #464646 !important; /* Force the text color to black */
@@ -85,17 +87,19 @@ customaccordion_container
         font-size: 1rem; /* Adjust the font size inside the expanded panel */
     }
  
-
+ 
     
     .customaccordion_container  .cmp-accordion__panel--expanded * {
         margin: 0; /* Reset margins for consistent alignment */
         padding-left: 0; /* Ensure no extra padding is added to child elements */
         font-size: inherit; /* Inherit the font size from the parent panel */
+
     }
     /* Target text inside accordion panels */
     .customaccordion_container .cmp-accordion__panel .cmp-text {
     font-size: 14px; /* or whatever size you prefer */
     color: green;   /* or any hex/RGB/RGBA/variable you want */
+
 }
  
 /* Optional: More specific if multiple text types are used */
@@ -103,12 +107,14 @@ customaccordion_container
     margin-bottom: 1em;
     font-size: 14px;
     color: #333;
+
 }
- #accordion-text {
+#accordion-text {
     color: #464646 !important; /* Ensure all text inside the panel is black */
     padding-left: 16%;
     padding-right: 16%;
     font-size: 10px;
+
  
   }
   
@@ -128,34 +134,39 @@ customaccordion_container
         }
     }
 }
-
+ 
 /* Ensure the expanded panel has a fixed height of 300px */
 .customaccordion_container .cmp-accordion__panel--expanded {
     max-height: 300px; /* Set the maximum height of the expanded panel */
     overflow-y: auto; /* Enable vertical scrolling if content exceeds 300px */
-    background-color: #F0F0F0; /* Optional: Set a background color */
-    padding: 15px; /* Add padding inside the panel */
+    background-color: #ECECEC; /* Optional: Set a background color */
+    padding: 0px; /* Add padding inside the panel */
     border: none; /* Remove any borders */
     transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    font-size: 12px;
+    margin: 0; /* Reset margin for consistent alignment */
+    padding: 30px 80px 22px 23px; /* Add padding inside the panel */
 }
-
+ 
 /* Optional: Style the text inside the expanded panel */
 .customaccordion_container .cmp-accordion__panel--expanded * {
     margin: 0; /* Reset margins for consistent alignment */
     padding-left: 0; /* Ensure no extra padding is added to child elements */
     font-size: inherit; /* Inherit the font size from the parent panel */
 }
-
+ 
 /* Optional: Add a scrollbar style for the expanded panel */
 .customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar {
     width: 8px; /* Set the width of the scrollbar */
 }
-
+ 
 .customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar-thumb {
     background-color: #ccc; /* Set the color of the scrollbar thumb */
     border-radius: 4px; /* Add rounded corners to the scrollbar thumb */
 }
-
+ 
 .customaccordion_container .cmp-accordion__panel--expanded::-webkit-scrollbar-track {
     background-color: #f0f0f0; /* Set the background color of the scrollbar track */
 }
+ 
+ 
