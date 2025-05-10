@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2025-04-30T14:57:07.597+05:30"
+        cq:lastModified="{Date}2025-05-10T11:31:21.945+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/ford/settings/wcm/templates/ford-layout"
         jcr:primaryType="cq:PageContent"
@@ -19,33 +19,36 @@
                 <fordtitle
                     jcr:created="{Date}2025-04-29T12:40:35.107+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-30T14:44:58.184+05:30"
+                    jcr:lastModified="{Date}2025-05-10T11:15:08.446+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtitle"
-                    description="*Offer available on the purchase or lease of the following eligible new 2024–2025 Ford and Lincoln vehicles ONLY: Ford Mustang®, Escape®, Bronco®, Bronco Sport®, F-150®, F-150® Lightning®, Mustang Mach-E®, Maverick®, Ranger®, Transit®, E-Transit™, Lincoln Corsair® and Nautilus®; new 2024 Ford Super Duty® (pickup models only), Expedition®, and Lincoln Navigator® only; and new 2025 Ford Explorer® and Lincoln Aviator® only. Excludes all Bronco Stroppe models, Raptor® models, Mustang Dark Horse®, Mustang GTD, and all chassis cab models. U.S. residents only. Prior purchases not eligible. A/X/Z/D Plan ineligible. Place a new retail order or take new retail delivery from an authorized Ford Dealer’s or Lincoln Retailer’s stock by 6/2/25. See a participating dealer or retailer for details. The 2024 and 2025 Mustang Mach-E® SUV inventory may be limited and may vary by location. Please contact your Ford Dealer for the most current inventory status. Please contact your Ford Dealer for the most current inventory status.">
+                    description="*Offer available on the purchase or lease of the following eligible new 2024–2025 Ford and Lincoln vehicles ONLY: Ford Mustang®, Escape®, Bronco®, Bronco Sport®, F-150®, F-150® Lightning®, Mustang Mach-E®, Maverick®, Ranger®, Transit®, E-Transit™, Lincoln Corsair® and Nautilus®; new 2024 Ford Super Duty® (pickup models only), Expedition®, and Lincoln Navigator® only; and new 2025 Ford Explorer® and Lincoln Aviator® only. Excludes all Bronco Stroppe models, Raptor® models, Mustang Dark Horse®, Mustang GTD, and all chassis cab models. U.S. residents only. Prior purchases not eligible. A/X/Z/D Plan ineligible. Place a new retail order or take new retail delivery from an authorized Ford Dealer’s or Lincoln Retailer’s stock by 6/2/25. See a participating dealer or retailer for details. The 2024 and 2025 Mustang Mach-E® SUV inventory may be limited and may vary by location. Please contact your Ford Dealer for the most current inventory status. Please contact your Ford Dealer for the most current inventory status."
+                    descriptionFontSize="17px"
+                    descriptionFontWeight="400"
+                    margin="60px 0px 40px 0px ">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="10"/>
+                            width="9"/>
                     </cq:responsive>
                 </fordtitle>
                 <fordtab
                     jcr:created="{Date}2025-04-29T12:08:13.065+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-30T14:45:35.667+05:30"
+                    jcr:lastModified="{Date}2025-05-10T11:23:26.325+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/fordtab"
-                    activeItem="item_1745908732395"
+                    activeItem="item_1745908744826"
                     cssClassName="SuvCars"
                     id="ford_tab_container">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="1"
-                            width="10"/>
+                            width="9"/>
                     </cq:responsive>
                     <item_1745908732395
                         cq:panelTitle="2024"
@@ -64,7 +67,7 @@
                         <ford_carousel_152827
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-30T14:54:57.507+05:30"
+                            jcr:lastModified="{Date}2025-05-10T11:12:36.125+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -72,25 +75,25 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="7"/>
+                                    width="10"/>
                             </cq:responsive>
                             <suvCards jcr:primaryType="nt:unstructured">
                                 <item0
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* &#xd;&#xa;"
                                     imagePath="/content/dam/ford/images/carousal-suvs/mustang.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®2024"/>
+                                    title="2024 Mustang®"/>
                                 <item1
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting at MSRP $27,446* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2.png"
                                     priceDescription="Starting At MSRP $29,4951 &#xd;&#xa;&#xd;&#xa;"
@@ -98,9 +101,9 @@
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting at MSRP $28,169* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-3.png"
                                     priceDescription="Starting At MSRP $29,7951 &#xd;&#xa;&#xd;&#xa;"
@@ -108,9 +111,9 @@
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting at MSRP $37,341* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-4.png"
                                     priceDescription="Starting at MSRP $39,6301 &#xd;&#xa;&#xd;&#xa;"
@@ -118,9 +121,9 @@
                                 <item4
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-5.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -140,7 +143,7 @@
                         <ford_carousel_152827_466877673
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T15:52:00.249+05:30"
+                            jcr:lastModified="{Date}2025-05-10T11:14:31.060+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -148,9 +151,9 @@
                                 <item0
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-1.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -158,9 +161,9 @@
                                 <item1
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-2.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -168,9 +171,9 @@
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-3.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -178,9 +181,9 @@
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-4.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -188,9 +191,9 @@
                                 <item4
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-5.png"
                                     priceDescription="Starting At MSRP $31,9201"
@@ -251,7 +254,7 @@
                         <ford_carousel_152827
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T16:22:03.695+05:30"
+                            jcr:lastModified="{Date}2025-05-10T11:20:42.212+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -259,19 +262,19 @@
                                 <item0
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-1.png"
                                     priceDescription="Starting At MSRP $31,9201 "
-                                    title="2024 Mustang®"/>
+                                    title="2025 Mustang®"/>
                                 <item1
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Price Starting at MSRP $27,130* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-2.png"
                                     priceDescription="Starting at MSRP $29,1501 "
@@ -279,9 +282,9 @@
                                 <item2
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $28,355* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-3.png"
                                     priceDescription="Starting At MSRP $29,9951 "
@@ -289,23 +292,23 @@
                                 <item3
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-4.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    title="2025 Bronco®"/>
                                 <item4
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
-                                    cta1Text="Employee Service"
+                                    cta1Text="Search Inventory"
                                     cta2Link="/content/ford/us/en"
-                                    cta2Text="Find a Dealer"
+                                    cta2Text="Get a Quote"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/car-2025-5.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    title="2025 Explorer®"/>
                             </suvCards>
                         </ford_carousel_152827>
                         <fordtitle_copy_copy
@@ -321,7 +324,7 @@
                         <ford_carousel_152827_2050369148
                             jcr:created="{Date}2025-04-28T17:40:27.421+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2025-04-29T16:23:35.550+05:30"
+                            jcr:lastModified="{Date}2025-05-10T11:31:21.936+05:30"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="ford/components/content/ford-carousel">
@@ -365,7 +368,7 @@
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
                                     imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-4.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    title="2025 Bronco®"/>
                                 <item4
                                     jcr:primaryType="nt:unstructured"
                                     cta1Link="/content/ford/us/en"
@@ -373,11 +376,39 @@
                                     cta2Link="/content/ford/us/en"
                                     cta2Text="Find a Dealer"
                                     employeePriceDescription="Employee Pricing Starting At MSRP $29,671* "
-                                    imagePath="/content/dam/ford/landing-page/suv-imgs/suv-img-5.png"
+                                    imagePath="/content/dam/ford/images/carousal-suvs/truck-2025-5.png"
                                     priceDescription="Starting At MSRP $31,9201"
-                                    title="2024 Mustang®"/>
+                                    title="2025 Explored®"/>
                             </suvCards>
                         </ford_carousel_152827_2050369148>
+                        <servicecard_copy
+                            jcr:created="{Date}2025-04-29T16:04:43.000+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-04-30T14:57:07.592+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/servicecard">
+                            <serviceCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    serviceCardDescription="Find Your ford Vehicle"
+                                    serviceCardIcon="/content/dam/ford/icons/service-card-1.svg"
+                                    serviceCardPath="/content/ford/us/en"
+                                    serviceCardTitle="Search Inventory"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    serviceCardDescription="See Pricing on Your local Dealer"
+                                    serviceCardIcon="/content/dam/ford/icons/service-card-2.svg"
+                                    serviceCardPath="/content/ford/language-masters/en"
+                                    serviceCardTitle="Get A Quote"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    serviceCardDescription="Personalize your new Vehicle"
+                                    serviceCardIcon="/content/dam/ford/icons/service-card-3.svg"
+                                    serviceCardPath="/content/ford/us/en"
+                                    serviceCardTitle="Build &amp; Price"/>
+                            </serviceCards>
+                        </servicecard_copy>
                     </item_1745908744826>
                 </fordtab>
             </container>
@@ -391,13 +422,12 @@
                 <herobanner
                     jcr:created="{Date}2025-04-29T11:47:44.924+05:30"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2025-04-30T14:40:49.309+05:30"
+                    jcr:lastModified="{Date}2025-05-10T11:22:19.128+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="ford/components/content/herobanner"
                     fileReference="/content/dam/ford/images/hero-banner-emp-pricing.png"
-                    name="You Pay What We Pay You Pay You Pay What We Pay Yo"
-                    occupations="*important details "/>
+                    name="You Pay What We Pay You "/>
             </container_1390198985>
         </root>
     </jcr:content>
