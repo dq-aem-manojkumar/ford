@@ -10,8 +10,8 @@ data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
   data-sly-test.hasContent="${!FeatureCard.empty}">
   <div class="featurecard-container" style="background-color:${properties.backgroundColor @ context='styleToken'};" >
     <sly data-sly-list.item="${featureCard.cards}">
-      <div class="feature-card">
-        <div class="featurecard-image-wrapper">
+      <div class="feature-card"style="margin-bottom:${properties.margin @ context='styleToken'};width:${properties.cardWidth @ context='styleToken'};" >
+        <div class="featurecard-image-wrapper"style="width:${properties.cardWidth @ context='styleToken'};">
           <img
             src="${item.imagePath @ context='uri'}"
             alt="${item.title @ context='text'}"
@@ -19,7 +19,7 @@ data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
           />
         </div>
         <div class="featurecard-content" style="background-color:${properties.backgroundColor @ context='styleToken'};" >
-          <h1 class="featurecard-title" style="color:${properties.textColor @ context='styleToken'};" >${item.title @ context='text'}</h1>
+          <h1 class="featurecard-title" style="color:${properties.textColor @ context='styleToken'};font-weight:400;" >${item.title @ context='text'}</h1>
           <p class="featurecard-description" style="color:${properties.textColor @ context='styleToken'};">
             ${item.description @ context='text'}
           </p>

@@ -1,0 +1,66 @@
+
+
+/* Styles for Powertrain */
+.powertrain_tab{
+
+    background-color: #ffffff;
+
+}
+
+
+.powertrain_tab .cmp-tabs__tablist {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: none;
+    margin: 0px 0px 0px 80px;
+    padding: 50px 0px 0px 0px;
+   
+}
+
+.powertrain_tab .cmp-tabs__tab {
+    position: relative;
+    padding: 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0a0a23;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.powertrain_tab .cmp-tabs__tab:hover{
+   border-bottom: 1px solid black;
+}
+
+
+
+.powertrain_tab .cmp-tabs__tab--active {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0066b3;
+   
+}
+
+
+.powertrain_tab .cmp-tabs__tab::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 2px;
+    width: 0%;
+    margin-top: 30px;
+    background-color: #0066b3;
+    transition: width 0.1s ease;
+}
+
+.powertrain_tab .cmp-tabs__tab--active::after {
+   
+    width: 100%;
+    background-color: #0066b3;
+    height: 4px;
+}
+

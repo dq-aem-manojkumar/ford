@@ -48,7 +48,7 @@
                                                             fieldLabel="Title"
                                                             name="./title"
                                                             required="true"
-                                                            maxlength="28"/>
+                                                            />
                                                         <description
                                                             jcr:primaryType="nt:unstructured"
                                                             sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
@@ -99,6 +99,20 @@
                                         sling:resourceType="granite/ui/components/coral/foundation/form/colorfield"
                                         fieldLabel="Text Color"
                                         name="./textColor"/>
+
+
+                                        <cardWidth
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Card Width ex(100px)"
+                                        name="./cardWidth"/>
+
+
+                                        <margin
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Margin-Bottom ex(80px)"
+                                        name="./margin"/>
                                        
                                     </items>
                                 </column>

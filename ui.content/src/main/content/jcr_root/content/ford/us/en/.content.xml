@@ -87,8 +87,9 @@
             cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
             jcr:primaryType="cq:LiveCopy"/>
     </jcr:content>
-    <home/>
     <employee-pricing/>
     <suvs/>
     <ford-insure/>
+    <powertrain/>
+    <home-page/>
 </jcr:root>

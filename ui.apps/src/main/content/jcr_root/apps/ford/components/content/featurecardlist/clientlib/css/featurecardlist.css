@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* padding: 30px 40px; */
+
 }
  
 .feature-card {
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin:10px 10px;
+  margin:40px 10px 10px 10px;
   /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
 }
  
@@ -32,27 +32,28 @@
 }
  
 .featurecard-content {
-  width: 100%;
+
   display: flex;
   flex-direction: column;
 justify-items: space-between;
    background-color: #00142E;
-  padding-left:60px;
+  padding-left:40px;
 }
  
 .featurecard-title {
-  width: 384px;
+padding-top:10px;
   color:white;
   font-weight:250;
   font-size: 44px;
-  margin:10px 0px 0px 0px;
   line-height: 1;
+  margin:10px 0px 0px 0px;
+
   /* padding-bottom:50px; */
-  overflow: hidden;
-  max-height: auto;
+  /* overflow: hidden; */
+  /* max-height: auto; */
 }
 .featurecard-description {
-  width: 373px;
+
   height: 69px;
   font-size: 16px;
   color: white;

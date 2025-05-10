@@ -52,7 +52,7 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                         fieldLabel="Overlay Link"
                         name="./overlayLink"
-                        rootPath="/content"
+                        rootPath="/content/ford"
                         required="true"/>
 
                     <title
@@ -81,7 +81,7 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                         fieldLabel="Button Link"
                         name="./buttonLink"
-                        rootPath="/content"
+                        rootPath="/content/ford"
                         required="true"/>
 
                 </items>

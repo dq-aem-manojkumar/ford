@@ -290,11 +290,12 @@
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2025-04-22T14:38:35.429+05:30"
+                    jcr:lastModified="{Date}2025-05-10T09:45:48.293+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="NavBar Polciy"
+                    jcr:title="Navbar-dropdown-policy"
                     sling:resourceType="wcm/core/components/policy/policy"
+                    backgroundColorEnabled="true"
                     components="[/libs/foundation/components/search,/libs/social/commons/components/hbs/quicksearch,/apps/ford/components/content/navbar]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>

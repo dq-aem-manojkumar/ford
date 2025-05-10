@@ -76,19 +76,9 @@ public class HeroBannerImpl implements HeroBanner {
     public boolean isEmpty() {
         final Image componentImage = getImage();
 
-        if (StringUtils.isBlank(name)) {
-            // Name is missing, but required
-            return true;
-        } else if (occupations == null || occupations.isEmpty()) {
-            // At least one occupation is required
-            return true;
-        } else if (componentImage == null || StringUtils.isBlank(componentImage.getSrc())) {
-            // A valid image is required
-            return true;
-        } else {
-            // Everything is populated, so this component is not considered empty
-            return false;
-        }
+        return StringUtils.isBlank(name)
+        && (occupations == null || occupations.isEmpty())
+        && (componentImage == null || StringUtils.isBlank(componentImage.getSrc()));
     }
 
     /**

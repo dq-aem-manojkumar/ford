@@ -1,0 +1,35 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html"/>
+<sly data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"/>
+<sly data-sly-call="${clientlib.css @ categories='ford.components.ford-carousel-v2'}"/>
+<sly data-sly-call="${clientlib.js @ categories='ford.components.ford-carousel-v2'}"/>
+<sly data-sly-use.model="com.aem.ford.core.models.PowertrainCarouselCard"
+     data-sly-test.hasContent="${!model.empty}">
+
+<div class="ford-carousel-v2-wrapper">
+  <div class="ford-carousel-v2-container">
+    <button class="v2-carousel-arrow left">&#8249;</button>
+
+    <div class="ford-carousel-v2-track">
+      <!-- Iterate over  -->
+      <sly data-sly-list.item="${model.powerTrainCards}">
+        <div class="ford_carousal_v2_card">
+        <img class="ford_carousal_v2_img" src="${item.image @ context='uri'}" alt="${item.title @ context='text'}" />
+          <div class="ford_carousal_v2_content">
+            <h3 class="ford_carousal_v2_title">${item.title @ context='text'}</h3>
+            <div class="ford_carousal_v2_desc">${item.description @ context='html'}</div>
+          </div>
+          <div class="ford_carousal_v2_btn" data-sly-resource="${['btn', itemList.index] @ join='',resourceType='ford/components/content/fordbutton'}">>
+          </div>
+        </div>
+      </sly>
+    </div>
+
+    <button class="v2-carousel-arrow right">&#8250;</button>
+  </div>
+</div>
+
+<!-- Placeholder for empty content -->
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+
+
+
