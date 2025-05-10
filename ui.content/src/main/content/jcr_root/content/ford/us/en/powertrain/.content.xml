@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-05-10T12:30:29.415+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ford/settings/wcm/templates/ford-layout"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="powertrain"
+        sling:resourceType="ford/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="ford/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"
+                layout="responsiveGrid">
+                <fordtab_copy jcr:primaryType="nt:unstructured"/>
+                <fordtab_copy_1410456108 jcr:primaryType="nt:unstructured"/>
+                <powertraintab
+                    jcr:created="{Date}2025-05-09T09:46:49.831+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2025-05-10T12:03:06.770+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="ford/components/content/powertraintab"
+                    activeItem="item_1746764975650">
+                    <item_1746764975650
+                        cq:panelTitle="Overview"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container">
+                        <fordtitle_copy
+                            jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-08T17:29:23.445+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            description="Engine. Powertrain. Muscle. Call it what you will. But to us, that’s just the start of the story. What you choose to do with that power and wherever you choose to take it? That’s what really matters."
+                            descriptionColor="#111111"
+                            descriptionFontSize="16px"
+                            descriptionFontWeight="400"
+                            descriptionWidth="750px"
+                            margin="60px 0px 0px 80px"
+                            padding="0px 10px"
+                            title="Welcome to the Starting Line"
+                            titleColor="#111111"
+                            titleFontSize="60px"
+                            titleFontWeight="500"/>
+                        <herobanner_copy
+                            jcr:created="{Date}2025-05-08T17:29:30.767+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-09T15:16:30.648+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/herobanner"
+                            fileReference="/content/dam/ford/powertrain-page-imgs/overview/powertrain-img-1.png"
+                            occupations="Vehilce Details">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="10"/>
+                            </cq:responsive>
+                        </herobanner_copy>
+                        <fordtitle_copy_copy
+                            jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-09T10:41:59.582+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtitle"
+                            description="From tire-squealing and dust-kicking… to kid-shuttling, load-hauling, and commute-crushing. Everybody’s driving needs are different. Let us help you choose the perfect engine that fits your life. Whether it’s high-octane, high-voltage, or something in-between.&#xd;&#xa;"
+                            descriptionColor="#111111"
+                            descriptionFontSize="16px"
+                            descriptionFontWeight="400"
+                            descriptionWidth="750px"
+                            margin="60px 0px 0px 80px"
+                            padding="0px 10px"
+                            title="Find the Power That’s Best for You"
+                            titleColor="#111111"
+                            titleFontSize="60px"
+                            titleFontWeight="500"/>
+                        <fordtab
+                            jcr:created="{Date}2025-05-09T10:42:15.199+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-09T11:18:34.733+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/fordtab"
+                            activeItem="item_1746767546798">
+                            <item_1746767542431
+                                cq:panelTitle="Gas &amp; Ecoboost®"
+                                jcr:lastModified="{Date}2025-05-09T10:51:28.842+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container"
+                                layout="responsiveGrid">
+                                <findvehiclepromo
+                                    jcr:created="{Date}2025-05-09T10:43:34.255+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T10:47:58.795+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/findvehiclepromo"
+                                    backgroundColor="#ffffff"
+                                    imagePath="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img1.png">
+                                    <contentContainer
+                                        jcr:lastModified="{Date}2025-05-09T10:51:43.458+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/container/v1/container"
+                                        layout="responsiveGrid">
+                                        <fordtitle
+                                            jcr:created="{Date}2025-05-09T10:48:16.466+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T10:59:47.305+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordtitle"
+                                            description="EcoBoost engine technology combines turbocharging, direct fuel injection and twin independent variable camshaft timing (Ti-VCT). It results in a smaller gas engine that pushes out impressive power. Today, you’ll find EcoBoost available on nearly every Ford vehicle we make. And for unique vehicle needs? The classic, naturally aspirated gas engine is still available on select cars and trucks.&#xd;&#xa;"
+                                            descriptionColor="#111111"
+                                            descriptionFontSize="16px"
+                                            descriptionFontWeight="400"
+                                            descriptionWidth="570px"
+                                            margin="0px 0px 40px 50px"
+                                            padding="0px"
+                                            title="Peak Petroleum Performance"
+                                            titleColor="#111111"
+                                            titleFontSize="38px"
+                                            titleFontWeight="500"/>
+                                        <fordbutton
+                                            jcr:created="{Date}2025-05-09T10:51:15.933+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T10:59:18.830+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            backgroundColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="0px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            margin="0px 20px 0px 0px"
+                                            text="Explore Super Duty"
+                                            textColor="#ffffff">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="1"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton>
+                                        <fordbutton_862924336
+                                            jcr:created="{Date}2025-05-09T10:54:14.305+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T10:56:18.991+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            borderColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="1px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            text="Other Gas Options"
+                                            textColor="#0074D9">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="0"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton_862924336>
+                                    </contentContainer>
+                                </findvehiclepromo>
+                            </item_1746767542431>
+                            <item_1746767546798
+                                cq:panelTitle="Hybrid"
+                                jcr:lastModified="{Date}2025-05-09T11:24:00.500+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container"
+                                layout="responsiveGrid">
+                                <findvehiclepromo_cop
+                                    jcr:created="{Date}2025-05-09T10:43:34.255+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T11:18:42.568+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/findvehiclepromo"
+                                    backgroundColor="#ffffff"
+                                    imagePath="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img2.png">
+                                    <contentContainer
+                                        jcr:lastModified="{Date}2025-05-09T10:51:43.458+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/container/v1/container"
+                                        layout="responsiveGrid">
+                                        <fordtitle
+                                            jcr:created="{Date}2025-05-09T10:48:16.466+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:19:07.725+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordtitle"
+                                            description="The everyday benefits of electric. The effortless reliability of gas power. Get the advantages of each, working in seamless combination. With more models available than ever before, you’ll now find hybrid versions of many Ford trucks and SUVs. This includes a Ford Escape® Plug-In Hybrid, which provides a reliable range of all-electric power.&#xd;&#xa;"
+                                            descriptionColor="#111111"
+                                            descriptionFontSize="16px"
+                                            descriptionFontWeight="400"
+                                            descriptionWidth="570px"
+                                            margin="0px 0px 40px 50px"
+                                            padding="0px"
+                                            title=" The Best of Both Worlds"
+                                            titleColor="#111111"
+                                            titleFontSize="38px"
+                                            titleFontWeight="500"/>
+                                        <fordbutton
+                                            jcr:created="{Date}2025-05-09T10:51:15.933+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-10T12:30:29.403+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            backgroundColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="0px"
+                                            height="18px"
+                                            link="/content/ford/us/en/ford-insure"
+                                            margin="0px 20px 0px 0px"
+                                            text="Explore Hybrids"
+                                            textColor="#ffffff">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="1"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton>
+                                        <fordbutton_862924336
+                                            jcr:created="{Date}2025-05-09T10:54:14.305+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:19:37.283+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            borderColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="1px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            text="Find Your Hybrid"
+                                            textColor="#0074D9">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="0"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton_862924336>
+                                    </contentContainer>
+                                </findvehiclepromo_cop>
+                                <fordtitle
+                                    jcr:created="{Date}2025-05-09T11:20:28.324+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T11:25:22.840+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordtitle"
+                                    margin="0px 0px 0px 45px"
+                                    title="What’s the right powertrain for me?"
+                                    titleColor="#010203"
+                                    titleFontSize="58px"
+                                    titleFontWeight="400">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="0"
+                                            width="10"/>
+                                    </cq:responsive>
+                                </fordtitle>
+                            </item_1746767546798>
+                            <item_1746767550664
+                                cq:panelTitle="Electric"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container">
+                                <findvehiclepromo_cop
+                                    jcr:created="{Date}2025-05-09T10:43:34.255+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T11:11:58.157+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/findvehiclepromo"
+                                    backgroundColor="#ffffff"
+                                    imagePath="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img3.png">
+                                    <contentContainer
+                                        jcr:lastModified="{Date}2025-05-09T10:51:43.458+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/container/v1/container"
+                                        layout="responsiveGrid">
+                                        <fordtitle
+                                            jcr:created="{Date}2025-05-09T10:48:16.466+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:17:46.662+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordtitle"
+                                            description="Next level acceleration. Powerful motors. A fully electric driving experience. Say “hello” to the future with Mustang Mach-E® and Ford F-150 Lightning®. And now, with the Ford Power Promise, you’ll be eligible for a complimentary home charger and standard installation*, 24/7 Live Support**, and Ford Roadside Assistance. Also get access to the BlueOval™ Charge Network—the largest public charging network in North America.†&#xd;&#xa;"
+                                            descriptionColor="#111111"
+                                            descriptionFontSize="16px"
+                                            descriptionFontWeight="400"
+                                            descriptionWidth="570px"
+                                            margin="0px 0px 0px 50px"
+                                            padding="0px"
+                                            title="Enter Electric Exhilaration"
+                                            titleColor="#111111"
+                                            titleFontSize="38px"
+                                            titleFontWeight="500"/>
+                                        <text
+                                            jcr:created="{Date}2025-05-09T11:15:37.970+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:18:09.808+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="foundation/components/text"
+                                            text="&lt;p>Based on EPA tailpipe rating. Visit &lt;a href=&quot;https://www.fueleconomy.gov/&quot;>www.fueleconomy.gov&lt;/a> for more information&lt;b>&lt;/b>&lt;br />&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&lt;b> &lt;/b>&lt;/p>&#xd;&#xa;"
+                                            textIsRich="true">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="1"
+                                                    width="10"/>
+                                            </cq:responsive>
+                                        </text>
+                                        <fordbutton
+                                            jcr:created="{Date}2025-05-09T10:51:15.933+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T10:59:18.830+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            backgroundColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="0px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            margin="0px 20px 0px 0px"
+                                            text="Explore Super Duty"
+                                            textColor="#ffffff">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="1"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton>
+                                        <fordbutton_862924336
+                                            jcr:created="{Date}2025-05-09T10:54:14.305+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T10:56:18.991+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            borderColor="#0074D9"
+                                            borderRadius="2"
+                                            borderSize="1px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            text="Other Gas Options"
+                                            textColor="#0074D9">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="0"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton_862924336>
+                                    </contentContainer>
+                                </findvehiclepromo_cop>
+                            </item_1746767550664>
+                            <item_1746767554248
+                                cq:panelTitle="Diesel"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container">
+                                <findvehiclepromo_cop
+                                    jcr:created="{Date}2025-05-09T10:43:34.255+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T11:11:38.859+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/findvehiclepromo"
+                                    backgroundColor="#ffffff"
+                                    imagePath="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img4.png">
+                                    <contentContainer
+                                        jcr:lastModified="{Date}2025-05-09T10:51:43.458+05:30"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="core/wcm/components/container/v1/container"
+                                        layout="responsiveGrid">
+                                        <fordtitle
+                                            jcr:created="{Date}2025-05-09T10:48:16.466+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:06:17.262+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordtitle"
+                                            description="Hauling and towing. Pushing and pulling. Diesel-powered Ford Super Duty® trucks are constantly tested over the course of a workday. And to get the job done, power is prioritized above all. Diesel fuel is more energy dense, since it’s refined differently than gasoline – to help you to meet the daily demands of business."
+                                            descriptionColor="#111111"
+                                            descriptionFontSize="16px"
+                                            descriptionFontWeight="400"
+                                            descriptionWidth="570px"
+                                            margin="0px 0px 40px 50px"
+                                            padding="0px"
+                                            title="The Drive to Work Harder"
+                                            titleColor="#111111"
+                                            titleFontSize="38px"
+                                            titleFontWeight="500"/>
+                                        <fordbutton
+                                            jcr:created="{Date}2025-05-09T10:51:15.933+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:09:24.203+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            backgroundColor="#0074D9"
+                                            borderRadius="1"
+                                            borderSize="0px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            margin="0px 20px 0px 0px"
+                                            text="Explore Super Duty"
+                                            textColor="#ffffff">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="1"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton>
+                                        <fordbutton_862924336
+                                            jcr:created="{Date}2025-05-09T10:54:14.305+05:30"
+                                            jcr:createdBy="admin"
+                                            jcr:lastModified="{Date}2025-05-09T11:09:31.812+05:30"
+                                            jcr:lastModifiedBy="admin"
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="ford/components/content/fordbutton"
+                                            borderColor="#0074D9"
+                                            borderRadius="1"
+                                            borderSize="1px"
+                                            height="18px"
+                                            link="/content/ford/us/en/employee-pricing"
+                                            text="Get To Work With Ford Pro"
+                                            textColor="#0074D9">
+                                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                                <default
+                                                    jcr:primaryType="nt:unstructured"
+                                                    offset="0"
+                                                    width="4"/>
+                                            </cq:responsive>
+                                        </fordbutton_862924336>
+                                    </contentContainer>
+                                </findvehiclepromo_cop>
+                            </item_1746767554248>
+                        </fordtab>
+                        <ford_carousel_v2
+                            jcr:created="{Date}2025-05-09T14:22:57.233+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-09T15:59:11.901+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/ford-carousel-v2"
+                            layout="simple"
+                            textIsRich="[true,true,true,true]">
+                            <btn0
+                                jcr:lastModified="{Date}2025-05-09T15:10:19.845+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                borderSize="0px"
+                                height="auto"
+                                link="/"
+                                text="Explore EcoBoost &amp; Gas  >"
+                                textColor="#0074D9"
+                                width="200px"/>
+                            <btn1
+                                jcr:lastModified="{Date}2025-05-09T15:58:42.528+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                borderColor="#ffffff"
+                                borderSize="0px"
+                                link="/content/ford/us"
+                                text="Explore Hybrid Power >"
+                                textColor="#0074D9">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="6"
+                                        width="3"/>
+                                </cq:responsive>
+                            </btn1>
+                            <powerTrainCards jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    description="&lt;ul>&#xd;&#xa;&lt;li>You seldom drive in the city, and do plenty of highway drivinghlo&lt;/li>&#xd;&#xa;&lt;li>You often take trips more than 150 miles from home&lt;/li>&#xd;&#xa;&lt;li>You're comfortable filling up at the corner gas station&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                    image="/content/dam/ford/powertrain-page-imgs/overview/powertrain-img-1.png"
+                                    title="Gas Or Ecoboost If...."/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    description="&lt;ul>&#xd;&#xa;&lt;li>You do a mix of city and highway driving&lt;/li>&#xd;&#xa;&lt;li>You want the benefits of both gas and electric power&lt;/li>&#xd;&#xa;&lt;li>Access to public charging stations is limited in your area&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;p> &lt;/p>&#xd;&#xa;"
+                                    image="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img2.png"
+                                    title="Hybrid if…"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    description="&lt;ul>&#xd;&#xa;&lt;li>You do a lot of city/suburban driving&lt;/li>&#xd;&#xa;&lt;li>You have access to a garage or parking space that allows you to plug in at home&lt;/li>&#xd;&#xa;&lt;li>Zero-emission driving is important to you&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                    image="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img3.png"
+                                    title="Electric if…"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    description="&lt;ul>&#xd;&#xa;&lt;li>Your day-to-day demands require considerable power&lt;/li>&#xd;&#xa;&lt;li>You seek best-in-class available torque&lt;/li>&#xd;&#xa;&lt;li>You prioritize strength over speed from an engine&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                    image="/content/dam/ford/powertrain-page-imgs/overview/powertrain-tab-img4.png"
+                                    title="Diesel if..."/>
+                            </powerTrainCards>
+                            <btn2
+                                jcr:lastModified="{Date}2025-05-09T16:02:52.576+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                borderSize="0px"
+                                link="/content/ford/us/en"
+                                text="Explore Going Electric   >"
+                                textColor="#0074D9"/>
+                            <btn3
+                                jcr:lastModified="{Date}2025-05-09T16:02:44.229+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordbutton"
+                                borderSize="0px"
+                                icon="                                                      "
+                                link="/content/ford/us/en"
+                                text="Explore Super Duty®     >"
+                                textColor="#0074D9"/>
+                        </ford_carousel_v2>
+                        <herobanner_copy_copy
+                            jcr:created="{Date}2025-05-08T17:29:30.767+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2025-05-09T15:14:05.409+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/content/herobanner"
+                            fileReference="/content/dam/ford/powertrain-page-imgs/overview/powertrain-img-1.png"
+                            imageCrop="72,2,1206,488"
+                            occupations="Vehilce Details"/>
+                    </item_1746764975650>
+                    <item_1746764978996
+                        cq:panelTitle="Gas&amp;Ecoboost"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container">
+                        <item_1746764975650_c
+                            cq:panelTitle="Overview"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/container">
+                            <fordtitle_copy
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T16:21:08.401+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="The tried-and-true gas engine still has its place in the Ford vehicle lineup. And beyond traditional internal combustion technology, there's also Ford EcoBoost®. EcoBoost engines combine turbocharging, direct fuel injection and twin independent variable camshaft timing (Ti-VCT).&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="60px 0px 0px 80px"
+                                padding="0px 10px"
+                                title="Gas Power, Accelerated"
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="500"/>
+                            <herobanner_copy
+                                jcr:created="{Date}2025-05-08T17:29:30.767+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T16:38:14.491+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/herobanner"
+                                fileReference="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-img-1.png"
+                                occupations="Vehilce Details">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="10"/>
+                                </cq:responsive>
+                            </herobanner_copy>
+                            <fordtitle_copy_copy
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T16:25:16.089+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="With impressive overall performance, EcoBoost provides the muscle of a bigger displacement engine with fuel economy in mind.&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="60px 0px 0px 80px"
+                                padding="0px 10px"
+                                title="EcoBoost: Big Performance, Small Engine"
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="500"/>
+                            <ford_carousel_v2
+                                jcr:created="{Date}2025-05-09T14:22:57.233+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T16:57:22.185+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/ford-carousel-v2"
+                                textIsRich="[true,true,true,true]">
+                                <btn0
+                                    jcr:lastModified="{Date}2025-05-09T15:10:19.845+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    height="auto"
+                                    link="/"
+                                    text="Explore EcoBoost &amp; Gas  >"
+                                    textColor="#0074D9"
+                                    width="200px"/>
+                                <btn1
+                                    jcr:lastModified="{Date}2025-05-09T16:50:21.914+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    margin="0px 0px 0px 20px"
+                                    text="Explore Escape >"
+                                    textColor="#0074D9">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="6"
+                                            width="1"/>
+                                    </cq:responsive>
+                                </btn1>
+                                <powerTrainCards jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b>  EPA-estimated rating of 23 city/30 hwy/26 combined MPG&lt;br />&#xd;&#xa;&lt;b>Average Range  &lt;/b>EPA-estimated range of 429 miles&lt;/li>&#xd;&#xa;&lt;li>&lt;b>Average Fuel Cost &lt;/b> As little as $1,950 annually&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-carousel-img-1.png"
+                                        title="2024 Maverick®  XL 2.0L EcoBoost FWD"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b> EPA-estimated rating of 27 city/34 hwy/30 combined MPG&lt;br />&#xd;&#xa;&lt;b>Average Range&lt;/b>  EPA-estimated range of 444 miles&lt;/li>&#xd;&#xa;&lt;li> &lt;b>Average Fuel Cost &lt;/b>As little as $1,800 annually&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-carousel-img-2.png"
+                                        title="2024 Escape Active™ 1.5L EcoBoost FWD"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b>&amp;nbsp; EPA-estimated rating of 22 city/33 hwy/26 combined MPG&lt;br>&#xd;&#xa;&lt;b>Average Range&lt;/b>&amp;nbsp; EPA-estimated range of 416 miles&lt;/li>&#xd;&#xa;&lt;li>&lt;b>Average Fuel Cost&amp;nbsp;&lt;/b> As little as $2,100 annually&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-carousel-img-3.png"
+                                        title="2024 Mustang® 2.3L EcoBoost Fastback"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b>&amp;nbsp;&amp;nbsp; EPA-estimated rating of 21 city/25 hwy/22 combined MPG&lt;br>&#xd;&#xa;&lt;b>Average Range&lt;/b>&amp;nbsp;&amp;nbsp; EPA-estimated range of 414 miles&lt;/li>&#xd;&#xa;&lt;li>&lt;b>Average Fuel Cost&amp;nbsp;&lt;/b>&amp;nbsp; As little as $2,300 annually&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-carousel-img-4.png"
+                                        title="2024 Ranger® XL 2.3L EcoBoost 4x2"/>
+                                </powerTrainCards>
+                                <btn2
+                                    jcr:lastModified="{Date}2025-05-09T16:58:02.926+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    text="Explore Mustang"
+                                    textColor="#0074D9"/>
+                                <btn3
+                                    jcr:lastModified="{Date}2025-05-09T16:58:26.008+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    text="Explore Ranger"
+                                    textColor="#0074D9"/>
+                            </ford_carousel_v2>
+                            <container
+                                jcr:created="{Date}2025-05-09T17:02:28.846+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:05:16.787+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container"
+                                backgroundColor="#00142e">
+                                <fordtitle
+                                    jcr:created="{Date}2025-05-09T17:03:02.326+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T17:08:05.021+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordtitle"
+                                    description="Constantly adjusting and optimizing the engine and transmission operation as you drive. That’s just the beginning of what goes into EcoBoost engine performance."
+                                    descriptionColor="#ffffff"
+                                    descriptionFontSize="16px"
+                                    descriptionFontWeight="400"
+                                    margin="0px 40px 0px 80px"
+                                    padding="50px 0px"
+                                    title="How EcoBoost® Works"
+                                    titleColor="#ffffff"
+                                    titleFontSize="60px"
+                                    titleFontWeight="400"/>
+                                <fordtitle_2026918468
+                                    jcr:created="{Date}2025-05-09T17:06:06.489+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T17:08:12.299+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordtitle"
+                                    margin="0px 0px 0px 80px"
+                                    padding="40px 0px"
+                                    title="Three Technologies Working Together"
+                                    titleColor="#ffffff"
+                                    titleFontSize="60px"
+                                    titleFontWeight="400"/>
+                                <featurecardlist
+                                    jcr:created="{Date}2025-05-09T17:08:24.839+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-10T12:06:10.583+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/featurecardlist"
+                                    margin="60px">
+                                    <cards jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            description="The opening and closing of both the intake and exhaust valves are continuously adjusted while the engine is running. At peak demand, timing is controlled to help maximize the torque and power. This helps minimize fuel consumption during lower-load operation."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-card-img-1.png"
+                                            showButton="false"
+                                            title="Twin Independent Variable Camshaft Timing (Ti-VCT)"/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Energy from engine exhaust—that would otherwise be wasted—now rotates in a turbine. Coupled to a compressor, incoming air is pressurized into the combustion chambers. In turn, it generates a virtually instantaneous surge of on-demand power… and significantly increases output per liter."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-card-img-2.png"
+                                            showButton="false"
+                                            title="Turbocharged Performance"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            description="Direct injection takes a precise amount of fuel, delivered in a fine mist, fed directly into the combustion chamber. This helps to maximize power output when you need it."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/gas-ecoboost-card-img-3.png"
+                                            showButton="false"
+                                            title="Direct Fuel Injection"/>
+                                    </cards>
+                                </featurecardlist>
+                            </container>
+                            <fordtitle_copy_copy_
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:18:36.651+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="Ford Mustang® and Ford F-Series® trucks. These two Ford icons take traditional gasoline engine technology to the opposite extremes. From V8 power that needs a race track to contain it... to V8 engines that work hard and play hard, under the hoods of F-150® and Super Duty®.&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="60px 0px 0px 80px"
+                                padding="0px 10px"
+                                title="The Classic Gas Engine, Still a Powerful Choice"
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="500"/>
+                            <featurecardlist_copy
+                                jcr:created="{Date}2025-05-09T17:08:24.839+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-10T12:04:39.680+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/featurecardlist"
+                                backgroundColor="#ffffff"
+                                margin="60px"
+                                textColor="#111111">
+                                <cards jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="It’s street-legal. But just barely. This modified version of the naturally aspirated Gen-4 5.0L Coyote™ V8 engine allows the 2024 Mustang Dark Horse™ coupe to unleash 500 horsepower and 418 lb.-ft. of torque68, on track days."
+                                        imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/card2-imag-1.png"
+                                        showButton="false"
+                                        title="5.0L Ti-VCT V8"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Available on the 2024 F-150 Raptor R™&#xd;&#xa;, it's the&#xd;&#xa;most powerful high-performance engine ever put in an F-150 truck.* 720 horsepower and 640&#xd;&#xa;Ib.-ft. of torque** mean that adrenaline-pumping off-road excitement"
+                                        imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/card2-imag-2.png"
+                                        showButton="false"
+                                        title="5.2L Supercharged V8"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Select Super Duty° models offer the largest, most powerful gas engines available in their class. With a best-in-class maximum available 430 horsepower and 485 lb-ft. of torque,* it's ready for your workday."
+                                        imagePath="/content/dam/ford/powertrain-page-imgs/gas-ecoboost/card2-imag-3.png"
+                                        showButton="false"
+                                        title="7.3L OHV PFI V8"/>
+                                </cards>
+                            </featurecardlist_copy>
+                        </item_1746764975650_c>
+                    </item_1746764978996>
+                    <item_1746764985043
+                        cq:panelTitle="Hybrid"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="ford/components/container">
+                        <item_1746764975650_c
+                            cq:panelTitle="Overview"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="ford/components/container">
+                            <fordtitle_copy
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:46:23.686+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="From family haulers to jobsite workhorses, you won’t have to choose between gas or electric. You can get the best parts of both.&#xd;&#xa;&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="60px 0px 50px 80px"
+                                padding="0px 10px"
+                                title="Ford Hybrid Vehicles "
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="400"/>
+                            <herobanner_copy
+                                jcr:created="{Date}2025-05-08T17:29:30.767+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:45:59.421+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/herobanner"
+                                fileReference="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-herobanner-imag.png">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="0"
+                                        width="10"/>
+                                </cq:responsive>
+                            </herobanner_copy>
+                            <fordtitle_copy_copy
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:46:56.217+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="Hybrid technology uses both a gas engine and an electric motor. You get the long-distance peace of mind that gas power delivers. For shorter everyday trips, you’ll see many benefits of electrification—including potential fuel economy savings over comparable gas-powered models. Ford Maverick® and Ford F-150® offer multiple hybrid models. In addition to basic hybrids, Ford Escape® also offers a Plug-In Hybrid for daily electric-only driving.&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="60px 0px 0px 80px"
+                                padding="0px 10px"
+                                title=" Optimize Your Drive"
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="500"/>
+                            <ford_carousel_v2
+                                jcr:created="{Date}2025-05-09T14:22:57.233+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T17:53:01.355+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/ford-carousel-v2"
+                                textIsRich="[true,true,true,true]">
+                                <btn0
+                                    jcr:lastModified="{Date}2025-05-09T17:53:56.280+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    height="auto"
+                                    link="/"
+                                    text="Explore Maverick  >"
+                                    textColor="#0074D9"
+                                    width="200px"/>
+                                <btn1
+                                    jcr:lastModified="{Date}2025-05-09T17:54:16.551+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    margin="0px 0px 0px 20px"
+                                    text="Explore Escape >"
+                                    textColor="#0074D9">
+                                    <cq:responsive jcr:primaryType="nt:unstructured">
+                                        <default
+                                            jcr:primaryType="nt:unstructured"
+                                            offset="6"
+                                            width="1"/>
+                                    </cq:responsive>
+                                </btn1>
+                                <btn2
+                                    jcr:lastModified="{Date}2025-05-09T17:57:13.143+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    text="Explore F-150"
+                                    textColor="#0074D9"/>
+                                <btn3
+                                    jcr:lastModified="{Date}2025-05-09T17:57:28.676+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordbutton"
+                                    borderSize="0px"
+                                    link="/content/ford/us/en"
+                                    text="ExploreEscape"
+                                    textColor="#0074D9"/>
+                                <powerTrainCards jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b> EPA-estimated rating of 42 city/33 hwy/37 combined MPG?&lt;/li>&#xd;&#xa;&lt;li>﻿﻿&lt;b>Average Range&lt;/b> EPA-estimated range of 511 miles&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Annual Fuel&lt;/b> Cost $1,350 annually*&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-carousel-card-img-1.png"
+                                        title="2024 Maverick XLT 2.5L Hybrid FWD"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>﻿﻿&lt;b>MPG&lt;/b> EPA-estimated rating of 101 MPGe 2&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Range&lt;/b> EPA-estimated range of 520 miles?&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Annual Fuel Cost &lt;/b>$950 annually*&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-carousel-card-img-2.png"
+                                        title="2024 Escape Plug-In Hybrid (PHEV) 2.5L iVCT FWD"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>﻿﻿&lt;b>MPG&lt;/b> EPA-estimated rating of 22 city/24 hwy/23 combined MPG?&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Range&lt;/b> EPA-estimated range of 704 miles?&lt;/li>&#xd;&#xa;&lt;li>﻿﻿&lt;b>Average Annual Fuel Cost&lt;/b> $2,200 annually*&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-carousel-card-img-3.png"
+                                        title="2024 F-150 LARIAT® 3.5L PowerBoost® Hybrid 4x4"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        description="&lt;ul>&#xd;&#xa;&lt;li>&lt;b>MPG&lt;/b> EPA-estimated rating of 42 city/36 hwy/39 combined MPG?&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Range&lt;/b> EPA-estimated range of 557 miles&lt;/li>&#xd;&#xa;&lt;li>&lt;b>﻿﻿Average Annual Fuel Cost&lt;/b> $1,450 annually*&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                                        image="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-carousel-card-img-4.png"
+                                        title="2024 Escape® Platinum 2.5L Hybrid FWD"/>
+                                </powerTrainCards>
+                            </ford_carousel_v2>
+                            <fordtitle_copy_copy_
+                                jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-10T12:27:35.906+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/fordtitle"
+                                description="Ford hybrid vehicles harness innovative and intelligent technology for exceptional driving convenience.&#xd;&#xa;"
+                                descriptionColor="#111111"
+                                descriptionFontSize="16px"
+                                descriptionFontWeight="400"
+                                descriptionWidth="750px"
+                                margin="0px 0px 0px 80px"
+                                title="How Hybrids Work"
+                                titleColor="#111111"
+                                titleFontSize="60px"
+                                titleFontWeight="400"/>
+                            <featurecardlist_copy
+                                jcr:created="{Date}2025-05-09T17:08:24.839+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-10T12:15:59.949+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/featurecardlist"
+                                backgroundColor="#ffffff"
+                                cardWidth="650px"
+                                margin="40px"
+                                textColor="#111111">
+                                <cards jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Hybrid technology intuitively switches between gas, electric or a combination of both. The system automatically engages the electric motor when the gas engine isn't needed. This makes it a great option for stop-and-go urban driving."
+                                        imagePath="/content/dam/ford/powertrain-page-imgs/hybrid/hybrdi-card-img1.png"
+                                        showButton="false"
+                                        title="Ideal for City Driving"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="No need to wait for most hybrids to charge. You charge every time you slow down. Regenerative braking captures energy to recharge the battery, so you're constantly powering up.&#xd;&#xa;Results may vary depending on driving habits."
+                                        imagePath="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-card-img-2.png"
+                                        showButton="false"
+                                        title="Regenerative Braking"/>
+                                </cards>
+                            </featurecardlist_copy>
+                            <herobanner
+                                jcr:created="{Date}2025-05-09T18:00:46.584+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T18:01:23.272+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/content/herobanner"
+                                fileReference="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-herobanner-img2.png"
+                                occupations="Vehilce Details"/>
+                            <container
+                                jcr:created="{Date}2025-05-09T18:01:36.119+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2025-05-09T18:04:49.404+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="ford/components/container"
+                                backgroundColor="#00142e">
+                                <fordtitle_copy_copy_
+                                    jcr:created="{Date}2025-05-08T17:28:02.454+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T18:14:54.070+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/fordtitle"
+                                    description="Between regular hybrids and a full EV, an Escape Plug-In Hybrid (PHEV) gives you impressive all-electric EPA-estimated range.* This means, for most daily driving, you can get by on battery power most of the time. You’ll also have gas-engine convenience for the occasional longer trips.&#xd;&#xa;"
+                                    descriptionColor="#ffffff"
+                                    descriptionFontSize="16px"
+                                    descriptionFontWeight="400"
+                                    descriptionWidth="750px"
+                                    margin="0px 0px 0px 80px"
+                                    padding="50px 10px"
+                                    title="Plug In and Level Up"
+                                    titleColor="#ffffff"
+                                    titleFontSize="60px"
+                                    titleFontWeight="400"/>
+                                <featurecardlist_copy
+                                    jcr:created="{Date}2025-05-09T17:08:24.839+05:30"
+                                    jcr:createdBy="admin"
+                                    jcr:lastModified="{Date}2025-05-09T18:28:01.038+05:30"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="ford/components/content/featurecardlist"
+                                    margin="40px">
+                                    <cards jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            description="It lets you get up-to-the-minute charging updates, get insights on your charging history, and keep constant track of your energy usage.&#xd;&#xa;All from your smartphone."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-card2-img-1.png"
+                                            showButton="false"
+                                            title="Harness the FordPass® App 164 "/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            description="The Ford Mobile Power Cord offers an ideal way to recharge your Plug-In Hybrid. Plug it into a common 120V outlet, for everyday charging at home."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-card2-img-2.png"
+                                            showButton="false"
+                                            title="Charge at Home"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            description="This appears on screen each time the vehicle comes to a stop. It coaches you to brake in a manner which helps maximize the regenerative braking system. Used properly, it can train you to potentially recover over 90% of the energy spent during braking."
+                                            imagePath="/content/dam/ford/powertrain-page-imgs/hybrid/hybrid-card2-img-3.png"
+                                            showButton="false"
+                                            title="Brake Coach Display"/>
+                                    </cards>
+                                </featurecardlist_copy>
+                            </container>
+                        </item_1746764975650_c>
+                    </item_1746764985043>
+                </powertraintab>
+            </container>
+            <container_1390198985
+                jcr:created="{Date}2025-04-19T16:08:26.716+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-04-19T16:14:20.246+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ford/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

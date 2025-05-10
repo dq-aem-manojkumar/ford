@@ -1,0 +1,102 @@
+.ford-carousel-v2-wrapper {
+  position: relative;
+  margin: 50px 40px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.ford-carousel-v2-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.ford-carousel-v2-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.ford_carousal_v2_card {
+  flex: 0 0 calc(50% - 20px);  /* Adjusted for 2 cards */
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 20px; */
+  overflow: hidden;
+}
+
+.ford_carousal_v2_img {
+  width: 648px;
+  height: 364px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.ford_carousal_v2_content {
+  padding: 15px 0 0;
+  width: 100%;
+}
+
+.ford_carousal_v2_title {
+  margin: 0 0 20px 20px;
+  font-size: 38px;
+  font-weight: 400;
+  color:#00095B;
+  /* white-space: nowrap;
+  overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+
+.ford_carousal_v2_desc {
+  font-size: 20px;
+  color:#4D4D4D;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.ford_carousal_v2_btn {
+  margin-top: auto;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.v2-carousel-arrow {
+  position: absolute;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  background-color: #4D4D4D; /* Apply the given background color */
+  color: white; /* Set the icon color to white */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make the buttons circular */
+  width: 50px; /* Set button width */
+  height: 50px; /* Set button height */
+  font-size: 30px; /* Increase icon size */
+  line-height: 1; /* Ensure proper alignment of the icon */
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+.v2-carousel-arrow.left {
+  left: 10px;
+}
+
+.v2-carousel-arrow.right {
+  right: 10px;
+}

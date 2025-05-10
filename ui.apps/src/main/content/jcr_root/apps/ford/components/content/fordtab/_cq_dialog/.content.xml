@@ -26,7 +26,7 @@
                                           sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                           fieldLabel="CSS Class Name"
                                           name="./cssClassName"
-                                          emptyText="SuvCars"/>
+                                          emptyText="SuvCars or Powetrain"/>
                         </items>
                     </cssClass>
                 </items>

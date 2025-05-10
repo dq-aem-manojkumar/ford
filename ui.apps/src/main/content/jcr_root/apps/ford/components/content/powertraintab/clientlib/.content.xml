@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    categories="[ford.components.powertraintab]"
+    dependencies="[core.wcm.components.tabs.v1]"
+    embed="[core.wcm.components.tabs.v1]"
+    allowProxy="{Boolean}true" />

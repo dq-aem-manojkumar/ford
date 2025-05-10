@@ -102,13 +102,7 @@
     display: block;
 }
 
-/* Responsive container */
-#tab-container {
-    width: 100%; /* Make the container responsive */
-    max-width: 1380px; /* Optional: Set a maximum width */
-    margin: 0 auto; /* Center the container */
-    
-}
+
 
 /* Media query for smaller screens */
 @media (max-width: 1024px) {
@@ -248,3 +242,10 @@
 
 
 
+/* Responsive container */
+#tab-container {
+    width: 100%; /* Make the container responsive */
+    max-width: 1380px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    
+}
