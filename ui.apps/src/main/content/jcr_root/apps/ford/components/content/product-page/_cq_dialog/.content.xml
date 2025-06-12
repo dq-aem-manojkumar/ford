@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Product Page Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    cq:dialogMode="default">
+
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+
+                <items jcr:primaryType="nt:unstructured">
+                    <productTab
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Product Details"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        cq:showOnCreate="{Boolean}false">
+
+                        <items jcr:primaryType="nt:unstructured">
+                            <formContainer
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form"
+                                layout="fixedcolumns"
+                                columns="{Long}1"
+                                margin="{Boolean}true">
+
+                                <items jcr:primaryType="nt:unstructured">
+
+                                    <productName
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        name="./productName"
+                                        fieldLabel="Product Name" />
+
+                                    <price
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        name="./price"
+                                        fieldLabel="Price" />
+
+                                    <category
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        name="./category"
+                                        fieldLabel="Category">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <laptop
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Laptop"
+                                                value="laptop" />
+                                            <phone
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Phone"
+                                                value="phone" />
+                                        </items>
+                                    </category>
+
+                                    <availability
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        name="./availability"
+                                        fieldLabel="Availability">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <inStock
+                                                jcr:primaryType="nt:unstructured"
+                                                text="In Stock"
+                                                value="in-stock" />
+                                            <outOfStock
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Out of Stock"
+                                                value="out-of-stock" />
+                                        </items>
+                                    </availability>
+
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                        name="./image"
+                                        autoStart="{Boolean}false"
+                                        allowUpload="{Boolean}true"
+                                
+                                        fieldLabel="Product Image" />
+
+                                    <description
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        name="./description"
+                                        fieldLabel="Short Description"
+                                        />
+
+                                </items>
+                            </formContainer>
+                        </items>
+                    </productTab>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
