@@ -6,4 +6,6 @@
     <xf-web-variation/>
     <rep:policy/>
     <ford-layout/>
+    <product-listing-page/>
+    <product-page/>
 </jcr:root>
