@@ -1,101 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root
-    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-    xmlns:cq="http://www.day.com/jcr/cq/1.0"
-    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:dialogMode="default"
     jcr:primaryType="nt:unstructured"
     jcr:title="Product Page Properties"
-    sling:resourceType="cq/gui/components/authoring/dialog"
-    cq:dialogMode="default">
-
+    sling:resourceType="cq/gui/components/authoring/dialog">
     <content
         jcr:primaryType="nt:unstructured"
         sling:resourceType="granite/ui/components/coral/foundation/container">
-
         <items jcr:primaryType="nt:unstructured">
             <tabs
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/tabs">
-
                 <items jcr:primaryType="nt:unstructured">
                     <productTab
+                        cq:showOnCreate="{Boolean}false"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Product Details"
-                        sling:resourceType="granite/ui/components/coral/foundation/container"
-                        cq:showOnCreate="{Boolean}false">
-
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
                         <items jcr:primaryType="nt:unstructured">
                             <formContainer
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form"
-                                layout="fixedcolumns"
                                 columns="{Long}1"
+                                layout="fixedcolumns"
                                 margin="{Boolean}true">
-
                                 <items jcr:primaryType="nt:unstructured">
-
                                     <productName
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                        name="./productName"
-                                        fieldLabel="Product Name" />
-
+                                        fieldLabel="Product Name"
+                                        name="./productName"/>
                                     <price
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                        name="./price"
-                                        fieldLabel="Price" />
-
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                        fieldLabel="Price"
+                                        name="./price"/>
                                     <category
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                        name="./category"
-                                        fieldLabel="Category">
+                                        fieldLabel="Category"
+                                        name="./category">
                                         <items jcr:primaryType="nt:unstructured">
                                             <laptop
                                                 jcr:primaryType="nt:unstructured"
                                                 text="Laptop"
-                                                value="laptop" />
+                                                value="laptop"/>
                                             <phone
                                                 jcr:primaryType="nt:unstructured"
                                                 text="Phone"
-                                                value="phone" />
+                                                value="phone"/>
                                         </items>
                                     </category>
-
                                     <availability
                                         jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                        fieldDescription="Availability"
                                         name="./availability"
-                                        fieldLabel="Availability">
-                                        <items jcr:primaryType="nt:unstructured">
-                                            <inStock
-                                                jcr:primaryType="nt:unstructured"
-                                                text="In Stock"
-                                                value="in-stock" />
-                                            <outOfStock
-                                                jcr:primaryType="nt:unstructured"
-                                                text="Out of Stock"
-                                                value="out-of-stock" />
-                                        </items>
-                                    </availability>
-
+                                        text="In Stock ?"
+                                        value="true"
+                                        uncheckedValue="false"/>
                                     <image
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
-                                        name="./image"
-                                        autoStart="{Boolean}false"
                                         allowUpload="{Boolean}true"
-                                
-                                        fieldLabel="Product Image" />
-
+                                        autoStart="{Boolean}false"
+                                        fieldLabel="Product Image"
+                                        name="./image"/>
                                     <description
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
-                                        name="./description"
                                         fieldLabel="Short Description"
-                                        />
-
+                                        name="./description"/>
                                 </items>
                             </formContainer>
                         </items>
