@@ -1,0 +1,16 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.js @ categories='ford.components.product-filters'}" />
+<div class="product-filters">
+    <select id="categorySelect">
+        <option value="">All Categories</option>
+        
+        <option value="laptop">Laptop</option>
+        <option value="phone">Phone</option>
+    </select>
+
+    <input type="number" id="minPrice" placeholder="Min Price" />
+    <input type="number" id="maxPrice" placeholder="Max Price" />
+    <button id="applyFilters">Apply Filters</button>
+</div>
+
+
