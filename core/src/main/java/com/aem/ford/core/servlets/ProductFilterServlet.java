@@ -39,6 +39,8 @@ public class ProductFilterServlet extends SlingAllMethodsServlet {
         String maxPrice = request.getParameter("maxPrice");
         String offsetParam = request.getParameter("offset");
         String limitParam = request.getParameter("limit");
+        String availability = request.getParameter("availability");
+
 
         LOG.info("Received request with parameters - category: {}, minPrice: {}, maxPrice: {}, offset: {}, limit: {}",
                 category, minPrice, maxPrice, offsetParam, limitParam);
@@ -84,6 +86,18 @@ public class ProductFilterServlet extends SlingAllMethodsServlet {
                     return;
                 }
             }
+
+            if (StringUtils.isNotBlank(availability)) {
+                if ("true".equalsIgnoreCase(availability) || "false".equalsIgnoreCase(availability)) {
+                    sql.append(" AND [availability] = ").append(availability.toLowerCase());
+                } else {
+                    LOG.error("Invalid availability format: {}", availability);
+                    response.setStatus(SlingHttpServletResponse.SC_BAD_REQUEST);
+                    response.getWriter().write("{\"error\": \"Invalid availability format (must be true or false)\"}");
+                    return;
+                }
+            }
+
 
             sql.append(" AND NOT [jcr:path] = '/content/ford/us/en/products/jcr:content'");
 

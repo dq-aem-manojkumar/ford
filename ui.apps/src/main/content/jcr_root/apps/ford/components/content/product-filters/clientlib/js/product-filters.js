@@ -24,19 +24,22 @@ function renderProducts(products) {
         container.appendChild(card);
     });
 
-    // Enable or disable Previous/Next
+    // Enable or disable Previous/Next buttons
     document.getElementById("prevPage").disabled = currentPage === 1;
     document.getElementById("nextPage").disabled = products.length < pageSize;
     document.getElementById("pageNumber").textContent = `Page ${currentPage}`;
 }
 
-function fetchFilteredProducts(category, minPrice, maxPrice, offset = 0, limit = 1) {
+function fetchFilteredProducts(category, minPrice, maxPrice, availability, offset = 0, limit = 1) {
     const params = new URLSearchParams();
+
     if (category) params.append("category", category);
     if (minPrice) params.append("minPrice", minPrice);
     if (maxPrice) params.append("maxPrice", maxPrice);
+    if (availability) params.append("availability", availability);
+
     params.append("offset", offset);
-    params.append("limit", limit); // Always 1
+    params.append("limit", limit);
 
     fetch(`/bin/product-filter?${params.toString()}`)
         .then(response => response.json())
@@ -48,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const categoryInput = document.getElementById("categorySelect");
     const minInput = document.getElementById("minPrice");
     const maxInput = document.getElementById("maxPrice");
+    const availabilityInput = document.getElementById("availabilitySelect");
 
     function loadPage(page) {
         const offset = (page - 1) * pageSize;
@@ -55,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoryInput.value,
             minInput.value,
             maxInput.value,
+            availabilityInput.value,
             offset,
             pageSize
         );
