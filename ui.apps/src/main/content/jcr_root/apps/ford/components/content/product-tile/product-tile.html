@@ -1,0 +1,14 @@
+<sly
+  data-sly-use.productTile="com.aem.ford.core.models.ProductTile"
+  data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+  data-sly-test.hasContent="${!productTile.empty}">
+
+  <sly data-sly-test="${productTile.productName}"><h1>${productTile.productName}</h1></sly>
+  <sly data-sly-test="${productTile.price}"><p>${productTile.price}</p></sly>
+  <sly data-sly-test="${productTile.category}"> <p>${productTile.category}</p></sly>
+  <sly data-sly-test="${productTile.availability}"><p>${productTile.availability}</p> </sly>
+  <sly data-sly-test="${productTile.description}"><p>${productTile.description}</p></sly>
+  <sly data-sly-test="${productTile.image}"> <img src="${productTile.image}" alt="${productTile.productName}" /></sly>
+  
+</sly>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
