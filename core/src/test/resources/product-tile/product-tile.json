@@ -1,0 +1,18 @@
+{
+  "Product-Page": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "productName": "Ford Mustang",
+      "price": "$55,000",
+      "category": "Performance",
+      "availability": "In Stock",
+      "fileReference": "/content/dam/ford/mustang.jpg",
+      "description": "A classic American muscle car with modern features."
+    }
+  },
+  "empty": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {}
+  }
+}
